@@ -1,0 +1,82 @@
+[project]
+name = "backend-observability-lab"
+version = "0.1.0"
+description = "A progressive backend engineering and observability learning project"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "psycopg[binary]",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "aiosqlite>=0.20.0",
+    "httpx2>=2.12.0",
+    "ruff>=0.3.0",
+    "mypy>=1.8.0",
+]
+
+# 1. Ruff (Linter + Formatter)
+[tool.ruff]
+target-version = "py314"
+line-length = 88
+src = ["src"]
+extend-exclude = [
+    "migrations/versions"
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # Pyflakes
+    "I",   # isort (import ordering)
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade (modernize syntax)
+    "C4",  # flake8-comprehensions
+]
+ignore = [
+    "E501", # Line length handled by formatter
+]
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = [
+    "fastapi.Depends",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"**/conftest.py" = ["F401"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["backend-observability-lab"]
+
+# 2. Mypy (Strict Static Type Checking)
+[tool.mypy]
+python_version = "3.14"
+mypy_path = "src"
+explicit_package_bases = true
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+no_implicit_optional = true
+
+
+# 3. Pytest Configuration
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+addopts = "-v --tb=short --strict-markers"
+markers = [
+    "unit: Pure fast unit tests (no DB or external I/O)",
+    "integration: Tests requiring DB adapters or external libraries",
+    "e2e: End-to-end HTTP API tests",
+]
