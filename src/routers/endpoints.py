@@ -1,13 +1,15 @@
 from typing import Annotated
 
-from fastapi import APIRouter, Body
+from fastapi import APIRouter, Body, HTTPException
+
+from models.job import Job
 
 router = APIRouter(prefix="")
 
-FAKE_JOBS = {
-    "001": {"job_type": "first_type", "job_message": "Hello"},
-    "002": {"job_type": "second_type", "job_message": "World!"},
-}
+FAKE_JOBS: list[Job] = [
+    Job(job_id="001", job_type="first_type", job_message="This is the first job!"),
+    Job(job_id="002", job_type="second_type", job_message="This is the second job!"),
+]
 
 
 @router.get("/jobs")
@@ -16,21 +18,26 @@ def get_jobs():
 
 
 @router.get("/jobs/{job_id}")
-def get_job(job_id: str):
-    print("job_id:", job_id)
-    print("fake_jobs:", FAKE_JOBS)
-    return FAKE_JOBS[job_id]
+def get_job(job_id: str) -> Job:
+    for job in FAKE_JOBS:
+        if job.job_id == job_id:
+            return job
+    raise HTTPException(status_code=404, detail=f"Job not found with id: {job_id}")
 
 
-@router.post("/jobs")
-def create_job(job: Annotated[dict[str, dict[str, str]], Body()]):
-    FAKE_JOBS.update(job)
-    return FAKE_JOBS
+@router.post("/jobs", status_code=201)
+def create_job(job: Annotated[Job, Body()]):
+    FAKE_JOBS.append(job)
+    return job
 
 
 @router.delete("/jobs/{job_id}")
 def delete_job(job_id: str):
-    return FAKE_JOBS.pop(job_id)
+    for job in FAKE_JOBS:
+        if job.job_id == job_id:
+            FAKE_JOBS.remove(job)
+            return job
+    raise HTTPException(status_code=404, detail="Job not found")
 
 
 @router.put("/jobs/{job_id}")
@@ -38,5 +45,8 @@ def update_job(
     job_id: str,
     job_message: Annotated[str, Body()],
 ):
-    FAKE_JOBS[job_id]["job_message"] = job_message
-    return FAKE_JOBS
+    for job in FAKE_JOBS:
+        if job.job_id == job_id:
+            job.job_message = job_message
+            return job
+    raise HTTPException(status_code=404, detail="Job not found")
