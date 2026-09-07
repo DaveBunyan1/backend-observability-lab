@@ -32,7 +32,6 @@ INFO:     127.0.0.1:50589 - "DELETE /jobs/999 HTTP/1.1" 404 Not Found
 ### Observations
 
 - Uvicorn provides access logs
-- It is difficult to correlate application messages with individual requests.
 
 ## Simulated Traffic
 
@@ -42,7 +41,7 @@ The simulation produced a mixture of successful and unsuccessful requests.
 
 ### Observations
 
-- Repeated runs of the simulation highlighted the value of timestamps for establishing the timing of requests and making a particular request easier to locate.
+- Repeated runs of the simulation highlighted the value of a way of distinguishing between different requests of the same type.
 
 ## Concurrent Traffic
 
