@@ -36,8 +36,9 @@ INFO:     127.0.0.1:50589 - "DELETE /jobs/999 HTTP/1.1" 404 Not Found
 - Uvicorn provides access logs
 - It is difficult to correlate application messages with individual requests.
 
-## Next Step
+## Simulated Traffic
 
-Replace print() statements with Python's logging infrastructure and
-evaluate whether timestamps, log levels, and structured fields provide
-better visibility.
+The initial deterministic API calls were replaced with a traffic simulation
+that randomly selects API operations and job IDs.
+
+The simulation produced a mixture of successful and unsuccessful requests.
