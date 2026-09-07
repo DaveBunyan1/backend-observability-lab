@@ -1,0 +1,2764 @@
+```text
+0e05df04-a487-478f-bb53-3fbb47d8875b Received request: GET /jobs
+99482579-3341-4aad-9c9f-cff21c02ed4f Received request: GET /jobs/001
+a961f506-e224-4be1-ba64-21f185a0d95e Received request: GET /jobs/1000
+04d8542e-3fd8-47e8-b70c-2648bd68a4c7 Received request: DELETE /jobs/002
+99482579-3341-4aad-9c9f-cff21c02ed4f Found job: 001
+a961f506-e224-4be1-ba64-21f185a0d95e Job not found: 1000
+05a04e1a-9d1d-4695-81d9-62eb2c6eda80 Received request: GET /jobs
+04d8542e-3fd8-47e8-b70c-2648bd68a4c7 Deleted job: 002
+ca9251cf-4558-4529-8072-3299db91837a Received request: DELETE /jobs/002
+1c274ea6-7cb2-412f-bc12-c1c6082defad Received request: GET /jobs/001
+5fb99830-b131-4ae6-9652-d1d1dadd0b6a Received request: GET /jobs
+1c274ea6-7cb2-412f-bc12-c1c6082defad Found job: 001
+ca9251cf-4558-4529-8072-3299db91837a Job not found: 002
+LETE /jobs/002
+1fd7e87a-e7a4-454f-a7bc-d2aceb845481 Received request: DELETE /jobs/1000
+2269adbf-ffb2-44fc-84eb-c90fef392829 Received request: GET /jobs
+7611e5ec-31c4-41b6-9909-5eaa077ba87e Received request: DELETE /jobs/002
+6184b230-6ca0-460e-a66b-e86abdb2875c Received request: GET /jobs
+c9208fca-354e-4884-823b-17d819a17e5a Received request: GET /jobs/002
+297748b6-8ef2-42eb-ba9a-1a4d9d9d167b Received request: DELETE /jobs/002
+ae78e289-0271-4c35-985a-bd2f93684405 Received request: GET /jobs
+8b5b339d-1afe-4213-be96-46646e54198c Received request: GET /jobs
+ac68692b-f533-4f67-a418-b2fe97bda839 Received request: DELETE /jobs/002
+5bd88a12-d155-4766-aada-861867d534fd Received request: GET /jobs
+e2832493-e8cb-43f6-82e3-f6c1e4469123 Received request: GET /jobs/001
+c74e7990-073b-4840-b3e7-39de7add2ac4 Received request: GET /jobs/002
+297748b6-8ef2-42eb-ba9a-1a4d9d9d167b Job not found: 002
+7611e5ec-31c4-41b6-9909-5eaa077ba87e Job not found: 002
+24a91d50-516f-4efa-b0ab-f454df7fdda9 Job not found: 002
+0995cc0a-0866-4008-8079-331a8900ae32 Received request: GET /jobs
+1fd7e87a-e7a4-454f-a7bc-d2aceb845481 Job not found: 1000
+e2832493-e8cb-43f6-82e3-f6c1e4469123 Found job: 001
+c9208fca-354e-4884-823b-17d819a17e5a Job not found: 002
+b3e19d72-e607-4de2-9590-d1ef72af5e83 Received request: GET /jobs
+ac68692b-f533-4f67-a418-b2fe97bda839 Job not found: 002
+c74e7990-073b-4840-b3e7-39de7add2ac4 Job not found: 002
+e52f5756-6276-448b-a32e-18ab1a00d650 Received request: GET /jobs/001
+0bfe3350-9fa8-4b95-950e-ce9a1884b5a4 Received request: GET /jobs
+35d08f27-c6d0-4067-a54e-713256e03dae Received request: GET /jobs/1000
+ba54a5a9-f222-4aa0-8adc-357825e76164 Received request: GET /jobs
+e52f5756-6276-448b-a32e-18ab1a00d650 Found job: 001
+1cd80089-f14c-4897-831a-ae9286e74361 Received request: GET /jobs
+8147c8cf-2a63-413f-9ef4-b97ed786be39 Received request: DELETE /jobs/1000
+35d08f27-c6d0-4067-a54e-713256e03dae Job not found: 1000
+4f4ace03-10fd-4d0a-98c7-5cb84bec8165 Received request: GET /jobs/001
+8147c8cf-2a63-413f-9ef4-b97ed786be39 Job not found: 1000
+a1f62e3a-1eed-4888-b814-60461da82bf1 Received request: GET /jobs/002
+b3431e5e-fbd1-45c3-8e0e-5ac1f4fa1567 Received request: GET /jobs
+4f4ace03-10fd-4d0a-98c7-5cb84bec8165 Found job: 001
+9110fa1e-712a-407f-a8f2-2b5d2799d9d9 Received request: GET /jobs/001
+a1f62e3a-1eed-4888-b814-60461da82bf1 Job not found: 002
+067852b0-e845-4876-9b31-a54d7209770b Received request: DELETE /jobs/002
+14303999-6ba3-49bc-9768-2548f55a63d9 Received request: DELETE /jobs/002
+9110fa1e-712a-407f-a8f2-2b5d2799d9d9 Found job: 001
+48593a76-8331-430e-ba2c-0e3a60616e11 Received request: DELETE /jobs/1000
+067852b0-e845-4876-9b31-a54d7209770b Job not found: 002
+6405b478-b617-46f6-9fbc-5655b4b0d291 Received request: GET /jobs
+14303999-6ba3-49bc-9768-2548f55a63d9 Job not found: 002
+cafe4bd3-caec-4fb2-99c0-c839e0caf2fd Received request: GET /jobs
+a6645a36-c8be-4a5a-8698-8e52f0d3af7d Received request: GET /jobs
+531d5e61-c34d-457b-92fb-7a4c74496bfd Received request: DELETE /jobs/1000
+48593a76-8331-430e-ba2c-0e3a60616e11 Job not found: 1000
+531d5e61-c34d-457b-92fb-7a4c74496bfd Job not found: 1000
+020de70b-38be-4033-b6d4-3e7912482ff3 Received request: DELETE /jobs/002
+a2844912-2ab9-4328-95df-fced434fa04d Received request: GET /jobs/001
+a017c7b3-70de-4441-8a7f-7b1910f16903 Received request: DELETE /jobs/1000
+f8ee0257-57cf-463e-acf4-e2f58695bcd9 Received request: DELETE /jobs/1000
+863164f7-0eca-4fbe-886f-2e035990f3b9 Received request: GET /jobs
+3aba954f-a11a-46e0-b236-aa93f713dfdc Received request: GET /jobs
+e54071f9-4a5b-4e07-a1fe-e043e65b0241 Received request: GET /jobs
+f0d0bef0-aaff-493a-933c-aae1f20d1f43 Received request: GET /jobs
+20b4fb03-754e-4121-94fa-2254b9021b60 Received request: GET /jobs
+339df6ee-99ed-4477-9770-61bcf334eaba Received request: GET /jobs/002
+a78eed69-ec23-49a3-b807-2d264dbdadc4 Received request: GET /jobs/1000
+492945c7-0f39-4180-98d9-e80d51cb6c68 Received request: GET /jobs
+020de70b-38be-4033-b6d4-3e7912482ff3 Job not found: 002
+c4292396-d046-4338-856c-c4cd321af6ce Received request: DELETE /jobs/002
+a6d03f6a-602f-4e07-9f27-70ac07077a85 Received request: PUT /jobs/1000
+e5171e34-37e8-49f8-b161-e9ba5d3add5e Received request: GET /jobs
+5d4882a7-eecd-403e-ab3d-4ca998198d17 Received request: POST /jobs
+a017c7b3-70de-4441-8a7f-7b1910f16903 Job not found: 1000
+0d5e419a-d3b5-4297-8179-2f2ca2a2e764 Received request: GET /jobs/1000
+890f24fc-56b2-4e99-b4f0-0390abad2f6d Received request: GET /jobs/1000
+a2844912-2ab9-4328-95df-fced434fa04d Found job: 001
+6f1118ee-a612-43d7-b48f-d20669390c77 Received request: POST /jobs
+/002
+24920f50-83ea-4f36-beec-407faa6e64c6 Received request: DELETE /jobs/1000
+1f43c29e-a52f-4b1e-ac4d-91e50e170359 Received request: GET /jobs/002
+7e59cd40-ee47-42d7-9e7a-a08e29ecbb87 Received request: GET /jobs/1000
+f8ee0257-57cf-463e-acf4-e2f58695bcd9 Job not found: 1000
+71186dc0-2d85-4685-b3bb-a7bd410ec06f Found job: 001
+1c4efee0-0843-4c6c-b07d-87ec598b1a79 Received request: DELETE /jobs/002
+40d1370b-2abc-45cf-9476-afad1e8695e9 Received request: PUT /jobs/001
+339df6ee-99ed-4477-9770-61bcf334eaba Job not found: 002
+448b2612-5124-447a-b0a9-fb095e85670e Received request: GET /jobs
+602dbe15-4d3e-4bb5-a4e1-cf53668f37ff Received request: GET /jobs
+178738cd-6187-4266-bb1e-692b5a6cd3d4 Received request: PUT /jobs/002
+c2a11dd0-e103-4e12-a059-9aff9b39db62 Received request: PUT /jobs/002
+e4ed0c4d-ac3f-40b5-919f-60b2fb0f1152 Received request: PUT /jobs/002
+6f1118ee-a612-43d7-b48f-d20669390c77 Job created successfully: job_id='840' job_type='simulated' job_message='Hello'
+24920f50-83ea-4f36-beec-407faa6e64c6 Job not found: 1000
+1f43c29e-a52f-4b1e-ac4d-91e50e170359 Job not found: 002
+5d4882a7-eecd-403e-ab3d-4ca998198d17 Job created successfully: job_id='914' job_type='simulated' job_message='Hello'
+178738cd-6187-4266-bb1e-692b5a6cd3d4 Job not found: 002
+c4292396-d046-4338-856c-c4cd321af6ce Job not found: 002
+1c4efee0-0843-4c6c-b07d-87ec598b1a79 Job not found: 002
+a6d03f6a-602f-4e07-9f27-70ac07077a85 Job not found: 1000
+135b7278-d217-41f4-9c2b-a3674bab993f Job not found: 002
+890f24fc-56b2-4e99-b4f0-0390abad2f6d Job not found: 1000
+40d1370b-2abc-45cf-9476-afad1e8695e9 Updated job: 001 with message: Updated by simulated user
+e4ed0c4d-ac3f-40b5-919f-60b2fb0f1152 Job not found: 002
+7e59cd40-ee47-42d7-9e7a-a08e29ecbb87 Job not found: 1000
+c2a11dd0-e103-4e12-a059-9aff9b39db62 Job not found: 002
+96cee200-da8e-452b-8047-c2b9353796c5 Received request: POST /jobs
+d6c1b929-cfe2-4392-91ad-24de123cb426 Received request: PUT /jobs/002
+11dc38fb-a10d-42b2-81e4-2ee6a7f6a367 Received request: PUT /jobs/002
+d6c1b929-cfe2-4392-91ad-24de123cb426 Job not found: 002
+8fd347f0-d545-4e5d-b1fe-5a2d4e2e8911 Received request: PUT /jobs/002
+11dc38fb-a10d-42b2-81e4-2ee6a7f6a367 Job not found: 002
+96cee200-da8e-452b-8047-c2b9353796c5 Job created successfully: job_id='629' job_type='simulated' job_message='Hello'
+8fd347f0-d545-4e5d-b1fe-5a2d4e2e8911 Job not found: 002
+b3b2ef67-a6bb-42bb-b5b7-314db7e9c987 Received request: PUT /jobs/1000
+74e3c57e-53de-426a-aeca-6b0597077e11 Received request: PUT /jobs/001
+e2f2bea4-9d7c-4af8-9015-6d84b1c423d0 Received request: PUT /jobs/001
+b3b2ef67-a6bb-42bb-b5b7-314db7e9c987 Job not found: 1000
+369ec356-fc21-4286-82fb-9263e217990d Received request: POST /jobs
+ed454a30-94a1-4ad4-9ba3-14687f1206cd Received request: PUT /jobs/001
+2f47629c-8bf6-4193-b9d6-be0c18967b0d Received request: PUT /jobs/1000
+b37b8216-d2b4-4c1e-96cb-dc15b8cc05be Received request: POST /jobs
+ff6cf18a-38d1-4c45-a62a-0729fe992054 Received request: POST /jobs
+ad432ff8-651e-47b3-af8f-6755575c9c46 Received request: PUT /jobs/1000
+8ce562df-9258-4f77-be46-f0856cd59386 Received request: PUT /jobs/001
+c07bf2d4-eceb-4f32-9f9c-0a9ecb428a7e Received request: PUT /jobs/002
+9372d5d2-d7b6-4c4b-ab2b-454cbbde8e5e Received request: POST /jobs
+084640eb-4b41-4289-90b9-0524ee826aa4 Received request: POST /jobs
+00
+ated by simulated user
+e2f2bea4-9d7c-4af8-9015-6d84b1c423d0 Updated job: 001 with message: Updated by simulated user
+ed454a30-94a1-4ad4-9ba3-14687f1206cd Updated job: 001 with message: Updated by simulated user
+cb401591-b0ab-417b-a4cd-0a4f24a3384b Received request: POST /jobs
+2
+c9056095-eba3-4b69-8a51-30267c3c8b88 Received request: PUT /jobs/001
+70068dcf-ce50-4b1e-a6dd-da7fff6c90c6 Received request: PUT /jobs/001
+ad432ff8-651e-47b3-af8f-6755575c9c46 Job not found: 1000
+lly: job_id='962' job_type='simulated' job_message='Hello'
+369ec356-fc21-4286-82fb-9263e217990d Job created successfully: job_id='529' job_type='simulated' job_message='Hello'
+b37b8216-d2b4-4c1e-96cb-dc15b8cc05be Job created successfully: job_id='820' job_type='simulated' job_message='Hello'
+c59eaf8b-f644-4257-b56e-94a8d83476cb Received request: PUT /jobs/001
+'552' job_type='simulated' job_message='Hello'
+8ce562df-9258-4f77-be46-f0856cd59386 Updated job: 001 with message: Updated by simulated user
+28a4e2f6-e67a-47cb-a655-ceec6dd16e17 Job created successfu69220250-d112-4aa9-a5a7-1ac037fcf56f Received request: POST /jobs
+9372d5d2-d7b6-4c4b-ab2b-454cbbde8e5e Job created successfully: job_id='492' job_type='simulated' job_message='Hello'
+c07bf2d4-eceb-4f32-9f9c-0a9ecb428a7e Job not found: 002
+084640eb-4b41-4289-90b9-0524ee826aa4 Job created successfully: job_id='820' job_type='simulated' job_message='Hello'
+6607463e-aa75-4ff1-833a-5ca99f95ad63 Job not found: 002
+11570432-6778-4661-ab5a-14fb3de10fe1 Job created successfully: job_id='224' job_type='simulated' job_message='Hello'
+cb401591-b0ab-417b-a4cd-0a4f24a3384b Job created successfully: job_id='553' job_type='simulated' job_message='Hello'
+c9056095-eba3-4b69-8a51-30267c3c8b88 Updated job: 001 with message: Updated by simulated user
+69220250-d112-4aa9-a5a7-1ac037fcf56f Job created successfully: job_id='298' job_type='simulated' job_message='Hello'
+c59eaf8b-f644-4257-b56e-94a8d83476cb Updated job: 001 with message: Updated by simulated user
+70068dcf-ce50-4b1e-a6dd-da7fff6c90c6 Updated job: 001 with message: Updated by simulated user
+91a2f2e8-3b8d-47ee-952e-ef53fc004ccd Received request: GET /jobs/001
+91a2f2e8-3b8d-47ee-952e-ef53fc004ccd Found job: 001
+1a213735-c125-4dbc-a82b-6808a5689036 Received request: GET /jobs/002
+1a213735-c125-4dbc-a82b-6808a5689036 Job not found: 002
+d173b02d-ee9e-493f-aa4c-22aba63b2c39 Received request: PUT /jobs/1000
+d173b02d-ee9e-493f-aa4c-22aba63b2c39 Job not found: 1000
+bf274d7d-6ebd-44ac-a8ca-ccbca9cfde43 Received request: GET /jobs
+1b45bf40-2594-4335-a3f9-d7dea8993f9a Received request: DELETE /jobs/1000
+dd236a20-55e1-4cef-962a-06e09ba69b9f Received request: DELETE /jobs/002
+534ffa04-f8f9-433a-9143-8d3e054d3740 Received request: DELETE /jobs/1000
+9ecec66a-9e25-4b9d-adbd-d46235557c45 Received request: GET /jobs/1000
+6a1b7d62-4422-467c-ad82-4454d740e99b Received request: GET /jobs
+fdd5ef9a-8eab-44ec-9c98-571e54cdf55f Received request: GET /jobs
+s/002
+9a6fd8ec-0ebc-4acf-964a-044e934595de Received request: GET /jobs
+0b005985-414a-41a4-8c2b-f723a61d470c Received request: POST /jobs
+dd5b2760-1cb2-486d-8553-d181bdaa7ef5 Received request: GET /jobs
+1b45bf40-2594-4335-a3f9-d7dea8993f9a Job not found: 1000
+5d0696da-11b3-4a19-8ec4-cfec5ee4eb8b Received request: PUT /jobs/002
+688fdac1-aaee-4477-9fe5-25f290fc1dbc Received request: DELETE /jobs/1000
+498d5982-34e4-4c1f-8e11-cc5cfd5ea86d Received request: GET /jobs
+a65d321e-4ef6-4624-94f9-6c1513db3b02 Received request: PUT /jobs/002
+0b005985-414a-41a4-8c2b-f723a61d470c Job created successfully: job_id='906' job_type='simulated' job_message='Hello'
+5d0696da-11b3-4a19-8ec4-cfec5ee4eb8b Job not found: 002
+ST /jobs
+9a028d09-7ad1-49d2-9f19-3dcfa6f30441 Received request: GET /jobs
+
+534ffa04-f8f9-433a-9143-8d3e054d3740 Job not found: 1000
+9a027417-8967-4c13-a19f-2aaeee043f99 Received request: DELETE /jobs/002
+dd236a20-55e1-4cef-962a-06e09ba69b9f Job not found: 002
+62299916-b4b9-4930-ba59-5a3cc9f53caa Received request: PUT /jobs/001
+670fb923-e42b-47d2-adfe-11c7879049d6 Job not found: 002
+688fdac1-aaee-4477-9fe5-25f290fc1dbc Job not found: 1000
+14847d83-ca73-4d56-be08-495d8754a60c Received request: PUT /jobs/001
+1df480e6-b6a8-43bf-b45a-d40ecd2747ac Received request: GET /jobs/001
+0d81f00e-1a8e-4224-8924-3ad4d93d5dca Received request: PUT /jobs/1000
+665fc87b-f9b1-466b-938c-d2e04d45d220 Received request: DELETE /jobs/1000
+a65d321e-4ef6-4624-94f9-6c1513db3b02 Job not found: 002
+64b252fa-27bf-472d-946d-cb6a523d52aa Job created successfully: job_id='955' job_type='simulated' job_message='Hello'
+084beafe-f268-4398-bcfe-66b1e4ad4eee Received request: PUT /jobs/001
+6266e3b2-efaf-400c-ba7a-7d487424ad1a Job created successfully: job_id='219' job_type='simulated' job_message='Hello'
+636a1e9e-0ace-48fe-b943-1ebe9a4d2ba6 Received request: POST /jobs
+9a027417-8967-4c13-a19f-2aaeee043f99 Job not found: 002
+0d81f00e-1a8e-4224-8924-3ad4d93d5dca Job not found: 1000
+14847d83-ca73-4d56-be08-495d8754a60c Updated job: 001 with message: Updated by simulated user
+665fc87b-f9b1-466b-938c-d2e04d45d220 Job not found: 1000
+084beafe-f268-4398-bcfe-66b1e4ad4eee Updated job: 001 with message: Updated by simulated user
+636a1e9e-0ace-48fe-b943-1ebe9a4d2ba6 Job created successfully: job_id='471' job_type='simulated' job_message='Hello'
+62299916-b4b9-4930-ba59-5a3cc9f53caa Updated job: 001 with message: Updated by simulated user
+1df480e6-b6a8-43bf-b45a-d40ecd2747ac Found job: 001
+b18043b2-d716-4758-b1d5-b09a450be02f Received request: POST /jobs
+b18043b2-d716-4758-b1d5-b09a450be02f Job created successfully: job_id='353' job_type='simulated' job_message='Hello'
+384f0127-3c10-44be-9c5e-90cdb6c7fd60 Received request: PUT /jobs/001
+384f0127-3c10-44be-9c5e-90cdb6c7fd60 Updated job: 001 with message: Updated by simulated user
+40f7c15c-2a7d-4c30-bb31-316e531c9575 Received request: GET /jobs
+c6d1b01d-2d4c-4630-8fd4-542be26d0670 Received request: DELETE /jobs/1000
+040861f2-7ba9-4ec4-a3d4-eb897eff8f55 Received request: GET /jobs/1000
+c9beb485-afc2-48ab-90f4-2d6f44739472 Received request: DELETE /jobs/1000
+15d3f595-fb64-4fb3-ae81-9c3113e459d1 Received request: GET /jobs
+c6d1b01d-2d4c-4630-8fd4-542be26d0670 Job not found: 1000
+040861f2-7ba9-4ec4-a3d4-eb897eff8f55 Job not found: 1000
+c9beb485-afc2-48ab-90f4-2d6f44739472 Job not found: 1000
+93b23ed2-031c-4bac-9360-31ba0e05963f Received request: POST /jobs
+9b76a114-0ce0-48d1-8004-e48f3a8cc41d Received request: DELETE /jobs/1000
+1a6e1987-dd75-49df-94dd-20dfc35fe74a Received request: GET /jobs
+70cb1152-62eb-4f51-ae0d-b6730ae2b1c1 Received request: GET /jobs/1000
+efc3c4c4-b917-4ba0-bfca-3a3691dd3ce8 Received request: GET /jobs/1000
+e6e3d754-a1dc-4832-a1ca-1c4da2f08e11 Received request: GET /jobs/1000
+c2671c45-335b-430c-995c-4a28b40f9417 Received request: GET /jobs/002
+c81b91ed-ead3-42fb-982e-f59be853ba10 Received request: GET /jobs/1000
+e260470d-1262-4c74-92f0-89f3018bf095 Received request: DELETE /jobs/1000
+de56c7c3-b4f4-44de-a36a-92c137e9f564 Received request: GET /jobs/1000
+dfd04a99-d87b-47e0-b299-c37b5199fca5 Received request: GET /jobs
+b213cf9a-e36f-47c9-9c2a-80836c0d48b1 Received request: GET /jobs
+bac4aa84-e161-4c17-b411-bce6fd8cc531 Received request: GET /jobs
+01
+cf8e4f1a-30f3-474d-8242-b12ee13dd00b Received request: PUT /jobs/002
+67a0f5cb-1a66-4a98-87cd-50f9b0d5489d Received request: POST /jobs
+2
+94606929-ab6d-489a-98e6-16d850fd185e Received request: PUT /jobs/001
+98117f80-6762-4b74-87c6-dd2c82734c9e Received request: PUT /jobs/001
+ab4528c5-e99d-43e5-98c4-8a18d4ef01d7 Received request: PUT /jobs/002
+169a7f92-d9ef-44d9-8b3a-81d5a62078bc Received request: POST /jobs
+9b76a114-0ce0-48d1-8004-e48f3a8cc41d Job not found: 1000
+93b23ed2-031c-4bac-9360-31ba0e05963f Job created successfully: job_id='997' job_type='simulated' job_message='Hello'
+70cb1152-62eb-4f51-ae0d-b6730ae2b1c1 Job not found: 1000
+efc3c4c4-b917-4ba0-bfca-3a3691dd3ce8 Job not found: 1000
+e6e3d754-a1dc-4832-a1ca-1c4da2f08e11 Job not found: 1000
+a0171d39-0ac4-4ea7-b924-80f653bf9473 Job not found: 002
+c81b91ed-ead3-42fb-982e-f59be853ba10 Job not found: 1000
+de56c7c3-b4f4-44de-a36a-92c137e9f564 Job not found: 1000
+98117f80-6762-4b74-87c6-dd2c82734c9e Updated job: 001 with message: Updated by simulated user
+e260470d-1262-4c74-92f0-89f3018bf095 Job not found: 1000
+169a7f92-d9ef-44d9-8b3a-81d5a62078bc Job created successfully: job_id='178' job_type='simulated' job_message='Hello'
+59b03ca1-61a0-41bc-a6eb-e64224e91ac3 Job not found: 002
+c2671c45-335b-430c-995c-4a28b40f9417 Job not found: 002
+94606929-ab6d-489a-98e6-16d850fd185e Updated job: 001 with message: Updated by simulated user
+' job_message='Hello'
+ab4528c5-e99d-43e5-98c4-8a18d4ef01d7 Job not found: 002
+67a0f5cb-1a66-4a98-87cd-50f9b0d5489d Job created successfully: job_id='751' job_type='simulated' job_message='Hello'
+5a11d472-d127-4ad4-affc-34f84fcdbe34 Updated job: 001 with message: Updated by simulated user
+cf8e4f1a-30f3-474d-8242-b12ee13dd00b Job not found: 002
+4e757744-44d1-4af7-bbea-506262d89d8d Received request: GET /jobs
+efd3ac7f-5f76-4517-a665-08e6b1d27ff4 Received request: POST /jobs
+7d46d191-bf0d-41a1-9b09-175611bd0722 Received request: PUT /jobs/001
+80ab0090-0579-4ccc-b2ed-3964d3ae41f0 Received request: PUT /jobs/1000
+ea1d2af0-9969-49a9-850e-180292761aec Received request: PUT /jobs/002
+1c8995b1-096c-439b-a664-df4355f19d0f Received request: PUT /jobs/1000
+f1a258a4-19d3-4349-ab36-e129356b25f2 Received request: POST /jobs
+7d46d191-bf0d-41a1-9b09-175611bd0722 Updated job: 001 with message: Updated by simulated user
+80ab0090-0579-4ccc-b2ed-3964d3ae41f0 Job not found: 1000
+1c8995b1-096c-439b-a664-df4355f19d0f Job not found: 1000
+efd3ac7f-5f76-4517-a665-08e6b1d27ff4 Job created successfully: job_id='124' job_type='simulated' job_message='Hello'
+ea1d2af0-9969-49a9-850e-180292761aec Job not found: 002
+f1a258a4-19d3-4349-ab36-e129356b25f2 Job created successfully: job_id='584' job_type='simulated' job_message='Hello'
+d8077558-f4b5-454e-8508-c5511ebe2a10 Received request: DELETE /jobs/1000
+5bed98ef-1d93-4781-84fb-37b26cdca61c Received request: GET /jobs/002
+85136cbd-390d-4e12-a867-faea6d4718d2 Received request: GET /jobs
+9312f35a-7196-4471-b528-7357a5f69016 Received request: GET /jobs/001
+1af84890-8c14-4a24-adad-9466b8fbcf6a Received request: DELETE /jobs/002
+3dabd8c2-9144-4fa0-b073-9ffc8ae6669f Received request: GET /jobs/001
+d467f863-8f37-4ef1-a26f-c24fcdd14d0a Received request: DELETE /jobs/1000
+fe26a842-4c35-4210-9669-957a5a04782c Received request: POST /jobs
+ebadd9e3-1e9e-408f-b590-c831e83fa12e Received request: GET /jobs/002
+ca4273c4-bc72-47d4-a36b-027f84bf02f2 Received request: GET /jobs/002
+e4e8c73c-defe-4a89-a5c2-2722c1325aa5 Received request: DELETE /jobs/002
+39ce2d1e-d864-43c5-b9c6-cc99e48e7c24 Received request: GET /jobs
+s/1000
+d8077558-f4b5-454e-8508-c5511ebe2a10 Job not found: 1000
+4be01325-ccec-4fcf-b91f-4aec69c4c0d2 Received request: GET /jobs/1000
+cd271d54-62d9-445d-a217-47433d7113b6 Received request: DELETE /jobs/002
+3dabd8c2-9144-4fa0-b073-9ffc8ae6669f Found job: 001
+9312f35a-7196-4471-b528-7357a5f69016 Found job: 001
+adf53fb0-071d-4207-9d8e-29e6451b491d Received request: GET /jobs
+fe26a842-4c35-4210-9669-957a5a04782c Job created successfully: job_id='555' job_type='simulated' job_message='Hello'
+1af84890-8c14-4a24-adad-9466b8fbcf6a Job not found: 002
+5bed98ef-1d93-4781-84fb-37b26cdca61c Job not found: 002
+LETE /jobs/1000
+d467f863-8f37-4ef1-a26f-c24fcdd14d0a Job not found: 1000
+5468783a-7a73-4066-955a-7a6a2f5c71fc Job not found: 1000
+ca4273c4-bc72-47d4-a36b-027f84bf02f2 Job not found: 002
+4be01325-ccec-4fcf-b91f-4aec69c4c0d2 Job not found: 1000
+e4e8c73c-defe-4a89-a5c2-2722c1325aa5 Job not found: 002
+cd271d54-62d9-445d-a217-47433d7113b6 Job not found: 002
+694f256e-3b84-49dc-9446-42a01c2b4aff Job not found: 1000
+e9aee527-8c9c-457a-b99a-3180aec72e0b Received request: PUT /jobs/1000
+53c59782-a1ca-4be9-9ae9-eb3680d65626 Received request: POST /jobs
+e9aee527-8c9c-457a-b99a-3180aec72e0b Job not found: 1000
+53c59782-a1ca-4be9-9ae9-eb3680d65626 Job created successfully: job_id='960' job_type='simulated' job_message='Hello'
+1202336f-da8b-4477-a8be-8a7454840217 Received request: POST /jobs
+610253ea-efa2-44c8-b73b-c29da0a80a0c Received request: PUT /jobs/002
+f2248512-7252-4506-8590-08bd60415c61 Received request: POST /jobs
+60858aa6-e017-4a21-b26a-4051480a2ce6 Received request: POST /jobs
+16f1be6a-2e66-4e41-b136-39328666fc06 Received request: PUT /jobs/002
+f0f18658-390b-494c-b6da-22c2f1916caf Received request: GET /jobs/1000
+47879033-074f-4089-a7dd-902516bf9b58 Received request: GET /jobs/1000
+115bab50-3ef1-4157-894d-d70f9d90d5b8 Received request: GET /jobs
+d58b2760-fb87-48ff-b265-bba2fa81f0a0 Received request: GET /jobs
+610253ea-efa2-44c8-b73b-c29da0a80a0c Job not found: 002
+e22ca4a3-c6d5-48ae-b0a3-62291c788966 Received request: POST /jobs
+1
+60858aa6-e017-4a21-b26a-4051480a2ce6 Job created successfully: job_id='258' job_type='simulated' job_message='Hello'
+73c38538-f8aa-456f-a914-18bcbce41ce7 Received request: PUT /jobs/002
+33585952-d89f-418f-bdc4-7486568df059 Received request: POST /jobs
+16f1be6a-2e66-4e41-b136-39328666fc06 Job not found: 002
+1202336f-da8b-4477-a8be-8a7454840217 Job created successfully: job_id='465' job_type='simulated' job_message='Hello'
+f0f18658-390b-494c-b6da-22c2f1916caf Job not found: 1000
+f2248512-7252-4506-8590-08bd60415c61 Job created successfully: job_id='629' job_type='simulated' job_message='Hello'
+8ccfe0cc-327e-4584-8500-971d3d59e194 Found job: 001
+3b48e951-028f-4028-b8a8-83510046641f Job created successfully: job_id='242' job_type='simulated' job_message='Hello'
+e22ca4a3-c6d5-48ae-b0a3-62291c788966 Job created successfully: job_id='204' job_type='simulated' job_message='Hello'
+73c38538-f8aa-456f-a914-18bcbce41ce7 Job not found: 002
+33585952-d89f-418f-bdc4-7486568df059 Job created successfully: job_id='778' job_type='simulated' job_message='Hello'
+0469db28-dfa1-4abc-bcf4-ad2986a7e510 Received request: DELETE /jobs/002
+2a51cd50-640b-46cd-87d3-303194a5ba2a Received request: GET /jobs/1000
+b057c31a-e93c-488d-9141-6a780e322278 Received request: GET /jobs/001
+56b06800-75e4-4756-a7ce-50907d8422e9 Received request: GET /jobs/001
+05f3c732-0d41-4c5f-a178-110c2ffcf2b8 Received request: GET /jobs
+8fa7e415-5ad5-4e77-a627-3685643d0489 Received request: GET /jobs
+b7520595-63bc-4c25-b753-687d17a40e65 Received request: DELETE /jobs/1000
+a1f72386-ee04-471e-82ff-d8bb502446a5 Received request: DELETE /jobs/002
+0469db28-dfa1-4abc-bcf4-ad2986a7e510 Job not found: 002
+6da4b2fb-77bf-4340-9545-e93abf4701ec Found job: 001
+56b06800-75e4-4756-a7ce-50907d8422e9 Found job: 001
+35242d90-4380-4326-999a-b3c1541a61e6 Found job: 001
+317b017c-d6ce-4535-8f1b-d8fc11ce7007 Received request: PUT /jobs/1000
+87459764-b570-40e6-82f3-591dd9c3b57c Received request: POST /jobs
+b7520595-63bc-4c25-b753-687d17a40e65 Job not found: 1000
+b057c31a-e93c-488d-9141-6a780e322278 Found job: 001
+a1f72386-ee04-471e-82ff-d8bb502446a5 Job not found: 002
+9c110898-6950-4266-ab92-fcd4c253ca8e Received request: POST /jobs
+317b017c-d6ce-4535-8f1b-d8fc11ce7007 Job not found: 1000
+87459764-b570-40e6-82f3-591dd9c3b57c Job created successfully: job_id='471' job_type='simulated' job_message='Hello'
+9c110898-6950-4266-ab92-fcd4c253ca8e Job created successfully: job_id='423' job_type='simulated' job_message='Hello'
+6a285dc9-b13a-41c0-9507-6d61447d0862 Received request: GET /jobs
+bf9a2d33-1bdf-4754-806c-f411003eafcd Received request: POST /jobs
+28f560ae-c456-4646-8006-1cd903f96f69 Received request: DELETE /jobs/1000
+1de69960-68b3-4e5a-985a-7f10059778f7 Received request: PUT /jobs/002
+dc45c8f3-199b-445c-83e6-ca2e7dda2437 Received request: GET /jobs
+5d696927-83f0-4ae8-8d68-e426672d16c3 Received request: GET /jobs
+6dd813ac-c1d5-468a-af12-940729187b90 Received request: PUT /jobs/1000
+bf9a2d33-1bdf-4754-806c-f411003eafcd Job created successfully: job_id='651' job_type='simulated' job_message='Hello'
+28f560ae-c456-4646-8006-1cd903f96f69 Job not found: 1000
+1de69960-68b3-4e5a-985a-7f10059778f7 Job not found: 002
+a9602edb-bc1a-45fc-93e2-b32ba53d7c68 Received request: POST /jobs
+13b32132-ada4-40e9-8f1c-527e13d4207f Received request: PUT /jobs/002
+60236b43-7bec-41cd-90b9-ea52e961a2c1 Received request: POST /jobs
+6dd813ac-c1d5-468a-af12-940729187b90 Job not found: 1000
+add65a02-f388-4c08-80f4-75ada51e258f Received request: POST /jobs
+4dd5f31e-ba66-48a6-ae1b-7db12b431c7a Received request: PUT /jobs/1000
+a9602edb-bc1a-45fc-93e2-b32ba53d7c68 Job created successfully: job_id='719' job_type='simulated' job_message='Hello'
+13b32132-ada4-40e9-8f1c-527e13d4207f Job not found: 002
+a5d988e2-d239-422d-aa9f-549dd8ce577d Received request: PUT /jobs/001
+60236b43-7bec-41cd-90b9-ea52e961a2c1 Job created successfully: job_id='386' job_type='simulated' job_message='Hello'
+4dd5f31e-ba66-48a6-ae1b-7db12b431c7a Job not found: 1000
+a5d988e2-d239-422d-aa9f-549dd8ce577d Updated job: 001 with message: Updated by simulated user
+add65a02-f388-4c08-80f4-75ada51e258f Job created successfully: job_id='556' job_type='simulated' job_message='Hello'
+3b7889d3-79bc-4818-b6b7-6f16842e156b Received request: GET /jobs
+33ec45f3-747c-49f1-b25f-aa8f9915ef53 Received request: DELETE /jobs/1000
+33ec45f3-747c-49f1-b25f-aa8f9915ef53 Job not found: 1000
+dc7af8ca-c4eb-4520-964a-948c5864c965 Received request: DELETE /jobs/1000
+77492a6e-9f93-4379-a76a-d183e94bdfc7 Received request: GET /jobs
+02e7f7ec-46bf-4ffa-9a83-d386f0ef3f65 Received request: GET /jobs
+3856d9e8-bc06-4408-887c-ec11c0a94db2 Received request: DELETE /jobs/002
+78115e3d-0633-4058-ad0f-23693bab57e3 Received request: GET /jobs
+7fed6da9-f426-4a21-9327-25e28a1a5b73 Received request: GET /jobs/1000
+9cd9ea7d-9f2e-404e-9df4-aff60c5c79d9 Received request: DELETE /jobs/1000
+cb01b4ff-94ab-496d-9377-c6f27ef3c5e5 Received request: DELETE /jobs/1000
+3856d9e8-bc06-4408-887c-ec11c0a94db2 Job not found: 002
+dc7af8ca-c4eb-4520-964a-948c5864c965 Job not found: 1000
+5e76cf6d-9757-4b75-a58c-f50c1f6f6864 Received request: POST /jobs
+4e9e9ef8-4100-40e8-9984-f4c3da6fd798 Job not found: 002
+88ae8eb9-79ec-46f6-ab92-247a7605d9e4 Received request: POST /jobs
+7fed6da9-f426-4a21-9327-25e28a1a5b73 Job not found: 1000
+9cd9ea7d-9f2e-404e-9df4-aff60c5c79d9 Job not found: 1000
+18aaecdd-2bd0-4e8c-88b7-6d5ef956d0db Received request: POST /jobs
+cb01b4ff-94ab-496d-9377-c6f27ef3c5e5 Job not found: 1000
+9b28d83e-a7e6-470f-b271-44351df4fde5 Received request: POST /jobs
+c3152a0c-4e02-4bf1-bd04-bbb51c2cb0a9 Received request: PUT /jobs/001
+5e76cf6d-9757-4b75-a58c-f50c1f6f6864 Job created successfully: job_id='709' job_type='simulated' job_message='Hello'
+18aaecdd-2bd0-4e8c-88b7-6d5ef956d0db Job created successfully: job_id='817' job_type='simulated' job_message='Hello'
+88ae8eb9-79ec-46f6-ab92-247a7605d9e4 Job created successfully: job_id='789' job_type='simulated' job_message='Hello'
+9b28d83e-a7e6-470f-b271-44351df4fde5 Job created successfully: job_id='781' job_type='simulated' job_message='Hello'
+c3152a0c-4e02-4bf1-bd04-bbb51c2cb0a9 Updated job: 001 with message: Updated by simulated user
+0cbf72da-8f75-4705-99c8-d75107811f48 Received request: GET /jobs
+7afce94e-9fb9-4641-a530-e0d4f5dbc221 Received request: GET /jobs
+ac7764d3-b78a-43c2-9d17-226625eba56a Received request: POST /jobs
+7f70f235-59c7-4592-96ea-14a926641224 Received request: PUT /jobs/001
+c6115495-8fbf-458f-907a-688e55e9efda Received request: POST /jobs
+14f63ada-0124-40d3-9e97-075eeb70fc29 Received request: POST /jobs
+60f9a02f-b3d2-43cb-b61f-5156900cdaed Received request: PUT /jobs/001
+ac7764d3-b78a-43c2-9d17-226625eba56a Job created successfully: job_id='673' job_type='simulated' job_message='Hello'
+7f70f235-59c7-4592-96ea-14a926641224 Updated job: 001 with message: Updated by simulated user
+31eebaef-f098-4f8b-898f-c1d170dd46f5 Received request: POST /jobs
+c6115495-8fbf-458f-907a-688e55e9efda Job created successfully: job_id='930' job_type='simulated' job_message='Hello'
+0463f808-36ed-4de8-ac69-5fa319da41eb Received request: POST /jobs
+60f9a02f-b3d2-43cb-b61f-5156900cdaed Updated job: 001 with message: Updated by simulated user
+f9f1cff2-56ed-4094-8a90-6219aec8d1fd Received request: POST /jobs
+eed50c48-cea4-415c-94c0-9d64ff4d8bbf Received request: POST /jobs
+213fa386-d062-450a-9a58-5a964efca666 Received request: PUT /jobs/001
+427a1d0d-15bb-4fc6-b7c5-b5c70a70dfb2 Received request: POST /jobs
+14f63ada-0124-40d3-9e97-075eeb70fc29 Job created successfully: job_id='672' job_type='simulated' job_message='Hello'
+31eebaef-f098-4f8b-898f-c1d170dd46f5 Job created successfully: job_id='659' job_type='simulated' job_message='Hello'
+213fa386-d062-450a-9a58-5a964efca666 Updated job: 001 with message: Updated by simulated user
+427a1d0d-15bb-4fc6-b7c5-b5c70a70dfb2 Job created successfully: job_id='230' job_type='simulated' job_message='Hello'
+eed50c48-cea4-415c-94c0-9d64ff4d8bbf Job created successfully: job_id='431' job_type='simulated' job_message='Hello'
+f9f1cff2-56ed-4094-8a90-6219aec8d1fd Job created successfully: job_id='579' job_type='simulated' job_message='Hello'
+0463f808-36ed-4de8-ac69-5fa319da41eb Job created successfully: job_id='238' job_type='simulated' job_message='Hello'
+bfe56a9a-8e40-46be-b23a-660cd9d1fc8e Received request: GET /jobs
+920af1a1-aaa8-4624-a81d-ecd0b1931d79 Received request: GET /jobs/1000
+b5aec4a4-4391-40ac-a397-acb19627e692 Received request: GET /jobs/001
+35446300-68f4-4212-980f-ddf0fed07279 Received request: GET /jobs/002
+5cbaec22-e995-4e45-bd5e-a059def90ecb Received request: DELETE /jobs/002
+efc7905e-f57a-45f9-9c55-c6b122d0fd1f Received request: GET /jobs
+c5fd9e5e-f3d3-4ecc-b850-4f8457c8c606 Received request: GET /jobs/1000
+8b3eabb8-88fd-4a9d-9f56-8a9852e3d40c Received request: GET /jobs
+35446300-68f4-4212-980f-ddf0fed07279 Job not found: 002
+5cbaec22-e995-4e45-bd5e-a059def90ecb Job not found: 002
+c5fd9e5e-f3d3-4ecc-b850-4f8457c8c606 Job not found: 1000
+920af1a1-aaa8-4624-a81d-ecd0b1931d79 Job not found: 1000
+b5aec4a4-4391-40ac-a397-acb19627e692 Found job: 001
+4ead6193-c918-4a05-913c-496b5d6e4822 Received request: POST /jobs
+4ead6193-c918-4a05-913c-496b5d6e4822 Job created successfully: job_id='292' job_type='simulated' job_message='Hello'
+304f08a9-7e18-44c5-a2fd-e9c835a1cc19 Received request: PUT /jobs/001
+3769f43c-a89e-41fd-849c-a845df0c1385 Received request: POST /jobs
+d2c8b5af-e766-4b1c-9fec-079d5b9732d4 Received request: POST /jobs
+304f08a9-7e18-44c5-a2fd-e9c835a1cc19 Updated job: 001 with message: Updated by simulated user
+d2c8b5af-e766-4b1c-9fec-079d5b9732d4 Job created successfully: job_id='648' job_type='simulated' job_message='Hello'
+3769f43c-a89e-41fd-849c-a845df0c1385 Job created successfully: job_id='651' job_type='simulated' job_message='Hello'
+44896b5f-a698-4d15-a45c-3d571f5e7e10 Received request: GET /jobs/001
+6a6ec3e4-812b-4e6a-b89f-89c31afe28bc Received request: DELETE /jobs/1000
+e9df2bf3-58c5-44d2-be0b-b45172cb7da2 Received request: GET /jobs/002
+86d260b7-07e6-4cf6-9eee-d3c4c1521030 Received request: GET /jobs/1000
+8ca17aee-bad5-4123-b31e-b03044447456 Received request: GET /jobs/001
+a1650db8-e4f0-485a-9939-fcf10ce7c329 Received request: GET /jobs/001
+0fede9d2-07cb-4c51-8640-4b2b8ea38f46 Received request: GET /jobs
+01
+44896b5f-a698-4d15-a45c-3d571f5e7e10 Found job: 001
+20fe46f8-5875-412a-ad75-ec7acc024e23 Received request: GET /jobs/002
+e9df2bf3-58c5-44d2-be0b-b45172cb7da2 Job not found: 002
+7a9bc822-eee2-48b0-b9b5-a052e310f024 Received request: PUT /jobs/001
+09d6c070-bc5b-4a94-8d97-b581c4e6bbc3 Received request: PUT /jobs/1000
+f0cfc2ab-1967-4ced-ae6e-429785630fac Received requestb9c9b3bd-8e98-48ff-bb69-7dd29dc59185 Received request: POST /jobs
+a1650db8-e4f0-485a-9939-fcf10ce7c329 Found job: 001
+: POST /jobs
+09d6c070-bc5b-4a94-8d97-b581c4e6bbc3 Job not found: 1000
+23e9f37e-f27c-42fb-9b36-69ccff318c75 Received request: PO6a6ec3e4-812b-4e6a-b89f-89c31afe28bc Job not found: 1000
+86d260b7-07e6-4cf6-9eee-d3c4c1521030 Job not found: 1000
+f0cfc2ab-1967-4ced-ae6e-429785630fac Updated job: 001 with message: Updated by simulated user
+b9c9b3bd-8e98-48ff-bb69-7dd29dc59185 Job created successfully: job_id='902' job_type='simulated' job_message='Hello'
+ec2795c5-3377-402d-a10b-96575daee8b6 Job created successfully: job_id='728' job_type='simulated' job_message='Hello'
+ad3af3cf-1148-4dac-a2bd-433f3b8108e3 Job created successfully: job_id='174' job_type='simulated' job_message='Hello'
+7a9bc822-eee2-48b0-b9b5-a052e310f024 Updated job: 001 with message: Updated by simulated user
+23e9f37e-f27c-42fb-9b36-69ccff318c75 Job created successfully: job_id='552' job_type='simulated' job_message='Hello'
+a0243a63-1955-4037-acfa-08771438668d Received request: DELETE /jobs/002
+daf375f9-fa11-4db0-b68f-aa4ec2cc2c8e Received request: GET /jobs/001
+f637b9a6-9ffa-4952-a90e-18431ee8820a Received request: GET /jobs
+53bde6b0-035e-4c7a-a103-35f24ff86536 Received request: DELETE /jobs/1000
+a0243a63-1955-4037-acfa-08771438668d Job not found: 002
+b4f5e4dd-b3fd-442f-9f4c-679875b40b3d Received request: GET /jobs/001
+daf375f9-fa11-4db0-b68f-aa4ec2cc2c8e Found job: 001
+b4f5e4dd-b3fd-442f-9f4c-679875b40b3d Found job: 001
+000
+31013c1a-ea2f-4572-a3b9-bce84e15aaed Received request: POST /jobs
+6d5cd06f-9e35-410d-8578-298e1544a338 Received request: GET /jobs
+b6c026b5-aac6-43ee-a254-78e713d46088 Received request: GET /jobs/002
+31013c1a-ea2f-4572-a3b9-bce84e15aaed Job created successfully: job_id='175' job_type='simulated' job_message='Hello'
+bfbe7165-f4c9-48aa-b9c2-6ec6bed9da15 Received request: PUT /jobs/001
+bfbe7165-f4c9-48aa-b9c2-6ec6bed9da15 Updated job: 001 with message: Updated by simulated user
+58021d92-2f77-4408-8941-8d6d27e34d4b Job created successfully: job_id='267' job_type='simulated' job_message='Hello'
+b6c026b5-aac6-43ee-a254-78e713d46088 Job not found: 002
+62636b62-8a41-471d-9de6-42a9a71c2966 Received request: GET /jobs/1000
+82fb6ddc-fb94-4013-9924-c5a6b87077c3 Received request: GET /jobs
+e278c524-bff6-40a2-9149-f98373eb0042 Received request: DELETE /jobs/002
+e0da2f35-8e92-4814-bd5b-88148ac8a039 Received request: GET /jobs/1000
+565f7bc0-575f-47bf-9795-ef2bb5aa1ef2 Received request: GET /jobs/001
+62636b62-8a41-471d-9de6-42a9a71c2966 Job not found: 1000
+7d33799e-21ef-4276-9607-9c74e0da0986 Received request: GET /jobs/001
+e278c524-bff6-40a2-9149-f98373eb0042 Job not found: 002
+e0da2f35-8e92-4814-bd5b-88148ac8a039 Job not found: 1000
+565f7bc0-575f-47bf-9795-ef2bb5aa1ef2 Found job: 001
+7d33799e-21ef-4276-9607-9c74e0da0986 Found job: 001
+044ad206-5b81-4117-b7c5-31bb7ace4c9b Received request: POST /jobs
+23303eb6-fa79-4cb1-82e8-1b02c1742496 Received request: POST /jobs
+044ad206-5b81-4117-b7c5-31bb7ace4c9b Job created successfully: job_id='288' job_type='simulated' job_message='Hello'
+23303eb6-fa79-4cb1-82e8-1b02c1742496 Job created successfully: job_id='259' job_type='simulated' job_message='Hello'
+39d7b46f-a212-4962-9754-6a3130834d85 Received request: GET /jobs
+a637ba0a-7cc0-479b-ad84-11ef1ec6234a Received request: GET /jobs
+22aed62e-c0e3-4711-8dca-2da8e7ee236c Received request: GET /jobs/002
+bac26d2f-659e-4ac0-8435-65c6422da6c0 Received request: GET /jobs
+85b61142-2e54-4de6-913d-595176bc1854 Received request: DELETE /jobs/002
+923321c8-9b63-413f-bf39-055551b58c5e Received request: DELETE /jobs/1000
+bb0d4de2-937a-4fb1-a133-02bd6b006c8c Received request: GET /jobs/1000
+5e91a4e9-610c-4ffd-9e54-f60503aec48d Received request: GET /jobs/002
+9057c3d6-b363-4a0b-bc5a-0db817c661ee Received request: POST /jobs
+22aed62e-c0e3-4711-8dca-2da8e7ee236c Job not found: 002
+923321c8-9b63-413f-bf39-055551b58c5e Job not found: 1000
+cd1f8740-bf1a-4e1d-a6f3-dbdf9d59223a Received request: POST /jobs
+a1eba333-4689-4a65-8a00-3e6868c5fb80 Received request: PUT /jobs/002
+8828347d-50fd-40cf-9635-a93f8f57eb1e Received request: PUT /jobs/001
+bb0d4de2-937a-4fb1-a133-02bd6b006c8c Job not found: 1000
+85b61142-2e54-4de6-913d-595176bc1854 Job not found: 002
+7ee6b2bf-fb46-4d4b-b891-fcced986bf6b Received request: DELETE /jobs/1000
+5e91a4e9-610c-4ffd-9e54-f60503aec48d Job not found: 002
+b256cd0b-e572-4544-a792-e7206daef3ae Received request: GET /jobs
+cd1f8740-bf1a-4e1d-a6f3-dbdf9d59223a Job created successfully: job_id='935' job_type='simulated' job_message='Hello'
+cd918e4b-f8b0-42d8-afd6-c2a513be3438 Received request: DELETE /jobs/1000
+9057c3d6-b363-4a0b-bc5a-0db817c661ee Job created successfully: job_id='693' job_type='simulated' job_message='Hello'
+312c6f4f-4b2f-4b90-b97c-2bb423f77e0d Received request: GET /jobs/002
+f7ba81b8-1d2a-4aa0-8e3d-90f0c1dd0e4e Received request: POST /jobs
+db36a7fa-7e42-4b63-96bb-6abd65de5316 Received request: PUT /jobs/1000
+483d12ab-0e8c-4830-94de-1e055102cb0e Received request: POST /jobs
+ Updated by simulated user
+a1eba333-4689-4a65-8a00-3e6868c5fb80 Job not found: 002
+7ee6b2bf-fb46-4d4b-b891-fcced986bf6b Job not found: 1000
+9a8937e7-b7be-4011-acb6-30e2c5cb6741 Received request: GET /jobs/1000
+312c6f4f-4b2f-4b90-b97c-2bb423f77e0d Job not found: 002
+9ebce8fa-81fb-4dbc-a0ca-285f6085afc0 Received request: PUT /jobs/1000
+cd918e4b-f8b0-42d8-afd6-c2a513be3438 Job not found: 1000
+f7ba81b8-1d2a-4aa0-8e3d-90f0c1dd0e4e Job created successfully: job_id='941' job_type='simulated' job_message='Hello'
+483d12ab-0e8c-4830-94de-1e055102cb0e Job created successfully: job_id='675' job_type='simulated' job_message='Hello'
+db36a7fa-7e42-4b63-96bb-6abd65de5316 Job not found: 1000
+aba9e850-cca8-4019-9f15-4462d2123ada Job not found: 1000
+9a8937e7-b7be-4011-acb6-30e2c5cb6741 Job not found: 1000
+9ebce8fa-81fb-4dbc-a0ca-285f6085afc0 Job not found: 1000
+2a91be96-311e-4742-bc5c-38c4a185e7cc Received request: POST /jobs
+8eca0d60-9327-419f-9b3e-537db9d0bd29 Received request: POST /jobs
+961993ef-a756-43f0-beb9-97beef45156e Received request: GET /jobs
+01
+38600c4d-d653-4e34-be57-130d6889c45c Received request: GET /jobs
+02
+6d3779ce-10ee-4927-a4aa-818753d1eff3 Received request: POST /jobs
+2a91be96-311e-4742-bc5c-38c4a185e7cc Job created successfully: job_id='808' job_type='simulated' job_message='Hello'
+a0ee3a0e-d6c7-46c2-adcb-bd8fac4f9645 Received request: POST /jobs
+ea95b9c9-dc51-4d39-ab84-04d87d3d783a Received request: PUT /jobs/1000
+2a4ec0a9-01a5-4388-bd60-d655dac46b55 Received request: PUT /jobs/1000
+57f8b1db-089d-41a7-8472-1f59db384e18 Job created successfully: job_id='708' job_type='simulated' job_message='Hello'
+cebc31f1-ba56-4c13-9db4-50d5c7ed2416 Found job: 001
+116307f4-ef79-45e3-90b5-da31dc5689c8 Found job: 001
+8eca0d60-9327-419f-9b3e-537db9d0bd29 Job created successfully: job_id='303' job_type='simulated' job_message='Hello'
+a0ee3a0e-d6c7-46c2-adcb-bd8fac4f9645 Job created successfully: job_id='482' job_type='simulated' job_message='Hello'
+2a4ec0a9-01a5-4388-bd60-d655dac46b55 Job not found: 1000
+6174fbb3-e315-4ec8-98ad-91652dff23ff Job not found: 002
+
+caaa1dd0-be47-4d5c-9a97-a9c66c19084f Received request: POST /jobs
+9f7f726e-35b3-41be-8994-41fbeb375d2b Received request: DELETE /jobs/1000
+aac98f6d-1bf9-4154-ac6a-f2a65df33ac2 Received request: POST /jobs
+83d85df8-419d-45db-bbbd-75a77956d7a1 Received request: POST /jobs
+0de97668-fa11-452b-ae73-134fa2feb1ad Received request: GET /jobs
+4ceadd5c-c401-441b-b418-03c6c5df138d Received request: GET /jobs
+58ece2ea-d586-4b08-8791-3a97b231c632 Received request: GET /jobs
+9f7f726e-35b3-41be-8994-41fbeb375d2b Job not found: 1000
+ce5d8a7a-283b-4882-bc73-7948620b0aff Received request: GET /jobs
+3bd38527-6903-49da-91b2-deff124c558d Received request: GET /jobs
+caaa1dd0-be47-4d5c-9a97-a9c66c19084f Job created successfully: job_id='121' job_type='simulated' job_message='Hello'
+073646dd-79c0-4d9e-b996-ba3676cd9be5 Received request: DELETE /jobs/002
+163efb87-f7a1-4b6b-b95a-0a81190e5e66 Received request: GET /jobs/001
+00
+8aa44e52-3769-4ae5-926d-cb2718b63c35 Received request: GET /jobs
+aac98f6d-1bf9-4154-ac6a-f2a65df33ac2 Job created successfully: job_id='149' job_type='simulated' job_message='Hello'
+83d85df8-419d-45db-bbbd-75a77956d7a1 Job created successfully: job_id='347' job_type='simulated' job_message='Hello'
+846024b5-8854-475a-96c0-14bed469d68b Received request: GET /jobs
+601be6ed-8d25-4544-91bc-e8d9487076e5 Job not found: 1000
+073646dd-79c0-4d9e-b996-ba3676cd9be5 Job not found: 002
+163efb87-f7a1-4b6b-b95a-0a81190e5e66 Found job: 001
+83153700-2c67-4098-860e-395fec82dd33 Received request: PUT /jobs/001
+b8ace2ee-3ea4-4b00-9d6d-af5221c81bb4 Received request: PUT /jobs/001
+3f494955-aab1-47f0-987c-22c741c58a54 Received request: PUT /jobs/001
+d287fa8a-a535-4acc-932c-b65f48978b1c Received request: GET /jobs/1000
+241ca9b1-2e72-4f4b-b555-6815b6a812e8 Received request: GET /jobs/002
+bbb8adf9-3881-4e3f-bb18-ecce4b05d649 Received request: GET /jobs/1000
+9fd796bf-1fdf-498a-8dea-f54cfee41ac5 Received request: DELETE /jobs/002
+0107335c-1c32-4110-918e-0da56bb92645 Received request: GET /jobs/1000
+83153700-2c67-4098-860e-395fec82dd33 Updated job: 001 with message: Updated by simulated user
+b8ace2ee-3ea4-4b00-9d6d-af5221c81bb4 Updated job: 001 with message: Updated by simulated user
+b810b347-842b-4ec2-b29b-74a8b828855f Received request: PUT /jobs/1000
+5e1f3e95-abd6-44ab-87bc-36d369daa3e8 Received request: GET /jobs/002
+00
+0235a6db-1e47-4d8e-99f2-ccf68f1a8db9 Received request: POST /jobs
+241ca9b1-2e72-4f4b-b555-6815b6a812e8 Job not found: 002
+9fd796bf-1fdf-498a-8dea-f54cfee41ac5 Job not found: 002
+T /jobs/001
+2b86f14f-ecc6-414a-878f-ace3a7357756 Received request: PUT /jobs/1000
+5bee42fd-63ec-438b-bfae-827a77f898c2 Received request: GET /jobs/002
+
+740776a4-9e67-47a4-89a1-aa9ab1816541 Received request: GET /jobs
+d287fa8a-a535-4acc-932c-b65f48978b1c Job not found: 1000
+3f494955-aab1-47f0-987c-22c741c58a54 Updated job: 001 with message: Updated by simulated user
+0107335c-1c32-4110-918e-0da56bb92645 Job not found: 1000
+bbb8adf9-3881-4e3f-bb18-ecce4b05d649 Job not found: 1000
+3cb0c5bc-9c9b-4b02-9b93-cb8d9eb4fcb0 Job not found: 1000
+5e1f3e95-abd6-44ab-87bc-36d369daa3e8 Job not found: 002
+39daf3ea-4325-4c6e-9984-81a85d1acad9 Job not found: 1000
+b810b347-842b-4ec2-b29b-74a8b828855f Job not found: 1000
+e084bc6d-d178-42e9-bac6-e2c3ca8a8100 Job not found: 1000
+afa7d9cb-3d01-4421-ba14-44e94afaa6cc Found job: 001
+0235a6db-1e47-4d8e-99f2-ccf68f1a8db9 Job created successfully: job_id='318' job_type='simulated' job_message='Hello'
+2b86f14f-ecc6-414a-878f-ace3a7357756 Job not found: 1000
+5bee42fd-63ec-438b-bfae-827a77f898c2 Job not found: 002
+cec883e9-f1fd-4c7a-956e-d053a77f28d1 Received request: PUT /jobs/001
+8407ce6c-1fe6-41e3-aab0-24af76d80e3f Received request: POST /jobs
+1d2ed1d3-1e9c-46a3-ba9b-44f310db8bcd Received request: PUT /jobs/001
+22f47f9c-fcb8-4b74-8af1-23b7bcbd10ce Received request: PUT /jobs/002
+d0c6dd70-0ded-43fe-8134-1a9df3021442 Received request: PUT /jobs/001
+69e20029-44b1-4ace-aeac-cf260b8248a4 Received request: DELETE /jobs/1000
+c5286f7b-5a19-4e17-a988-dde518ae8a97 Received request: PUT /jobs/002
+f8962b62-1243-4138-8c5a-05a5bbd6c94c Received request: POST /jobs
+1d2ed1d3-1e9c-46a3-ba9b-44f310db8bcd Updated job: 001 with message: Updated by simulated user
+22f47f9c-fcb8-4b74-8af1-23b7bcbd10ce Job not found: 002
+c33d3407-280e-4c2a-b71a-f4a4a1f38729 Received request: GET /jobs
+8407ce6c-1fe6-41e3-aab0-24af76d80e3f Job created successfully: job_id='396' job_type='simulated' job_message='Hello'
+c74ee3d2-6178-45b3-908e-510eae45e3fa Received request: GET /jobs
+0cc32f36-0716-4432-b435-44b4b42a3f27 Received request: GET /jobs
+cec883e9-f1fd-4c7a-956e-d053a77f28d1 Updated job: 001 with message: Updated by simulated user
+d0c6dd70-0ded-43fe-8134-1a9df3021442 Updated job: 001 with message: Updated by simulated user
+cde40fee-03e1-4cef-91a5-7cf457341fe9 Received request: DELETE /jobs/002
+d51650cd-90e2-4b81-bf7b-32af8aa87eb3 Received request: DELETE /jobs/1000
+fd05b746-6a0f-4dc8-9339-36caab2eb252 Received request: DELETE /jobs/1000
+f8962b62-1243-4138-8c5a-05a5bbd6c94c Job created successfully: job_id='773' job_type='simulated' job_message='Hello'
+69e20029-44b1-4ace-aeac-cf260b8248a4 Job not found: 1000
+cde40fee-03e1-4cef-91a5-7cf457341fe9 Job not found: 002
+d51650cd-90e2-4b81-bf7b-32af8aa87eb3 Job not found: 1000
+fd05b746-6a0f-4dc8-9339-36caab2eb252 Job not found: 1000
+63ff1b20-3bd2-480d-8a73-ae469da57d49 Received request: PUT /jobs/1000
+fda741ba-0163-4563-9156-bff9db648626 Received request: PUT /jobs/002
+2c6eaf54-c2d3-4287-b6de-efd5a28266d6 Received request: PUT /jobs/1000
+fda741ba-0163-4563-9156-bff9db648626 Job not found: 002
+
+63ff1b20-3bd2-480d-8a73-ae469da57d49 Job not found: 1000
+b4a45316-2c1c-44c9-aac1-ba109c9752e1 Received request: GET /jobs
+01
+fa979ce8-bc53-4df4-b691-2cd46002413d Received request: GET /jobs/1000
+ac2f88ca-56f3-4ac7-a49b-974e02668368 Received request: GET /jobs/001
+ea77e9a0-b7ba-462f-9c32-6dffdeb3aad1 Received request: POST /jobs
+fc2f2a12-4156-4bb9-b3b0-357d3360258c Received request: PUT /jobs/001
+91d46e94-6b07-4adf-991e-7840cc35451b Received request: POST /jobs
+5dbd4027-84a9-4bdc-bb56-9d888c15d766 Received request: DELETE /jobs/1000
+fa979ce8-bc53-4df4-b691-2cd46002413d Job not found: 1000
+0b67ebc0-bb81-4ab5-ada5-76790df6db7f Received request: DELETE /jobs/1000
+b2e0a97a-f45e-45ba-b1a6-80adfc6b6d0e Found job: 001
+ea77e9a0-b7ba-462f-9c32-6dffdeb3aad1 Job created successfully: job_id='430' job_type='simulated' job_message='Hello'
+ac2f88ca-56f3-4ac7-a49b-974e02668368 Found job: 001
+7d07f776-64f7-4fd2-8f07-cee574139e6e Job not found: 1000
+fc2f2a12-4156-4bb9-b3b0-357d3360258c Updated job: 001 with message: Updated by simulated user
+5dbd4027-84a9-4bdc-bb56-9d888c15d766 Job not found: 1000
+0b67ebc0-bb81-4ab5-ada5-76790df6db7f Job not found: 1000
+91d46e94-6b07-4adf-991e-7840cc35451b Job created successfully: job_id='570' job_type='simulated' job_message='Hello'
+2c59529a-cf66-46c1-b594-de7a95dfa084 Received request: PUT /jobs/1000
+49ea58ed-8d9a-43eb-9307-78b377e585ef Received request: POST /jobs
+1d7a251e-7624-43c7-b744-4b987f794cf6 Received request: GET /jobs/002
+5ec063cc-d26f-40c8-968d-8316b9b814b1 Received request: GET /jobs/1000
+528b9eec-dd6d-4aa9-98e4-6dbf91e78dfe Received request: DELETE /jobs/1000
+aedf2852-f3b0-4589-92d8-51e057c11b48 Received request: GET /jobs/001
+7022a76d-4af4-40bd-a04c-8d37df561824 Received request: POST /jobs
+98505125-1e14-4569-b4f3-96828be489d1 Received request: PUT /jobs/1000
+c65e036c-523f-419c-9435-6ce46d135a28 Received request: GET /jobs
+92193993-59a3-418a-ac31-435c402c3922 Received request: DELETE /jobs/002
+f878f06e-8398-44e7-8161-2ca045950088 Received request: GET /jobs/002
+5ab8caad-cc48-4c2c-8de6-b64c7fda839d Received request: DELETE /jobs/1000
+-8d9a-43eb-9307-78b377e585ef Job created successfully: job_id='654' job_type='simulated' job_message='Hello'
+d7dd43f6-63c0-4f8b-b812-783e26838686 Received request: GET2b48ea427fb8b799-ba3a-4ab3-bbc6-8e4a2aa60fcf Received request: GET528b9eec-dd6d-4aa9-98e4-6dbf91e78dfe Job not found: 1000
+ETE /jobs/1000
+1d7a251e-7624-43c7-b744-4b987f794cf6 Job not found: 002
+T /jobs/1000
+4d05e6e4-d05b-4dd0-925c-2c9da2e85644 Received request: GET /jobs/1000
+98505125-1e14-4569-b4f3-96828be489d1 Job not found: 1000
+ETE /jobs/002
+f878f06e-8398-44e7-8161-2ca045950088 Job not found: 002
+
+d29e3212-b773-4f79-9cef-f04286d9973b Received request: GET /jobs
+_id='411' job_type='simulated' job_message='Hello'
+4edc12a0-4ce8-40ec-abfb-fd1025675dc1 Received request: POST /jobs
+eb1b146b-01f7-40ca-9064-0a664eba0a02 Received request: DELETE /jobs/002
+ab0863a6-727f-416f-9250-43209cb71455 Job not found: 1000
+9be05b2c-7300-4da5-b693-8c446a91dc89 Job not found: 1000
+5ab8caad-cc48-4c2c-8de6-b64c7fda839d Job not found: 1000
+4d05e6e4-d05b-4dd0-925c-2c9da2e85644 Job not found: 1000
+ead645f2-565d-4ffc-908a-23a4ac62acca Job not found: 1000
+4edc12a0-4ce8-40ec-abfb-fd1025675dc1 Job created successfully: job_id='281' job_type='simulated' job_message='Hello'
+d872dc34-e064-4d7e-804c-9fbb98ee5771 Job not found: 002
+eb1b146b-01f7-40ca-9064-0a664eba0a02 Job not found: 002
+8c2fbfc5-a613-490c-ae74-d0df9237d43d Received request: POST /jobs
+acb5b5a9-8069-4748-9ea2-8e25e8f752ee Received request: POST /jobs
+/002
+f399b0c6-4421-484c-8b43-9bfc13e6ba28 Received request: POST /jobs
+edad9bc8-209e-4f98-ba63-395be1a9288a Received request: POST /jobs
+17d69e76-2620-40b0-9a97-411f045ed6de Received request: POST /jobs
+90b3a000-5c24-4a66-89b7-c4272289b13f Received request: GET /jobs/1000
+9fd251d4-6eca-4e13-b5fc-c76a993e6cbc Received request: DELETE /jobs/1000
+eeadf41b-99d2-4053-9de6-55298ae1add0 Received request: DELETE /jobs/002
+8c2fbfc5-a613-490c-ae74-d0df9237d43d Job created successfully: job_id='272' job_type='simulated' job_message='Hello'
+5e5ebac7-5113-494d-a7b9-de12d04abdec Received request: GET /jobs/002
+26bc84cd-94ec-4d98-b3d0-4cfc4077f107 Received request: GET /jobs
+90b3a000-5c24-4a66-89b7-c4272289b13f Job not found: 1000
+edad9bc8-209e-4f98-ba63-395be1a9288a Job created successfully: job_id='199' job_type='simulated' job_message='Hello'
+3a72e9cf-b6d1-46c7-a924-34c0bf005463 Job not found: 002
+17d69e76-2620-40b0-9a97-411f045ed6de Job created successfully: job_id='273' job_type='simulated' job_message='Hello'
+d681ed93-f4e4-40a1-bdfc-8f06f7bb23d5 Received request: GET /jobs/1000
+9fd251d4-6eca-4e13-b5fc-c76a993e6cbc Job not found: 1000
+acb5b5a9-8069-4748-9ea2-8e25e8f752ee Job created successfully: job_id='388' job_type='simulated' job_message='Hello'
+f399b0c6-4421-484c-8b43-9bfc13e6ba28 Job created successfully: job_id='968' job_type='simulated' job_message='Hello'
+5e5ebac7-5113-494d-a7b9-de12d04abdec Job not found: 002
+eeadf41b-99d2-4053-9de6-55298ae1add0 Job not found: 002
+d681ed93-f4e4-40a1-bdfc-8f06f7bb23d5 Job not found: 1000
+d1cd03a2-29ee-44ad-a79c-def156554bca Received request: GET /jobs/1000
+86ec2bd7-4267-44dc-b14a-9386a7d4c497 Received request: POST /jobs
+f20f48f0-98cc-4b17-9476-5dd6ac76523f Received request: GET /jobs/002
+7c9d2392-eefb-4305-a2f8-06d986074dd5 Received request: GET /jobs/001
+0cc7b5c0-2431-429b-8af6-4a1da8fb0073 Received request: POST /jobs
+f0c5c3a6-bb78-4d2e-911d-fae12614441f Received request: DELETE /jobs/002
+0f2f2eaa-2b06-49d3-9e8e-84a5be3364da Received request: GET /jobs
+f790caaa-1d2b-4507-b8f8-283ecd2ef020 Received request: GET /jobs/002
+e9d24792-8c2c-4328-88ee-17c4debcdf16 Received request: GET /jobs/1000
+d1cd03a2-29ee-44ad-a79c-def156554bca Job not found: 1000
+f20f48f0-98cc-4b17-9476-5dd6ac76523f Job not found: 002
+7c9d2392-eefb-4305-a2f8-06d986074dd5 Found job: 001
+86ec2bd7-4267-44dc-b14a-9386a7d4c497 Job created successfully: job_id='944' job_type='simulated' job_message='Hello'
+0cc7b5c0-2431-429b-8af6-4a1da8fb0073 Job created successfully: job_id='191' job_type='simulated' job_message='Hello'
+f790caaa-1d2b-4507-b8f8-283ecd2ef020 Job not found: 002
+f0c5c3a6-bb78-4d2e-911d-fae12614441f Job not found: 002
+e9d24792-8c2c-4328-88ee-17c4debcdf16 Job not found: 1000
+cdf5a45a-c4e8-4259-86f0-e789484fcc6b Received request: PUT /jobs/002
+621bc7ca-122c-475d-8462-a64c4a6376ea Received request: PUT /jobs/001
+94de2848-5b6a-4a49-8373-fa3b95477f5b Received request: PUT /jobs/002
+621bc7ca-122c-475d-8462-a64c4a6376ea Updated job: 001 with message: Updated by simulated user
+cdf5a45a-c4e8-4259-86f0-e789484fcc6b Job not found: 002
+94de2848-5b6a-4a49-8373-fa3b95477f5b Job not found: 002
+1478704e-10ba-462c-a584-ae10b32ef9e2 Received request: GET /jobs/002
+23ff8424-3e55-495c-8e31-44e1e3041ffb Received request: GET /jobs
+36a8ec70-a090-452a-a611-6f629a98d358 Received request: DELETE /jobs/1000
+57225836-3dcc-460b-915e-3284a35c9e97 Received request: GET /jobs
+a9bd3679-6d8e-484e-8daf-96cc4c60819a Received request: GET /jobs
+02067c61-bff3-4975-bb87-6477978e24d2 Received request: DELETE /jobs/1000
+1478704e-10ba-462c-a584-ae10b32ef9e2 Job not found: 002
+e35917cc-fb97-45d8-843b-b0c3ce42a04e Received request: DELETE /jobs/1000
+df042cb7-3e76-49f0-9071-a7cfbd353cfb Received request: GET /jobs/001
+7ffbd59a-6a6d-4549-ae4b-70121dd66b8a Received request: DELETE /jobs/002
+36a8ec70-a090-452a-a611-6f629a98d358 Job not found: 1000
+ /jobs/002
+02067c61-bff3-4975-bb87-6477978e24d2 Job not found: 1000
+5b23e476-bf70-4c73-b810-94773a872519 Received request: DELETE /jobs/1000
+42eea32f-5732-416e-891c-736b68878be7 Received request: DELETE /jobs/1000
+56422e26-a9bc-43d5-bc64-55356d4138c1 Received request: GET /jobs
+a77f906f-6061-47cb-8189-612ea05a51ac Received request: GET /jobs/1000
+16a84b44-ca37-4e95-8012-dd08dd120680 Received request: GET /jobs
+c2a2c7cd-ed0b-4268-88e0-d689a0ae975f Received request: GET /jobs/1000
+8e5428cb-a0cb-4708-b34e-54a31c59f087 Received request: DELETE /jobs/002
+a7f22df4-8b74-4117-9f02-50432509770c Received request: GET /jobs
+260ded26-212f-4151-b901-01610082a28e Received request: GET /jobs
+7ffbd59a-6a6d-4549-ae4b-70121dd66b8a Job not found: 002
+bb262c0b-f859-46a8-ae2a-c143a1bfd845 Received request: GET /jobs
+af65f4b7-c74c-4220-ae97-bc6fc9f9c1ce Received request: GET /jobs
+d862f985-a891-4555-b505-9038c180b3d0 Received request: GET /jobs
+02
+d5b4c2a4-2539-4c7a-af2c-eb24ff2324fe Received request: GET /jobs/001
+1731d918-c34e-48c3-b05d-3b27223ce14d Received request: GET /jobs/002
+2
+13c680e7-cc90-44c8-9014-f699a7482048 Received request: DELETE /jobs/002
+50490b9b-cb26-42e4-b91e-0498156392f3 Received request: DELETE /jobs/002
+5b23e476-bf70-4c73-b810-94773a872519 Job not found: 1000
+8e5428cb-a0cb-4708-b34e-54a31c59f087 Job not found: 002
+88ef2d8b-405d-43f9-90a8-d024dea9bbf7 Received request: GET /jobs/002
+5d4a0729-c580-4ffb-a9de-c2777e3767ca Received request: DELETE /jobs/1000
+d5b4c2a4-2539-4c7a-af2c-eb24ff2324fe Found job: 001
+ac838c1a-2622-41e4-b029-e76fcba39d83 Received request: GET /jobs
+d7b9d9ad-f277-4cb3-8568-bdba02ace230 Received request: GET /jobs
+000
+22463ff2-1a1b-471f-a554-161ec8ff32fb Received request: DELETE /jobs/002
+739b07ca-0c02-4047-84ae-b3ef06883ea7 Received request: GET /jobs/002
+c2a2c7cd-ed0b-4268-88e0-d689a0ae975f Job not found: 1000
+0b9335a5-e60f-4ec8-ab1e-62e6b3dffffa Received request: GET /jobs/002
+df042cb7-3e76-49f0-9071-a7cfbd353cfb Found job: 001
+000
+c6652b8b-4ddd-41a1-add0-7a16537fa82a Received request: DELETE /jobs/002
+fc5ae90a-4317-4059-a9e0-66540faae1ce Job not found: 002
+93c5a2b4-71c5-4dfc-be81-c0bc1f689ead Received request: GET /jobs/001
+
+b2289538-fd87-41eb-b05b-21571d1aa99a Received request: GET /jobs
+1731d918-c34e-48c3-b05d-3b27223ce14d Job not found: 002
+e76973bb-6095-42f0-8beb-6d34ca7e8ac3 Job not found: 002
+5e0e6903-7138-4ba3-9aaf-199790da6e73 Job not found: 002
+22463ff2-1a1b-471f-a554-161ec8ff32fb Job not found: 002
+5d4a0729-c580-4ffb-a9de-c2777e3767ca Job not found: 1000
+43386614-00a1-4330-8f38-2dbc2d6a1326 Job not found: 002
+601305e6-7972-4b80-8e50-f07efc6f8b86 Job not found: 1000
+2f5d5e7d-1ac4-4898-aa52-999cd0d61ee8 Job not found: 1000
+ETE /jobs/1000
+e47bd96f-3a0c-4969-83b4-f6348ca90441 Job not found: 1000
+739b07ca-0c02-4047-84ae-b3ef06883ea7 Job not found: 002
+50490b9b-cb26-42e4-b91e-0498156392f3 Job not found: 002
+93c5a2b4-71c5-4dfc-be81-c0bc1f689ead Found job: 001
+c6652b8b-4ddd-41a1-add0-7a16537fa82a Job not found: 002
+0b9335a5-e60f-4ec8-ab1e-62e6b3dffffa Job not found: 002
+8cbcd249-fb89-4af1-bfb8-0ed67ee481f8 Job not found: 1000
+dfb2ff27-b3ce-4a65-a130-d3ba1bff76da Received request: GET /jobs
+bab72e84-5c84-472b-bbbc-afef51c9fc1b Received request: DELETE /jobs/002
+03d5d1f3-c1a2-4b86-926a-7b2df9e5b90c Received request: GET /jobs
+950c2b22-9b20-44d5-bf98-37f26513f28a Received request: GET /jobs
+44a1ce7c-ef64-4a15-b529-a9baab81d72e Received request: GET /jobs
+9d31c9e7-442e-44b4-a7be-c53324add390 Received request: GET /jobs/002
+faf7ab91-dc29-41e1-a892-347c994518cd Received request: DELETE /jobs/1000
+4cb29629-8644-44ff-808d-ff1e0746916e Received request: GET /jobs
+4889c483-6f19-434b-92cd-de9cc6c086f6 Received request: DELETE /jobs/002
+3d99fa16-0ced-4ead-aa6c-97d3865b75eb Received request: GET /jobs
+bab72e84-5c84-472b-bbbc-afef51c9fc1b Job not found: 002
+faf7ab91-dc29-41e1-a892-347c994518cd Job not found: 1000
+9d31c9e7-442e-44b4-a7be-c53324add390 Job not found: 002
+4889c483-6f19-434b-92cd-de9cc6c086f6 Job not found: 002
+8263f30b-6d34-47dd-80ad-4ad95a4cfb5b Received request: GET /jobs
+f5313db1-7511-441a-9b6d-d373b48207c2 Received request: GET /jobs/002
+00
+f4aeb0d2-afa8-4ee7-acff-e0d28db4e858 Received request: DELETE /jobs/1000
+f5313db1-7511-441a-9b6d-d373b48207c2 Job not found: 002
+f4aeb0d2-afa8-4ee7-acff-e0d28db4e858 Job not found: 1000
+8e3bc0b9-3df7-4836-9171-b240559c7e11 Job not found: 1000
+42e775d6-e7f0-491e-b112-17ae7e7d807a Received request: PUT /jobs/1000
+6a77b136-de3a-432f-95df-67ebd826ef68 Received request: POST /jobs
+03132d2e-41d6-471f-a33f-40aabfe97282 Received request: PUT /jobs/001
+174c1513-6eee-4377-af8d-39fa62c9dcdc Received request: PUT /jobs/002
+d7495331-a34a-4a98-a351-7a1cbe6283a8 Received request: POST /jobs
+40f71504-318e-416f-8ae3-100b9359680b Received request: POST /jobs
+b94aab25-5455-45c9-9bfc-5ce7dc325060 Received request: PUT /jobs/001
+8010c27a-9205-4848-843d-a0038ea132a9 Received request: POST /jobs
+8779fb36-e29a-48d5-98bd-2e82755be63d Received request: POST /jobs
+240cb12e-7492-4a55-ab23-b0414753f2f4 Received request: POST /jobs
+bf52207f-ee94-4388-98d2-6246f29020af Received request: PUT /jobs/1000
+c3a6a975-e1b1-47e6-b1ec-0ab8d2817f77 Received request: POST /jobs
+1
+301e8bb9-a27f-44d1-8c29-e8d3c4d8970e Received request: POST /jobs
+00
+251d9c6f-2a87-40a3-b3ed-1afe234e42fc Received request: PUT /jobs/007a4158d560d-bc1b-401c-8956-92055c422e0f Received request: PUT /jobs28122bac85acbe-16b6-4aff-bfcb-0cb69a296945 Received request: POST /jobs
+b8d242a1-65b8-45c1-9b47-7d6e5461e924 Received request: PUT /jobs/1000
+40f71504-318e-416f-8ae3-100b9359680b Job created successfully: job_id='871' job_type='simulated' job_message='Hello'
+3f7000dd-b7d6-41dc-aa5c-aa1faf5bfb82 Received request: POST /jobs
+cd098775-244c-4b9d-9a9c-93ea237dd726 Received request: POST /jobs
+id='314' job_type='simulated' job_message='Hello'
+70a6a879-e745-4903-9f9b-ac30b84ddfff Received request: PUT /jobs/001
+0f83d42e-716d-4f71-9f8c-1c2cee7ef75e Received request: PUT /jobs/002
+240cb12e-7492-4a55-ab23-b0414753f2f4 Job created successfully: job_id='303' job_type='simulated' job_message='Hello'
+74cff12d-841d-44af-ac0a-92d421a25e7d Received request: POST /jobs
+2
+dated by simulated user
+' job_message='Hello'
+6a77b136-de3a-432f-95df-67ebd826ef68 Job created successfully: job_id='576' job_type='simulated' job_message='Hello'
+63550b4e-126d-4e1a-9baf-4e1cb97827cb Job not found: 1000
+174c1513-6eee-4377-af8d-39fa62c9dcdc Job not found: 002
+c47af8ef-9c8c-41e8-b042-e2a720b8ddfc Job created successfully: job_id='421' job_type='simulated' job_message='Hello'
+301e8bb9-a27f-44d1-8c29-e8d3c4d8970e Job created successfully: job_id='877' job_type='simulated' job_message='Hello'
+b94aab25-5455-45c9-9bfc-5ce7dc325060 Updated job: 001 with message: Updated by simulated user
+29b58033-91dc-418a-bbf5-28e5a572f16d Received request: PUT /jobs/1000
+7a4e910c-197d-4a29-ac1e-a5b9ae54ad74 Job created successfully: job_id='428' job_type='simulated' job_message='Hello'
+8010c27a-9205-4848-843d-a0038ea132a9 Job created successfully: job_id='535' job_type='simulated' job_message='Hello'
+b226c38c-68c9-40f9-b6c3-c9a5622b9a98 Updated job: 001 with message: Updated by simulated user
+251d9c6f-2a87-40a3-b3ed-1afe234e42fc Updated job: 001 with message: Updated by simulated user
+cd098775-244c-4b9d-9a9c-93ea237dd726 Job created successfully: job_id='844' job_type='simulated' job_message='Hello'
+158d560d-bc1b-401c-8956-92055c422e0f Job not found: 002
+ully: job_id='480' job_type='simulated' job_message='Hello'
+d4d88307-e925-491a-b0cd-90c05043a2ed Job created successfully: job_id='410' job_type='simulated' job_message='Hello'
+68392839-194c-445b-82f3-375d81039b49 Job created successfully: job_id='126' job_type='simulated' job_message='Hello'
+ac85acbe-16b6-4aff-bfcb-0cb69a296945 Job created successfully: job_id='254' job_type='simulated' job_message='Hello'
+3a7f8883-b656-408c-8667-1f18dd287cb7 Job created successfully: job_id='242' job_type='simulated' job_message='Hello'
+3f7000dd-b7d6-41dc-aa5c-aa1faf5bfb82 Job created successfully: job_id='253' job_type='simulated' job_message='Hello'
+29b58033-91dc-418a-bbf5-28e5a572f16d Job not found: 1000
+8ddd9f1f-5c4c-4705-b8b2-aa36cad1530d Job created successfully: job_id='884' job_type='simulated' job_message='Hello'
+70a6a879-e745-4903-9f9b-ac30b84ddfff Updated job: 001 with message: Updated by simulated user
+85d3d2de-f8dc-4f1b-a116-36a4f51dac85 Job created successfully: job_id='188' job_type='simulated' job_message='Hello'
+9c4a291f-0eb2-43e7-b237-b2ad8c6fdd37 Job created successfully: job_id='406' job_type='simulated' job_message='Hello'
+74cff12d-841d-44af-ac0a-92d421a25e7d Job created successfully: job_id='632' job_type='simulated' job_message='Hello'
+8dda0952-badf-4364-a930-ce8cf70b429b Job not found: 1000
+690f0423-7fae-48a4-ab91-532eb2f03756 Job not found: 002
+0f83d42e-716d-4f71-9f8c-1c2cee7ef75e Job not found: 002
+28122b01-9867-4807-abe4-697714cda7ed Updated job: 001 with message: Updated by simulated user
+71c153cb-ce61-4d7a-baa6-d5b718ffdcd8 Received request: DELETE /jobs/1000
+49ea32ca-ac1d-44ba-924c-6e21b6c77cbf Received request: GET /jobs
+1c6763a0-0eb8-41ee-9042-64ddac9c679f Received request: DELETE /jobs/1000
+71c153cb-ce61-4d7a-baa6-d5b718ffdcd8 Job not found: 1000
+1c6763a0-0eb8-41ee-9042-64ddac9c679f Job not found: 1000
+e6f95808-6ce9-40dc-bda3-49ec85847396 Received request: DELETE /jobs/1000
+51282ef4-d411-469c-ba9c-072af05fe835 Received request: GET /jobs
+972b5426-944d-45d8-af3e-28df01c641d8 Received request: DELETE /jobs/002
+e6f95808-6ce9-40dc-bda3-49ec85847396 Job not found: 1000
+254a6750-d841-478c-a0ad-2586a54f358a Received request: GET /jobs
+5ee3dc54-1bfc-4246-8471-fc1ef8dfc05d Received request: POST /jobs
+52f21453-c2b8-4cd8-af5a-7f28c7eff1bc Received request: GET /jobs/001
+06264f41-fded-4ae2-870f-b7df10c22198 Received request: DELETE /jobs/002
+3de01050-109a-4fbb-84ba-f6cec7067821 Received request: GET /jobs/002
+4ce969e8-f213-40b1-847c-dd06dcc3d573 Received request: GET /jobs/002
+2
+3eca8c27-0517-4ae9-bb93-b9244b808552 Received request: GET /jobs
+5a71162b-e61e-46aa-a7a8-880d39f0d862 Received request: GET /jobs/002
+52f21453-c2b8-4cd8-af5a-7f28c7eff1bc Found job: 001
+20f238f5-7832-42d4-a744-5dc710df2b3c Received request: DELETE /jobs/1000
+0342a206-fb0a-4e53-8fe9-f5dea72c9edf Received request: GET /jobs
+06264f41-fded-4ae2-870f-b7df10c22198 Job not found: 002
+T /jobs/1000
+a7524d61-e81b-46dc-b264-0fe14a96db70 Received request: GET /jobs
+02
+972b5426-944d-45d8-af3e-28df01c641d8 Job not found: 002
+ully: job_id='751' job_type='simulated' job_message='Hello'
+4ce969e8-f213-40b1-847c-dd06dcc3d573 Job not found: 002
+67242f63-0568-4244-b5c6-93ae70169ab7 Job not found: 002
+5a71162b-e61e-46aa-a7a8-880d39f0d862 Job not found: 002
+b186fa75-5bc5-481a-8556-738f72568f00 Job not found: 002
+3de01050-109a-4fbb-84ba-f6cec7067821 Job not found: 002
+20f238f5-7832-42d4-a744-5dc710df2b3c Job not found: 1000
+47e83c75-9eec-406f-be28-75aebc690109 Job not found: 1000
+11ebc7a0-fc23-4ced-8bfc-6c1218ad9e08 Job not found: 002
+93008f37-c665-4e24-a8e2-e47171235d59 Received request: POST /jobs
+9a043f0d-e629-4306-9400-b0c454569753 Received request: POST /jobs
+d4bad47a-0061-4d7d-88a8-f6182a4f2e57 Received request: PUT /jobs/1000
+5a29c80b-6426-498b-beb9-f1319650c003 Received request: PUT /jobs/001
+8f203472-b226-40d9-b831-4119a4ddfb8e Received request: POST /jobs
+202fa646-c98c-4117-9691-398c47d937b6 Received request: POST /jobs
+2c2d7d2c-dfad-46cc-af4b-96d8c586d662 Received request: GET /jobs
+c6bfcb9d-0541-4ade-94bf-dfb50a2df093 Received request: POST /jobs
+/002
+95c41722-a238-44d5-8810-0c96c953a95d Received request: DELETE /jobs/002
+0749dc58-09d7-4e08-a468-1b85e0216c73 Received request: DELETE /jobs/1000
+67c62330-a8c9-4e91-b98d-fe23e1fd0ded Received request: POST /jobs
+id='120' job_type='simulated' job_message='Hello'
+d4bad47a-0061-4d7d-88a8-f6182a4f2e57 Job not found: 1000
+aa044cb2-edb3-47b0-b549-37018fbca078 Received request: GET /jobs/09a043f0d-e629-4306-9400-b0c454569753 Job created successfully: job_id='566' job_type='simulated' job_message='Hello'
+b2cc30d1-88f1-4cde-ad05-027145755dea Received request: DELETE /jobs/002
+202fa646-c98c-4117-9691-398c47d937b6 Job created successfully: job_id='408' job_type='simulated' job_message='Hello'
+5f2eebea-ca28-4a16-bcc1-808267883aba Job created successfully: job_id='504' job_type='simulated' job_message='Hello'
+93008f37-c665-4e24-a8e2-e47171235d59 Job created successfully: job_id='558' job_type='simulated' job_message='Hello'
+5a29c80b-6426-498b-beb9-f1319650c003 Updated job: 001 with message: Updated by simulated user
+67c62330-a8c9-4e91-b98d-fe23e1fd0ded Job created successfully: job_id='841' job_type='simulated' job_message='Hello'
+f9f51b1e-629a-4dbf-adc8-f30b4062f0e2 Job not found: 002
+95c41722-a238-44d5-8810-0c96c953a95d Job not found: 002
+0749dc58-09d7-4e08-a468-1b85e0216c73 Job not found: 1000
+c6bfcb9d-0541-4ade-94bf-dfb50a2df093 Job created successfully: job_id='794' job_type='simulated' job_message='Hello'
+aa044cb2-edb3-47b0-b549-37018fbca078 Found job: 001
+b2cc30d1-88f1-4cde-ad05-027145755dea Job not found: 002
+29e0f5c5-88a9-4703-9204-a44bdcd08980 Received request: DELETE /jobs/002
+7f2f1292-5189-4624-89b4-b1715f477f19 Received request: PUT /jobs/002
+57df0f2c-137c-4cfe-acc2-e9032b597bcb Received request: POST /jobs
+b829c54d-cfc4-4faa-9ffd-d0f996962942 Received request: GET /jobs/001
+4481f3ed-594a-4911-97e4-435999c3ef58 Received request: GET /jobs
+b9e4f7b1-142f-4819-9ed2-6173a777cba7 Received request: GET /jobs/002
+9350fbad-7bc1-4396-b167-a2308e751bce Received request: GET /jobs/1000
+1362350b-88a7-4eac-8183-f13f57ae5718 Received request: GET /jobs
+72020925-f863-4795-9342-84925ee2aa71 Received request: DELETE /jobs/1000
+81c762a1-e966-41d6-98e8-dbbcfda161ca Received request: DELETE /jobs/002
+7f2f1292-5189-4624-89b4-b1715f477f19 Job not found: 002
+da8cfac5-4ada-4cb2-868d-61b57142ceb6 Received request: GET /jobs
+b829c54d-cfc4-4faa-9ffd-d0f996962942 Found job: 001
+bc7bbd26-6d7f-4646-b73d-9c267c8aa1e0 Received request: DELETE /jobs/002
+57df0f2c-137c-4cfe-acc2-e9032b597bcb Job created successfully: job_id='588' job_type='simulated' job_message='Hello'
+b9e4f7b1-142f-4819-9ed2-6173a777cba7 Job not found: 002
+29e0f5c5-88a9-4703-9204-a44bdcd08980 Job not found: 002
+9350fbad-7bc1-4396-b167-a2308e751bce Job not found: 1000
+72020925-f863-4795-9342-84925ee2aa71 Job not found: 1000
+81c762a1-e966-41d6-98e8-dbbcfda161ca Job not found: 002
+bc7bbd26-6d7f-4646-b73d-9c267c8aa1e0 Job not found: 002
+5ef50580-e885-4a13-8815-a4f9b2275a64 Received request: POST /jobs
+01c64b7c-561c-4a84-8137-130faf2ee20d Received request: POST /jobs
+a1ba16d9-b0e4-45c4-8dc3-61362a07e722 Received request: PUT /jobs/001
+5ef50580-e885-4a13-8815-a4f9b2275a64 Job created successfully: job_id='570' job_type='simulated' job_message='Hello'
+8ecb92c5-83e1-49d2-a811-80000dd8df6c Received request: PUT /jobs/002
+a1ba16d9-b0e4-45c4-8dc3-61362a07e722 Updated job: 001 with message: Updated by simulated user
+705aa3a3-3fd8-4362-b3d2-347e2f2f675c Received request: PUT /jobs/001
+e607339a-3b05-4ed0-b61f-0c859252d842 Received request: POST /jobs
+01c64b7c-561c-4a84-8137-130faf2ee20d Job created successfully: job_id='953' job_type='simulated' job_message='Hello'
+56cc039e-a940-4c6d-a253-b53d4a9e364e Received request: DELETE /jobs/002
+d1911bff-e151-4d44-a87b-db70f1c89469 Received request: GET /jobs/002
+
+0
+ec5dfb93-8271-4a5a-846e-4108be1d7471 Received request: GET /jobs
+fed86ce0-05d4-4370-9699-95384b32c504 Received request: DELETE /jobs/002
+ead190f9-049b-4499-b37b-d0f010ee4d26 Received request: GET /jobs/001
+81f48a4b-e3f7-4656-a9ec-efe0f702d247 Received request: DELETE /jobs/1000
+8dfaad55-664c-4bfc-996a-879fbd1da686 Received request: GET /jobs/002
+85f110c1-9447-4f55-a580-88a106493d9f Received request: DELETE /jobs/1000
+b90098d2-0c68-4837-b7ef-6cd9c9fab714 Received request: GET /jobs
+s/002
+b9fc8e44-ad94-4fb5-9e5b-c1abe277f80f Received request: GET /jobs
+39499b42-2602-451b-b264-68c62c18b1b7 Received request: GET /jobs/002
+5c8617d5-7313-4ca2-a2a8-523147c01dc5 Received request: GET /jobs
+4aa7dc81-59bb-4b79-b3aa-4b73296efc3f Received request: GET /jobs
+40940afe-0dbe-4cb6-a90e-c6722d6a0d48 Received request: GET /jobs/001
+0869a2d3-dd4e-47c6-9aa6-1f0df4708b12 Received request: GET /jobs
+a604ca2c-900c-4ab3-b07d-8eb3080ef46f Received request: DELETE /jobs/002
+0f4f1f5a-117d-462b-bfe4-52f26f21c2b7 Job created successfully: job_id='617' job_type='simulated' job_message='Hello'
+d1911bff-e151-4d44-a87b-db70f1c89469 Job not found: 002
+705aa3a3-3fd8-4362-b3d2-347e2f2f675c Updated job: 001 with message: Updated by simulated user
+88876aee-1957-4c1e-931b-823c03461c73 Received request: DELETE /jobs/002
+ead190f9-049b-4499-b37b-d0f010ee4d26 Found job: 001
+7f1ec00d-f9ec-4697-807c-797e7defe8d3 Job not found: 002
+df1bcc1c-dae0-4a9e-bdac-f9e0423a40cd Job not found: 002
+56cc039e-a940-4c6d-a253-b53d4a9e364e Job not found: 002
+94f571e3-4521-4f05-9bab-204e6fa43f2b Job not found: 1000
+07d21273-407a-465d-8022-9e207b2dbfb6 Job not found: 1000
+0dd3d4c7-8bb2-4e22-b5d3-aada30a11c20 Received request: GET /jobs/1000
+fed86ce0-05d4-4370-9699-95384b32c504 Job not found: 002
+cbc0ba2c-e11f-4aed-b853-7e4e7f340671 Job not found: 002
+e607339a-3b05-4ed0-b61f-0c859252d842 Job created successfully: job_id='296' job_type='simulated' job_message='Hello'
+a604ca2c-900c-4ab3-b07d-8eb3080ef46f Job not found: 002
+39499b42-2602-451b-b264-68c62c18b1b7 Job not found: 002
+85f110c1-9447-4f55-a580-88a106493d9f Job not found: 1000
+81f48a4b-e3f7-4656-a9ec-efe0f702d247 Job not found: 1000
+40940afe-0dbe-4cb6-a90e-c6722d6a0d48 Found job: 001
+5e617cf1-5e30-4477-b76b-e3eaf8fbc213 Job not found: 002
+88876aee-1957-4c1e-931b-823c03461c73 Job not found: 002
+7c94a76e-d900-457b-b36b-151db6d2cf9d Found job: 001
+0dd3d4c7-8bb2-4e22-b5d3-aada30a11c20 Job not found: 1000
+d99a9cdc-fc70-46bc-8927-a3ffa75d7440 Received request: POST /jobs
+d9127107-a79e-4239-aa05-5c649cf964f8 Received request: POST /jobs
+3b566af3-3fd5-4f2d-8ac9-ef0a66d374c0 Received request: PUT /jobs/1000
+158af0ed-4483-4405-8231-10e2cab4f85a Received request: PUT /jobs/1000
+5a206fca-a14a-45eb-be48-fc4181792dfa Received request: POST /jobs
+c3d1b139-f163-4eb1-b604-ce4f8b06bf6f Received request: POST /jobs
+d99a9cdc-fc70-46bc-8927-a3ffa75d7440 Job created successfully: job_id='317' job_type='simulated' job_message='Hello'
+53527720-2d83-4353-8bfb-91ba1651ff42 Received request: POST /jobs
+e82ebaef-44fc-45cd-9680-ead48641f279 Received request: PUT /jobs/1000
+ca421618-fe6f-46e4-ad9a-1abfe73cc579 Received request: PUT /jobs/1000
+dc837fae-89cc-447e-88bc-22a8dc8f6adf Received request: PUT /jobs/001
+dde1b195-50a1-4d18-9cbf-6c63e5ced678 Received request: POST /jobs
+2abdda7c-36f4-4268-a3dd-c5ad45851646 Received request: PUT /jobs/1000
+acace5b0-5df3-4482-9453-594d569ff304 Received request: POST /jobs
+3b566af3-3fd5-4f2d-8ac9-ef0a66d374c0 Job not found: 1000
+f180096a-e3e3-45ec-909e-a78a47f6859f Received request: PUT /jobs/001
+d9127107-a79e-4239-aa05-5c649cf964f8 Job created successfully: job_id='396' job_type='simulated' job_message='Hello'
+23783682-8902-4962-8331-054c4c5ef970 Received request: POST /jobs
+e82ebaef-44fc-45cd-9680-ead48641f279 Job not found: 1000
+5a206fca-a14a-45eb-be48-fc4181792dfa Job created successfully: job_id='594' job_type='simulated' job_message='Hello'
+dde1b195-50a1-4d18-9cbf-6c63e5ced678 Job created successfully: job_id='277' job_type='simulated' job_message='Hello'
+ca421618-fe6f-46e4-ad9a-1abfe73cc579 Job not found: 1000
+acace5b0-5df3-4482-9453-594d569ff304 Job created successfully: job_id='456' job_type='simulated' job_message='Hello'
+e56672bf-b4d1-4719-bd4d-a4c1f1d158c4 Job not found: 002
+f180096a-e3e3-45ec-909e-a78a47f6859f Updated job: 001 with message: Updated by simulated user
+23783682-8902-4962-8331-054c4c5ef970 Job created successfully: job_id='209' job_type='simulated' job_message='Hello'
+dc837fae-89cc-447e-88bc-22a8dc8f6adf Updated job: 001 with message: Updated by simulated user
+2abdda7c-36f4-4268-a3dd-c5ad45851646 Job not found: 1000
+6b6cd3cf-c088-4389-8f78-6d6b936f93d1 Received request: POST /jobs
+ce983e98-48c2-43a6-a654-685d0f7a7b8d Received request: POST /jobs
+f6f53563-b9fd-4bd7-8be4-3ec31e35273a Received request: GET /jobs
+c6c9740e-1f31-4982-b75a-b106f7334b7e Received request: DELETE /jobs/1000
+9119df24-e568-4fc3-94ae-f8d8b4e12089 Received request: GET /jobs
+6b6cd3cf-c088-4389-8f78-6d6b936f93d1 Job created successfully: job_id='744' job_type='simulated' job_message='Hello'
+405dea97-111a-43b5-a4f5-95d911b3f3aa Received request: DELETE /jobs/002
+c50732bd-5a28-4385-9a15-7b1a32bcf450 Received request: GET /jobs
+7a0f70ba-b142-4255-aeb1-a7a365c2bea2 Received request: GET /jobs
+c6c9740e-1f31-4982-b75a-b106f7334b7e Job not found: 1000
+ /jobs
+1027d694-08d5-416e-92c9-68f3a9b186fa Received request: DELETE /jobs/1000
+ce983e98-48c2-43a6-a654-685d0f7a7b8d Job created successfully: job_id='594' job_type='simulated' job_message='Hello'
+1027d694-08d5-416e-92c9-68f3a9b186fa Job not found: 1000
+405dea97-111a-43b5-a4f5-95d911b3f3aa Job not found: 002
+5490e9de-8271-4f2c-bc29-8cefba604825 Received request: PUT /jobs/002
+e7763b74-3749-4345-a1b8-54c389ab7954 Received request: POST /jobs
+c2ac0cd9-cfa6-42a6-a48b-7cf15a1bc246 Received request: POST /jobs
+e57c6275-7175-4adc-9231-be5c495bd6be Received request: PUT /jobs/002
+384de5f4-1873-49d0-90ea-43dd42232482 Received request: PUT /jobs/1000
+1b6c5a6b-06a3-40ed-ac6e-912876248a99 Received request: POST /jobs
+5490e9de-8271-4f2c-bc29-8cefba604825 Job not found: 002
+T /jobs/002
+04ac415f-650a-419c-9418-701bcaa19876 Received request: PUT /jobs/002
+
+ec2166b8-f3fb-4241-bf76-cc438ef3ce42 Received request: PUT /jobs/1000
+14b01431-8da2-4168-9bdb-add4b9ad3a4b Received request: GET /jobs/001
+95c90519-665d-4aef-a1d0-5247a8f23b7d Received request: GET /jobs
+s/002
+822a92e9-f72c-413c-8d92-248152ee86b8 Received request: GET /jobs/001
+5e3c8e1b-6d85-4e0d-9c93-8ad2e9bec60d Received request: DELETE /jobs/002
+e9a33889-e5ca-422c-b0f2-1df3af0c7f6b Received request: PUT /jobs/001
+1ad9cc9f-fc94-4a6e-8dd8-3a1112af0770 Received request: POST /jobs
+384de5f4-1873-49d0-90ea-43dd42232482 Job not found: 1000
+e59bf3aa-4380-4070-a9fd-8d7a6df092ba Job not found: 002
+14b01431-8da2-4168-9bdb-add4b9ad3a4b Found job: 001
+9fd29f16-c9e4-47f6-872d-c153c04fd7a9 Job not found: 002
+c2ac0cd9-cfa6-42a6-a48b-7cf15a1bc246 Job created successfully: jobfbda6513-f1a8-4695-baef-202016cd5efa Job not found: e7763b74-3749-4345-a1b8-54c389ab7954 Job created successfully: job_id='483' job_type='simulated' job_message='Hello'
+1b6c5a6b-06a3-40ed-ac6e-912876248a99 Job created successfully: job_id='928' job_type='simulated' job_message='Hello'
+e57c6275-7175-4adc-9231-be5c495bd6be Job not found: 002
+04ac415f-650a-419c-9418-701bcaa19876 Job not found: 002
+785a1151-2d3b-4cac-876b-b275736764b6 Received request: GET /jobs
+e9a33889-e5ca-422c-b0f2-1df3af0c7f6b Updated job: 001 with message: Updated by simulated user
+ec2166b8-f3fb-4241-bf76-cc438ef3ce42 Job not found: 1000
+5e3c8e1b-6d85-4e0d-9c93-8ad2e9bec60d Job not found: 002
+1ad9cc9f-fc94-4a6e-8dd8-3a1112af0770 Job created successfully: job_id='737' job_type='simulated' job_message='Hello'
+822a92e9-f72c-413c-8d92-248152ee86b8 Found job: 001
+ed10ab3c-cc0b-4f77-a009-86fc891de537 Received request: POST /jobs
+3e11a52e-52ea-47d5-90d9-6bd2089ac922 Received request: PUT /jobs/001
+df5f70fa-369a-470b-b48b-28fa976ef5ef Received request: POST /jobs
+8ae09b9a-deb5-4559-8194-662472de871f Received request: POST /jobs
+e680deae-f36a-40db-b6e7-5d0f88ccdf6d Received request: POST /jobs
+6bb1a0fe-4126-4e47-b1fa-255abe89bfc1 Received request: PUT /jobs/001
+9761983d-4e00-41ec-9f7c-d195ae0e00a0 Received request: DELETE /jobs/1000
+5e1dee65-bf55-4505-9964-3eb36f8c6338 Received request: PUT /jobs/1000
+4033947e-28e7-4c3b-a4d5-2e179d64123b Received request: POST /jobs
+00
+5acf94a9-2b5a-4acf-99e4-7f2fcd90bd2a Received request: DELETE /jobs/002
+ed10ab3c-cc0b-4f77-a009-86fc891de537 Job created successfully: job_id='393' job_type='simulated' job_message='Hello'
+b353ab9d-87a7-4b1c-9ed4-4e445fbbbad9 Received request: GET /jobs/1000
+5e1dee65-bf55-4505-9964-3eb36f8c6338 Job not found: 1000
+b6a36847-35e5-4b5d-835f-9dd03f4b0142 Received request: POST /jobs
+6bb1a0fe-4126-4e47-b1fa-255abe89bfc1 Updated job: 001 with message: Updated by simulated user
+8ae09b9a-deb5-4559-8194-662472de871f Job created successfully: job_id='476' job_type='simulated' job_message='Hello'
+3e11a52e-52ea-47d5-90d9-6bd2089ac922 Updated job: 001 with message: Updated by simulated user
+e680deae-f36a-40db-b6e7-5d0f88ccdf6d Job created successfully: job_id='197' job_type='simulated' job_message='Hello'
+9761983d-4e00-41ec-9f7c-d195ae0e00a0 Job not found: 1000
+99962667-c692-4d9b-a43b-62439285c613 Received request: GET /jobs
+4033947e-28e7-4c3b-a4d5-2e179d64123b Job created successfully: job_id='150' job_type='simulated' job_message='Hello'
+df5f70fa-369a-470b-b48b-28fa976ef5ef Job created successfully: job_id='492' job_type='simulated' job_message='Hello'
+e89d8bc1-6edb-420b-a66f-4630b333e04d Job not found: 1000
+5acf94a9-2b5a-4acf-99e4-7f2fcd90bd2a Job not found: 002
+b353ab9d-87a7-4b1c-9ed4-4e445fbbbad9 Job not found: 1000
+b6a36847-35e5-4b5d-835f-9dd03f4b0142 Job created successfully: job_id='877' job_type='simulated' job_message='Hello'
+0cc33d4b-ed19-41d9-8f87-d8b107c88c6e Received request: POST /jobs
+2fe89e4e-3514-41bb-abc0-36d689626bf2 Received request: POST /jobs
+2227d891-98bc-4449-8986-f30f10eb10bf Received request: POST /jobs
+6bcf8252-1106-4fd7-b5cb-0bb7ff1c7dc2 Received request: PUT /jobs/1000
+c33b1d6e-e596-40cf-b989-6a4d97be0daa Received request: PUT /jobs/1000
+52af9938-46a6-4b95-9595-e9203330de58 Received request: POST /jobs
+0cc33d4b-ed19-41d9-8f87-d8b107c88c6e Job created successfully: job_id='949' job_type='simulated' job_message='Hello'
+68f0ef27-2046-4cb4-a51b-e9af00332290 Received request: DELETE /jobs/1000
+1faaf302-8a4c-44d5-bfa7-f52656f904dd Received request: PUT /jobs/002
+550d8de3-61b1-4074-adeb-1b6157c24a22 Received request: GET /jobs/001
+455158bd-6f12-451b-90dd-88e3047da782 Received request: GET /jobs
+b197aab1-e078-4225-95e2-00147d6eece5 Received request: DELETE /jobs/1000
+1dc07cbd-8445-45a2-a48a-8ca6161622fd Received request: GET /jobs
+2fe89e4e-3514-41bb-abc0-36d689626bf2 Job created successfully: job_id='832' job_type='simulated' job_message='Hello'
+5766c15d-f31e-4186-b1d6-881089eea70c Received request: GET /jobs/002
+b54cc2e4-1d26-459a-bc85-c7a705aef4ee Received request: GET /jobs
+c33b1d6e-e596-40cf-b989-6a4d97be0daa Job not found: 1000
+2227d891-98bc-4449-8986-f30f10eb10bf Job created successfully: job_id='671' job_type='simulated' job_message='Hello'
+1faaf302-8a4c-44d5-bfa7-f52656f904dd Job not found: 002
+cba0430c-39a8-4c90-aa91-276c48181b9b Received request: DELETE /jobs/1000
+3ea0d955-2494-42c3-9b63-f03355e24964 Received request: GET /jobs/002
+b197aab1-e078-4225-95e2-00147d6eece5 Job not found: 1000
+bbd8da2f-53e3-4e8b-8150-77e70cf5c057 Received request: DELETE /jobs/002
+68f0ef27-2046-4cb4-a51b-e9af00332290 Job not found: 1000
+7709fd3b-5803-4d42-94c7-f4a1d75bf809 Received request: GET /jobs
+b57d62ab-8e5a-4511-aa69-e5e8926784ca Received request: GET /jobs
+0aaf3c58-330a-44e6-8f8a-1d6d4267b2ac Received request: GET /jobs
+s/002
+6bcf8252-1106-4fd7-b5cb-0bb7ff1c7dc2 Job not found: 1000
+3ea0d955-2494-42c3-9b63-f03355e24964 Job not found: 002
+5766c15d-f31e-4186-b1d6-881089eea70c Job not found: 002
+0045249e-d782-4535-95ef-2497ddfe1ec5 Received request: GET /jobs/001
+82161f44-c538-4eb5-8cc2-9e9e41386cf8 Received request: DELETE /jobs/002
+2abef9c2-3ff2-473a-8c1d-4a72e8922f00 Received request: DELETE /jobs/002
+52af9938-46a6-4b95-9595-e9203330de58 Job created successfully: job_id='734' job_type='simulated' job_message='Hello'
+550d8de3-61b1-4074-adeb-1b6157c24a22 Found job: 001
+cba0430c-39a8-4c90-aa91-276c48181b9b Job not found: 1000
+2abef9c2-3ff2-473a-8c1d-4a72e8922f00 Job not found: 002
+0045249e-d782-4535-95ef-2497ddfe1ec5 Found job: 001
+6839574f-56a4-4bab-b0b1-14b817256081 Job not found: 002
+82161f44-c538-4eb5-8cc2-9e9e41386cf8 Job not found: 002
+44110a60-7a91-42bd-94fc-4669c0956683 Received request: POST /jobs
+240c62a2-ae91-4e3a-a2e2-0c89b70854fa Received request: PUT /jobs/002
+14e9be01-b81c-48e0-a037-ef68f520d844 Received request: POST /jobs
+c89dbaef-7542-4cb4-a29f-4acbd18ce138 Received request: POST /jobs
+c4138917-5d9a-48a4-91d1-fcb705af6674 Received request: POST /jobs
+f1fce773-ae66-4afc-853f-b340584d593e Received request: DELETE /jobs/002
+519530fb-0a81-4acd-9123-3fd95d7e12a6 Received request: POST /jobs
+240c62a2-ae91-4e3a-a2e2-0c89b70854fa Job not found: 002
+6e2e8946-b7ec-485a-b100-fd360a7ab746 Received request: GET /jobs
+3a6408d1-9288-433f-8cff-8b1ff1f04f4d Received request: POST /jobs
+1c10551b-24f5-4d6d-a902-d7d63d8a5bf1 Received request: POST /jobs
+id='916' job_type='simulated' job_message='Hello'
+fda69d85-c120-48d0-826b-d929fbc52b75 Received request: GET /jobs/001
+b28dcdbd-a2ac-48a3-b2b6-eca83feebfa3 Received request: POST /jobs
+0fff66b8-cd09-403e-8977-3c39090daf1f Received request: POST /jobs
+529039d8-9f04-4b2d-beee-83b06e7e1967 Received request: POST /jobs
+3a6408d1-9288-433f-8cff-8b1ff1f04f4d Job created successfully: job_id='403' job_type='simulated' job_message='Hello'
+c89dbaef-7542-4cb4-a29f-4acbd18ce138 Job created successfully: job_id='784' job_type='simulated' job_message='Hello'
+fda69d85-c120-48d0-826b-d929fbc52b75 Found job: 001
+b28dcdbd-a2ac-48a3-b2b6-eca83feebfa3 Job created successfully: job_id='166' job_type='simulated' job_message='Hello'
+d8eaf4bf-d4b3-4f70-b273-44bd67983820 Received request: PUT /jobs/002
+93d05f0a-60de-459c-8fde-64a50464a6df Received request: POST /jobs
+519530fb-0a81-4acd-9123-3fd95d7e12a6 Job created successfully: job_id='107' job_type='simulated' job_message='Hello'
+c4f247bc-6f33-4d55-8a0b-2dcbf9310ef4 Received request: POST /jobs
+1c10551b-24f5-4d6d-a902-d7d63d8a5bf1 Job created successfully: job_id='280' job_type='simulated' job_message='Hello'
+9f2a0f1f-6546-4af9-af71-4bfb93c8381d Received request: GET /jobs
+b65139ee-9faf-49f0-b492-00ef5e9a6620 Received request: GET /jobs
+4b89287b-9620-413b-8a3d-7e4c1b835a1a Received request: GET /jobs/001
+0e5ef599-fa17-4a8e-8987-4364a3673733 Received request: DELETE /jobs/002
+e44382ab-5704-4a78-be98-b46a9d7ca0a6 Received request: DELETE /jobs/002
+f1fce773-ae66-4afc-853f-b340584d593e Job not found: 002
+ea9df900-abce-4cf9-a842-f304e9514ed7 Received request: DELETE /jobs/1000
+' job_type='simulated' job_message='Hello'
+25e1bd59-d4fd-4305-bafe-022f06babcf6 Received request: GET /jobs
+14e9be01-b81c-48e0-a037-ef68f520d844 Job created successfully: job_id='918' job_type='simulated' job_message='Hello'
+c0b5466b-7fa2-4f12-9a3a-3d248e729f13 Received request: POST /jobs
+4b89287b-9620-413b-8a3d-7e4c1b835a1a Found job: 001
+0fff66b8-cd09-403e-8977-3c39090daf1f Job created successfully: job_id='470' job_type='simulated' job_message='Hello'
+d444dfc9-4840-48f5-a297-c633f85cd241 Received request: GET /jobs/001
+e44382ab-5704-4a78-be98-b46a9d7ca0a6 Job not found: 002
+c4f247bc-6f33-4d55-8a0b-2dcbf9310ef4 Job created successfully: job_id='860' job_type='simulated' job_message='Hello'
+d8eaf4bf-d4b3-4f70-b273-44bd67983820 Job not found: 002
+c0b5466b-7fa2-4f12-9a3a-3d248e729f13 Job created successfully: job_id='715' job_type='simulated' job_message='Hello'
+0e5ef599-fa17-4a8e-8987-4364a3673733 Job not found: 002
+93d05f0a-60de-459c-8fde-64a50464a6df Job created successfully: job_id='978' job_type='simulated' job_message='Hello'
+529039d8-9f04-4b2d-beee-83b06e7e1967 Job created successfully: job_id='737' job_type='simulated' job_message='Hello'
+ea9df900-abce-4cf9-a842-f304e9514ed7 Job not found: 1000
+d444dfc9-4840-48f5-a297-c633f85cd241 Found job: 001
+921308e4-4175-4b63-85e4-def465525518 Received request: PUT /jobs/002
+32a460c7-f74d-47eb-bf13-77ae6695cbe2 Received request: POST /jobs
+1
+921308e4-4175-4b63-85e4-def465525518 Job not found: 002
+2751030d-157a-46d9-bc15-9f1a0f2e93ed Received request: GET /jobs
+9c1890f4-8cd0-42d0-8a5b-09cb6ee199e6 Received request: POST /jobs
+4cbf2a5d-9aaa-4910-a81b-7953b41a7e99 Received request: PUT /jobs/1000
+10083c72-7c98-44aa-a760-e3808596b71f Received request: DELETE /jobs/1000
+dcfb1416-a5bc-4b76-955a-7d6444429057 Received request: GET /jobs/001
+5fadc9fd-07f5-40ad-9c7a-d20fdcc181a4 Updated job: 001 with message: Updated by simulated user
+4cbf2a5d-9aaa-4910-a81b-7953b41a7e99 Job not found: 1000
+9c1890f4-8cd0-42d0-8a5b-09cb6ee199e6 Job created successfully: job_id='866' job_type='simulated' job_message='Hello'
+e0f08397-d480-4611-8183-aa7b4b9d7a81 Received request: GET /jobs
+_id='504' job_type='simulated' job_message='Hello'
+dcfb1416-a5bc-4b76-955a-7d6444429057 Found job: 001
+93cebf86-676a-4610-8d3d-e29f92f27069 Received request: POST /jobs
+1e77d9f3-e62d-4cf8-91a2-1601722af082 Received request: POST /jobs
+19e350f5-d464-47b1-9ede-7a27c5877420 Received request: PUT /jobs/1000
+08afd299-cf24-438a-9abc-1b4784d4dedd Received request: PUT /jobs/002
+99786fac-9494-408f-adc2-d9795918efb7 Received request: DELETE /jobs/002
+27452ac9-eab3-4bb7-97f2-c7e4dd30dc92 Received request: DELETE /jobs/002
+abc6294a-fc92-40f4-9864-0a2d984c1dc9 Received request: GET /jobs/002
+1fe4f90d-6487-466a-b3bf-5ebd64205c36 Received request: GET /jobs/001
+96ae0ea9-dfab-4b45-9300-c54609109f43 Received request: DELETE /jobs/1000
+029ac66f-5199-4df3-a0ff-b219ed0554d4 Received request: GET /jobs/1000
+0
+71f3651f-4d4c-4b2e-aa91-12f166f43b91 Received request: GET /jobs
+93cebf86-676a-4610-8d3d-e29f92f27069 Job created successfully: job_id='585' job_type='simulated' job_message='Hello'
+1e77d9f3-e62d-4cf8-91a2-1601722af082 Job created successfully: job_id='849' job_type='simulated' job_message='Hello'
+99786fac-9494-408f-adc2-d9795918efb7 Job not found: 002
+19e350f5-d464-47b1-9ede-7a27c5877420 Job not found: 1000
+08afd299-cf24-438a-9abc-1b4784d4dedd Job not found: 002
+27452ac9-eab3-4bb7-97f2-c7e4dd30dc92 Job not found: 002
+1fe4f90d-6487-466a-b3bf-5ebd64205c36 Found job: 001
+0a4da4d6-68ae-47c9-b649-9998f29a1b1d Found job: 001
+96ae0ea9-dfab-4b45-9300-c54609109f43 Job not found: 1000
+4e34b76b-e245-4a6e-ab88-c41a8f5285df Received request: GET /jobs
+f168c04a-039c-478a-9c6b-e7ac1fdee525 Job not found: 1000
+029ac66f-5199-4df3-a0ff-b219ed0554d4 Job not found: 1000
+ba846267-cf7b-4316-b2bd-2002a935dea8 Job not found: 1000
+0ff79bbf-8454-4018-9518-cd80e4c623fa Received request: POST /jobs
+1cbacd00-ee2e-4477-86d8-f5710a045a51 Received request: PUT /jobs/1000
+258fec76-8446-4f01-a4d2-327f38928945 Received request: POST /jobs
+fc6d26df-e7ad-4222-8e00-25fb16034b0e Received request: PUT /jobs/002
+9b71b149-73e7-4d2d-a541-a5b930ae758c Received request: PUT /jobs/001
+89a49d08-4a3e-45f8-b287-3b0b05981df4 Received request: PUT /jobs/002
+b6f4b152-847e-4f8a-bd9f-603a72832954 Received request: GET /jobs/001
+882f4000-ab56-48e4-b78e-df45645adaa6 Received request: POST /jobs
+cd109871-f7d3-4a0f-bdc4-5590337eaf67 Received request: GET /jobs/001
+db48a415-023c-4d7d-bfd2-012586f5ee90 Received request: GET /jobs
+0ff79bbf-8454-4018-9518-cd80e4c623fa Job created successfully: job_id='596' job_type='simulated' job_message='Hello'
+b14f9ae4-4d04-41c7-a170-b4291bc624ff Received request: DELETE /jobs/002
+9583461c-ce2e-4eea-a48f-6375d1115e43 Received request: GET /jobs/002
+2e307be0-009b-49e4-889d-b743677d356b Received request: GET /jobs
+1cbacd00-ee2e-4477-86d8-f5710a045a51 Job not found: 1000
+9b71b149-73e7-4d2d-a541-a5b930ae758c Updated job: 001 with message: Updated by simulated user
+882f4000-ab56-48e4-b78e-df45645adaa6 Job created successfully: job_id='900' job_type='simulated' job_message='Hello'
+b6f4b152-847e-4f8a-bd9f-603a72832954 Found job: 001
+258fec76-8446-4f01-a4d2-327f38928945 Job created successfully: job_id='564' job_type='simulated' job_message='Hello'
+787573a5-8224-4b27-817d-c99137a49cd6 Received request: GET /jobs/1000
+e14fa043-1201-498d-8ae2-799d97fb6e35 Received request: DELETE /jobs/002
+8fc6ab4b-803c-4cc6-9c96-965b27b5a3ec Received request: DELETE /jobs/1000
+fc6d26df-e7ad-4222-8e00-25fb16034b0e Job not found: 002
+6139f92d-d093-4e58-a312-713d7ae83638 Job not found: 1000
+cd109871-f7d3-4a0f-bdc4-5590337eaf67 Found job: 001
+b14f9ae4-4d04-41c7-a170-b4291bc624ff Job not found: 002
+9583461c-ce2e-4eea-a48f-6375d1115e43 Job not found: 002
+787573a5-8224-4b27-817d-c99137a49cd6 Job not found: 1000
+e14fa043-1201-498d-8ae2-799d97fb6e35 Job not found: 002
+8fc6ab4b-803c-4cc6-9c96-965b27b5a3ec Job not found: 1000
+e6dd56c3-88db-4027-9ce4-2eac43638b6d Received request: POST /jobs
+a68b663d-80c8-4fdd-8303-aad21d8f2c1a Received request: POST /jobs
+11c68059-5365-4086-9eb7-d171740f60cb Received request: PUT /jobs/001
+ce394341-72e0-49bd-8ca6-ad093f5ae8dc Received request: POST /jobs
+f41154af-dacc-40a6-a35b-1b6b553c262a Received request: PUT /jobs/1000
+f5f245b8-3775-45ff-800c-509f35c3e59e Received request: DELETE /jobs/002
+9f0fdd45-ee0b-41a5-947c-419281122352 Received request: GET /jobs
+2d718669-c3a2-4af9-bfb5-91b76b5d26e6 Received request: POST /jobs
+639d2833-08a3-47e3-9dca-7c1a632c2750 Received request: GET /jobs/1000
+f2779488-6c4f-4a08-a234-0e9ab82ec9ef Received request: GET /jobs
+e6dd56c3-88db-4027-9ce4-2eac43638b6d Job created successfully: job_id='977' job_type='simulated' job_message='Hello'
+63a380b5-b098-4a49-8f6b-9f9c742c4534 Received request: GET /jobs/002
+e843f78a-441d-43de-9c43-e70b929757f2 Received request: GET /jobs/001
+4f5e8817-e844-436a-920f-29beb546f3b5 Received request: DELETE /jobs/1000
+41986730-85bb-4f56-91f9-65e7b8d00907 Received request: GET /jobs/001
+a68b663d-80c8-4fdd-8303-aad21d8f2c1a Job created successfully: job_id='649' job_type='simulated' job_message='Hello'
+be3cfae1-0624-45b5-831b-73cfe5169f06 Received request: DELETE /jobs/002
+c10ded98-0d5c-455c-b9a6-8bee3f8eeaed Received request: GET /jobs/002
+d1738ca1-ea5a-41f1-a072-45594249e7aa Received request: DEL63a380b5-b098-4af5f245b8-3775-45ff-800c-509f35c3e59e Job not found: 002
+1314bebf-e991-493c-b6db-0b178e03c5d6 Received request: GET /jobs
+11c68059-5365-4086-9eb7-d171740f60cb Updated job: 001 with message: Updated by simulated user
+ce394341-72e0-49bd-8ca6-ad093f5ae8dc Job created successfully: job_id='846' job_type='simulated' job_message='Hello'
+42efcd4c-3005-48c0-b383-3600357ae152 Received request: GET /jobs
+f41154af-dacc-40a6-a35b-1b6b553c262a Job not found: 1000
+e843f78a-441d-43de-9c43-e70b929757f2 Found job: 001
+2d718669-c3a2-4af9-bfb5-91b76b5d26e6 Job created successfully: job_id='258' job_type='simulated' job_message='Hello'
+c10ded98-0d5c-455c-b9a6-8bee3f8eeaed Job not found: 002
+4f5e8817-e844-436a-920f-29beb546f3b5 Job not found: 1000
+5c792bb1-819b-49d8-9101-f1469a64f0b9 Received request: DELETE /jobs/002
+be3cfae1-0624-45b5-831b-73cfe5169f06 Job not found: 002
+d1738ca1-ea5a-41f1-a072-45594249e7aa Job not found: 1000
+41986730-85bb-4f56-91f9-65e7b8d00907 Found job: 001
+5c792bb1-819b-49d8-9101-f1469a64f0b9 Job not found: 002
+94e86509-af9c-4f97-86e4-4f0bfb6a9dad Received request: PUT /jobs/002
+44f8dbc1-b332-40ff-b0aa-c4ea26a99987 Received request: PUT /jobs/1000
+c8dad411-2867-48bf-bdcb-73d77627ccba Received request: PUT /jobs/002
+b56162b3-a981-47a5-a16b-fcb675631ad6 Received request: PUT /jobs/1000
+11554adb-4abd-4539-adad-f2e0857b33da Received request: POST /jobs
+51ec1dde-2a3f-4d3b-9742-64b156c22232 Received request: PUT /jobs/002
+b317d3a2-7527-4adf-9435-4309d5a9397d Received request: POST /jobs
+03be898d-88d3-4d47-8a5c-e58df49a3c05 Received request: GET /jobs/1000
+e8a4f180-2854-4bd5-8695-b6f22640e7eb Received request: GET /jobs
+1dfc0073-29dc-47cc-892b-5de4bb8e7bdf Received request: PUT /jobs/001
+251b2def-55f6-44ff-bfea-9a9b6201f694 Received request: DELETE /jobs/1000
+b2bba0b8-a320-4c6b-bd4b-437239fb4957 Received request: DELETE /jobs/1000
+e4cecadf-9b0b-4bdd-8664-97e459971da9 Received request: GET /jobs
+d08e9ed2-5ae2-4708-85e4-caa4ab89247b Received request: GET /jobs
+2b2c7fe3-ef9c-4bb3-81fd-3e0ef29f4ffc Received request: GET /jobs/002
+5af2637b-b550-4f7d-87e2-cbb6f953b53d Received request: GET /jobs
+9110135f-e9cc-4c90-83fc-c49b409a57fc Received request: GET /jobs
+11554adb-4abd-4539-adad-f2e0857b33da Job created successfully: job_id='168' job_type='simulated' job_message='Hello'
+f20f945f-9726-4082-a800-168d2ac754f6 Received request: DELETE /jobs/1000
+ccd34eeb-ede8-4060-b082-c1a1e51bf996 Received request: GET /jobs
+51ec1dde-2a3f-4d3b-9742-64b156c22232 Job not found: 002
+
+9dd576bd-2cfc-44c6-acb7-5ddec4ad040d Received request: PUT /jobs/001
+26d39f30-e294-453a-8439-c261cd5e0add Received request: DELETE /jobs/1000
+1dfc0073-29dc-47cc-892b-5de4bb8e7bdf Updated job: 001 with message: Updated by simulated user
+b317d3a2-7527-4adf-9435-4309d5a9397d Job created successfully: job_id='300' job_type='simulated' job_message='Hello'
+09e7bdca-12f9-49f2-a60a-a280901db1c3 Received request: DELETE /jobs/002
+03be898d-88d3-4d47-8a5c-e58df49a3c05 Job not found: 1000
+94e86509-af9c-4f97-86e4-4f0bfb6a9dad Job not found: 002
+44f8dbc1-b332-40ff-b0aa-c4ea26a99987 Job not found: 1000
+b2bba0b8-a320-4c6b-bd4b-437239fb4957 Job not found: 1000
+251b2def-55f6-44ff-bfea-9a9b6201f694 Job not found: 1000
+2b2c7fe3-ef9c-4bb3-81fd-3e0ef29f4ffc Job not found: 002
+26d39f30-e294-453a-8439-c261cd5e0add Job not found: 1000
+c8dad411-2867-48bf-bdcb-73d77627ccba Job not found: 002
+9dd576bd-2cfc-44c6-acb7-5ddec4ad040d Updated job: 001 with message: Updated by simulated user
+09e7bdca-12f9-49f2-a60a-a280901db1c3 Job not found: 002
+92ba52eb-3129-4416-8d07-2a4863ab5410 Received request: GET /jobs
+f20f945f-9726-4082-a800-168d2ac754f6 Job not found: 1000
+ec13a4de-e3a9-4c18-8539-01b153fec45d Received request: POST /jobs
+654f823d-e0bb-40c3-8d21-9f7da0f4cf7d Received request: POST /jobs
+d1839995-de39-4d3c-adc9-9795681273e7 Received request: PUT /jobs/001
+180ff771-3db0-4d9b-b6b1-e9215b163020 Received request: PUT /jobs/002
+1951cb29-7ee1-4279-a32b-525aa5c13927 Received request: PUT /jobs/002
+c6a4ea8a-d04a-461a-9604-35feeb277eef Received request: POST /jobs
+1
+654f823d-e0bb-40c3-8d21-9f7da0f4cf7d Job created successfully: job_id='928' job_type='simulated' job_message='Hello'
+d1839995-de39-4d3c-adc9-9795681273e7 Updated job: 001 with message: Updated by simulated user
+ec13a4de-e3a9-4c18-8539-01b153fec45d Job created successfully: job_id='390' job_type='simulated' job_message='Hello'
+89ccf5e0-648b-488b-aec2-00879b9edbf4 Received request: GET /jobs
+4c2cf979-e03f-4d1d-9b88-728b959ae44d Received request: GET /jobs
+97f654cf-d723-48fc-a30b-ee04339f9200 Received request: POST /jobs
+ Updated by simulated user
+e482d959-adca-4a13-abf6-af5656ead1b8 Received request: DELETE /jobs/002
+fb636ca6-d7b4-4715-ac85-b97f9becdc82 Updated job: 001 with message: Updated by simulated user
+8f29317c-427d-47af-a3f3-ee6d03f6e454 Received request: POST /jobs
+180ff771-3db0-4d9b-b6b1-e9215b163020 Job not found: 002
+1951cb29-7ee1-4279-a32b-525aa5c13927 Job not found: 002
+ully: job_id='819' job_type='simulated' job_message='Hello'
+063dac49-4cd0-4522-9190-fd410d4e5982 Updated job: 001 with message: Updated by simulated user
+e482d959-adca-4a13-abf6-af5656ead1b8 Job not found: 002
+0394684d-b699-4c5f-8001-8a503645e5b1 Job not found: 002
+97f654cf-d723-48fc-a30b-ee04339f9200 Job created successfully: job_id='666' job_type='simulated' job_message='Hello'
+8f29317c-427d-47af-a3f3-ee6d03f6e454 Job created successfully: job_id='195' job_type='simulated' job_message='Hello'
+1a833551-14c4-4bdf-a02b-96dfa98d9ec5 Job not found: 1000
+12c3bc86-0d07-4de0-8fcc-6dc3275d4189 Received request: PUT /jobs/1000
+dcef58f0-d4ba-4b59-ba1b-312edb18ec2d Received request: PUT /jobs/001
+67773db0-0d08-432d-b084-21d9bae0baa6 Received request: PUT /jobs/002
+8ca10267-469c-4ace-b8ff-01665dc378e8 Received request: GET /jobs
+861ea286-4733-4d4c-9af9-b4f7d4072000 Received request: POST /jobs
+c6d5cb9c-1e37-4328-9357-9d05eeaaed4d Received request: GET /jobs/001
+83fea128-cc23-4425-90eb-9d8b23c3221c Received request: PUT /jobs/1000
+e4a5d6d5-21c2-4f42-a443-50a02cc719a5 Received request: GET /jobs/001
+12c3bc86-0d07-4de0-8fcc-6dc3275d4189 Job not found: 1000
+c6d5cb9c-1e37-4328-9357-9d05eeaaed4d Found job: 001
+004ea862-6a28-483d-a97a-062ab6209f5c Received request: GET /jobs/1000
+8a1e02de-8f59-426a-bdb8-11910277b8fa Received request: GET /jobs
+861ea286-4733-4d4c-9af9-b4f7d4072000 Job created successfully: job_id='868' job_type='simulated' job_message='Hello'
+501a4586-dbf7-40c5-8ab9-194a56c0a7d9 Received request: DELETE /jobs/002
+b02678ef-4b72-4f32-8cbc-6fee64481900 Received request: GET /jobs/1000
+83fea128-cc23-4425-90eb-9d8b23c3221c Job not found: 1000
+67773db0-0d08-432d-b084-21d9bae0baa6 Job not found: 002
+e4a5d6d5-21c2-4f42-a443-50a02cc719a5 Found job: 001
+: DELETE /jobs/1000
+b7549ab2-4d40-438d-8e6f-675c9d575865 Received request: GET /jobs
+dcef58f0-d4ba-4b59-ba1b-312edb18ec2d Updated job: 001 with message: Updated by simulated user
+004ea862-6a28-483d-a97a-062ab6209f5c Job not found: 1000
+501a4586-dbf7-40c5-8ab9-194a56c0a7d9 Job not found: 002
+b02678ef-4b72-4f32-8cbc-6fee64481900 Job not found: 1000
+7633d1e2-aecb-476b-8e90-f30b67159714 Job not found: 1000
+2ebb8410-795b-4347-9d57-c6e60da0df73 Received request: PUT /jobs/1000
+8a1860b2-f404-4f8b-8ffc-a7dcea6d2ece Received request: POST /jobs
+7af78391-0239-4497-85fc-aa7de8595c88 Received request: POST /jobs
+95b64ca2-f89f-4bb8-b790-d6c6c8a749ad Received request: POST /jobs
+8dbcc1c8-5f56-493f-9301-726aa93736ec Received request: POST /jobs
+1960913b-aa81-4c0d-aa41-79dbd1b72b50 Received request: DELETE /jobs/1000
+349607af-9b0a-4a20-9050-892e4511f0d5 Received request: GET /jobs/002
+e5bf3aa5-1ca3-49d5-98d1-7d720d87d7ad Received request: DELETE /jobs/002
+53ce517c-c803-4e47-a880-95dfe4bba9d2 Received request: GET /jobs/1000
+8a1860b2-f404-4f8b-8ffc-a7dcea6d2ece Job created successfully: job_id='133' job_type='simulated' job_message='Hello'
+2ebb8410-795b-4347-9d57-c6e60da0df73 Job not found: 1000
+16dc9220-80b9-4d70-93e4-86401bdd08b0 Received request: GET /jobs
+69818bf9-c97e-446f-a394-2a1282ff35dc Received request: GET /jobs
+352d51cb-3954-4d4f-9551-3b11dbcf52eb Received request: GET /jobs/1000
+349607af-9b0a-4a20-9050-892e4511f0d5 Job not found: 002
+2fbeff33-14d3-4077-a253-15696829e00d Received request: DELETE /jobs/002
+aba5bbb6-285d-4140-b572-7ec02fe886cb Job created successfully: job_id='559' job_type='simulated' job_message='Hello'
+64184dde-081e-4166-9594-31865a4fdd0d Received request: DELETE /jobs/1000
+8dbcc1c8-5f56-493f-9301-726aa93736ec Job created successfully: job_id='377' job_type='simulated' job_message='Hello'
+93c2eee4-f7f8-4e25-8ce8-0477b6569601 Received request: GET /jobs/001
+1960913b-aa81-4c0d-aa41-79dbd1b72b50 Job not found: 1000
+e5bf3aa5-1ca3-49d5-98d1-7d720d87d7ad Job not found: 002
+53ce517c-c803-4e47-a880-95dfe4bba9d2 Job not found: 1000
+95b64ca2-f89f-4bb8-b790-d6c6c8a749ad Job created successfully: job_id='189' job_type='simulated' job_message='Hello'
+ee57636d-bd62-480d-a927-3253eee4f19c Found job: 001
+7af78391-0239-4497-85fc-aa7de8595c88 Job created successfully: job_id='983' job_type='simulated' job_message='Hello'
+2fbeff33-14d3-4077-a253-15696829e00d Job not found: 002
+352d51cb-3954-4d4f-9551-3b11dbcf52eb Job not found: 1000
+93c2eee4-f7f8-4e25-8ce8-0477b6569601 Found job: 001
+64184dde-081e-4166-9594-31865a4fdd0d Job not found: 1000
+7ca7f967-e229-42f1-a2fb-3dd0e9f0e155 Received request: PUT /jobs/1000
+32c8ea73-3b64-4b2b-a9c7-d21a4597eaf1 Received request: PUT /jobs/002
+f33e68ea-86b0-489b-9539-c496145eb3d4 Received request: DELETE /jobs/002
+c03833c2-d833-40b6-ae00-1aef0a4f2814 Received request: PUT /jobs/001
+00
+d8c36f4c-bfa6-43a4-8a29-8b82594ce242 Received request: POST /jobs
+2
+ee0d9aa8-bb30-470f-90a7-bbacad97b006 Received request: GET /jobs/001
+b773490b-cb87-4416-bc74-75695dee403c Received request: GET /jobs
+108fa145-816e-4277-8ba1-a7c3f6b2de9a Received request: GET /jobs
+32c8ea73-3b64-4b2b-a9c7-d21a4597eaf1 Job not found: 002
+b5f5887c-023d-4a71-84ec-3fbca05a46d5 Received request: POST /jobs
+2b102bca-f4f9-4719-a376-e453bf504a42 Received request: GET /jobs
+d8c36f4c-bfa6-43a4-8a29-8b82594ce242 Job created successfully: job_id='852' job_type='simulated' job_message='Hello'
+7ca7f967-e229-42f1-a2fb-3dd0e9f0e155 Job not found: 1000
+9afc2ea3-8752-47a1-9f7e-6c1db3e59103 Received request: DELETE /jobs/002
+2ab377ec-229f-4291-840a-dbe8e5cc927c Received request: GET /jobs
+0ac101fa-0590-48ca-a917-011bf947bc32 Job not found: 1000
+c17cd3db-dacf-41fe-a735-4a9ff0bbc327 Received request: GET /jobs/001
+c03833c2-d833-40b6-ae00-1aef0a4f2814 Updated job: 001 with message: Updated by simulated user
+ad77fef9-83f3-4dde-b759-4b8e68d0b041 Job not found: 002
+ee0d9aa8-bb30-470f-90a7-bbacad97b006 Found job: 001
+f33e68ea-86b0-489b-9539-c496145eb3d4 Job not found: 002
+5725d47f-df78-4f0b-968d-95acaa607d1c Job not found: 002
+b5f5887c-023d-4a71-84ec-3fbca05a46d5 Job created successfully: job_id='588' job_type='simulated' job_message='Hello'
+c17cd3db-dacf-41fe-a735-4a9ff0bbc327 Found job: 001
+bba36eed-9ca8-4f49-a837-e56c2cc97aaa Job not found: 002
+a5ee3738-5962-430e-88a1-5390e58b766f Received request: POST /jobs
+e4c0b95d-0e57-4d91-9f49-48706f4877c3 Received request: POST /jobs
+78d623cd-f79b-4257-a551-0821df21eb69 Received request: PUT /jobs/1000
+9226ec33-abaf-40f1-9d83-10ebe61914ff Received request: POST /jobs
+a5ee3738-5962-430e-88a1-5390e58b766f Job created successfully: job_id='759' job_type='simulated' job_message='Hello'
+e4c0b95d-0e57-4d91-9f49-48706f4877c3 Job created successfully: job_id='897' job_type='simulated' job_message='Hello'
+d58b1628-e1b5-45b1-bc37-6261727b7585 Received request: PUT /jobs/1000
+7f64df52-e863-4e47-9410-f8efcf57d03b Received request: POST /jobs
+9ffcbbae-fa33-4272-96d9-82f4239ef6d4 Received request: PUT /jobs/001
+fdc28611-5456-4fc4-bbd5-1e5e3337eeaa Received request: DELETE /jobs/1000
+d6667f2e-fb5a-433f-8fb4-2674476aea35 Received request: PUT /jobs/002
+87efd9f5-0adb-4bd7-9aba-0bcd991575ca Received request: GET /jobs
+9226ec33-abaf-40f1-9d83-10ebe61914ff Job created successfully: job_id='837' job_type='simulated' job_message='Hello'
+17bc3939-1db0-4808-aad4-8e1d4579d3b5 Received request: GET /jobs/001
+40fbac9b-f870-468e-bac8-66e4d7c1fc7c Received request: GET /jobs
+164a013a-c7a8-46bd-a9a8-cee7cb6cdd79 Received request: GET /jobs/001
+8ec80337-fa8c-4ec6-9dcf-3d2e3f343523 Received request: GET /jobs/001
+b1b5be5f-69cf-4346-9e8a-d3f4a03b5e4d Received request: GET /jobs
+96a5a129-14d9-4083-a723-f354f611c13f Received request: GET /jobs/001
+93556422-cad6-4bb9-939b-c5d07d0c53a2 Received request: GET /jobs/1000
+a8ac0df1-1f23-40b3-81d5-dfc836f13442 Received request: GET /jobs/001
+cf1c0260-bd75-4328-8fd8-e374fcef76dc Received request: GET /jobs
+d6667f2e-fb5a-433f-8fb4-2674476aea35 Job not found: 002
+6df6ee20-ce84-40b4-a6e3-0382b3098e2f Received request: GET /jobs/001
+7b3eaf26-f304-46f3-8afa-20daffe1a4ad Received request: DELETE /jobs/00b8f2665e-bf72-4ef5-81eb-364d5381b2dd Received request: DELETE /jobs/002
+7f64df52-e863-4e47-9410-f8efcf57d03b Job created successfully: job_id='987' job_type='simulated' job_message='Hello'
+9b3d45aa-ca60-4d09-95c7-594cf42b88bf Job not found: 1000
+fdc28611-5456-4fc4-bbd5-1e5e3337eeaa Job not found: 1000
+ message: Updated by simulated user
+93556422-cad6-4bb9-939b-c5d07d0c53a2 Job not found: 1000
+352eafcf-8fd9-4670-b016-4f1cd60cf835 Received request: GET /jobs
+s/1000
+17bc3939-1db0-4808-aad4-8e1d4579d3b5 Found job: 001
+d58b1628-e1b5-45b1-bc37-6261727b7585 Job not found: 1000
+8ec80337-fa8c-4ec6-9dcf-3d2e3f343523 Found job: 001
+164a013a-c7a8-46bd-a9a8-cee7cb6cdd79 Found job: 001
+96a5a129-14d9-4083-a723-f354f611c13f Found job: 001
+2868290b-fd0f-44fb-ac9f-7a62b19769a6 Found job: 001
+b8f2665e-bf72-4ef5-81eb-364d5381b2dd Job not found: 002
+1e2e79a8-09eb-4a35-8e2c-ec865db44cf2 Job not found: 1000
+a8ac0df1-1f23-40b3-81d5-dfc836f13442 Found job: 001
+7b3eaf26-f304-46f3-8afa-20daffe1a4ad Job not found: 002
+6df6ee20-ce84-40b4-a6e3-0382b3098e2f Found job: 001
+c45733b1-7cd0-4335-8d8f-abbe1eb1a936 Received request: PUT /jobs/1000
+d47901af-970a-4a31-b9d3-e393dfc32bc2 Received request: PUT /jobs/1000
+6ff51997-4497-45e4-90c6-40f5aea51c1c Received request: GET /jobs
+0084d553-652c-45c3-a79b-4aef1457565e Received request: PUT /jobs/001
+e6f08c3e-0404-46e1-a75d-67b4860e3733 Received request: POST /jobs
+4a006827-d747-4d47-97f8-aeac07397c21 Received request: DELETE /jobs/1000
+a6687b8f-e981-478b-875e-32ed2628ce94 Received request: GET /jobs/002
+e941e77c-b3fd-40ac-a512-f933b09e263e Received request: GET /jobs
+2f75d65b-6d89-4ccf-9f7c-a89dea055d55 Received request: GET /jobs
+754f3c0d-6bf3-4d7a-ae7f-77e90af040c3 Received request: DELETE /jobs/1000
+54bc32de-ddc9-44a0-83da-48fbebbd018b Received request: GET /jobs/1000
+387332c2-ecdb-494e-83b7-58dd3d5b97a2 Received request: GET /jobs/002
+cf07a3c9-e330-4fd8-94f0-ac9f0e2b51ce Received request: GET /jobs
+c45733b1-7cd0-4335-8d8f-abbe1eb1a936 Job not found: 1000
+d47901af-970a-4a31-b9d3-e393dfc32bc2 Job not found: 1000
+5415c5c5-b128-42f5-87f6-a98bc0782e8f Received request: GET /jobs
+: Updated by simulated user
+5ed1832a-fdc9-4bca-b6a8-84d79845c4b6 Job not found: 1000
+e6f08c3e-0404-46e1-a75d-67b4860e3733 Job created successfully: job_id='912' job_type='simulated' job_message='Hello'
+4a006827-d747-4d47-97f8-aeac07397c21 Job not found: 1000
+4cc34ee7-410c-4ab3-9f3c-5f78c0692bde Job not found: 002
+754f3c0d-6bf3-4d7a-ae7f-77e90af040c3 Job not found: 1000
+387332c2-ecdb-494e-83b7-58dd3d5b97a2 Job not found: 002
+54bc32de-ddc9-44a0-83da-48fbebbd018b Job not found: 1000
+a6687b8f-e981-478b-875e-32ed2628ce94 Job not found: 002
+197ba4bb-27ab-4523-b79e-f30ca200ed76 Received request: POST /jobs
+fd79df9c-02d6-418a-997a-2d847ba5d674 Received request: POST /jobs
+b4c1c3f8-9be1-4ac9-b4fc-439b9949c46a Received request: PUT /jobs/001
+53ef053d-1e59-44ed-9ae7-e5760cc23f1d Received request: POST /jobs
+1
+cb3bff2c-0713-4aa0-9d0f-c651a4f3e750 Received request: GET /jobs/001
+c1c31a1e-3105-49eb-ae6f-d6b47a352f95 Received request: DELETE /jobs/002
+9cac0e6a-58ac-4df8-bebc-df866c5ed668 Received request: GET /jobs/002
+197ba4bb-27ab-4523-b79e-f30ca200ed76 Job created successfully: job_id='273' job_type='simulated' job_message='Hello'
+02b4f0b2-c29b-4801-9482-dc0943d0a68e Received request: GET /jobs/1000
+4c0fd617-c787-46fe-91df-001e9bf5fae3 Received request: GET /jobs/001
+e2a6fb9c-091d-460f-8d73-5e436e6cafe9 Received request: GET /jobs
+cb3bff2c-0713-4aa0-9d0f-c651a4f3e750 Found job: 001
+a65ec1b1-3ff2-4701-887f-cbaed703e94c Updated job: 001 with message: Updated by simulated user
+' job_message='Hello'
+6540aa75-c117-44ba-97cd-f6c8123427d1 Job created successfully: job_id='985' job_type='simulated' job_message='Hello'
+b4c1c3f8-9be1-4ac9-b4fc-439b9949c46a Updated job: 001 with message: Updated by simulated user
+c1c31a1e-3105-49eb-ae6f-d6b47a352f95 Job not found: 002
+53ef053d-1e59-44ed-9ae7-e5760cc23f1d Job created successfully: job_id='215' job_type='simulated' job_message='Hello'
+02b4f0b2-c29b-4801-9482-dc0943d0a68e Job not found: 1000
+4c0fd617-c787-46fe-91df-001e9bf5fae3 Found job: 001
+9cac0e6a-58ac-4df8-bebc-df866c5ed668 Job not found: 002
+99cd4f3a-c3db-4d33-aa60-69df6a0423a4 Received request: POST /jobs
+8e3d9ad0-e8c3-4ac1-a28d-d256981e3c81 Received request: POST /jobs
+22a2bd76-7b86-4650-95e3-95364318ea7b Received request: POST /jobs
+5d311716-a42b-4bf8-b0ef-f5d83fcf9646 Received request: PUT /jobs/002
+b6d3f713-abf6-447e-82f7-e3713a3061cc Received request: PUT /jobs/001
+8e578d3a-0551-47ec-9ef2-11a6ab4064a8 Received request: PUT /jobs/002
+483755c4-43d4-45f5-a027-eb35cafefe83 Received request: DELETE /jobs/002
+01440a4f-0be0-412f-9dd5-0873cea2d93b Received request: DELETE /jobs/002
+155043ba-3555-42ca-aa52-49b7295ff99e Received request: GET /jobs
+1fa9a050-ca54-47c8-ba71-c93919b3ee01 Received request: GET /jobs/002
+b4709daf-9d86-4b4c-9862-e46578feb046 Received request: DELETE /jobs/1000
+df8df4d2-f996-4021-8170-ae6891b52189 Received request: GET /jobs
+636346d1-fc20-45eb-aae1-23787881fddb Received request: GET /jobs/002
+'848' job_type='simulated' job_message='Hello'
+f6aa416f-b41e-484c-b8b8-fa2e13bedf3e Received request: GET /jobs/001
+8e578d3a-0551-47ec-9ef2-11a6ab4064a8 Job not found: 002
+01440a4f-0be0-412f-9dd5-0873cea2d93b Job not found: 002
+5d311716-a42b-4bf8-b0ef-f5d83fcf9646 Job not found: 002
+1fa9a050-ca54-47c8-ba71-c93919b3ee01 Job not found: 002
+f6aa416f-b41e-484c-b8b8-fa2e13bedf3e Found job: 001
+d2c7362f-64bf-469b-8fa9-9b6933dbc859 Received request: DELETE /jobs/1000
+4e244a1b-1402-4d38-8ad7-9feab7047b03 Received request: GET /jobs
+8e3d9ad0-e8c3-4ac1-a28d-d256981e3c81 Job created successfully: job_id='628' job_type='simulated' job_message='Hello'
+22a2bd76-7b86-4650-95e3-95364318ea7b Job created successfully: job_id='345' job_type='simulated' job_message='Hello'
+b4709daf-9d86-4b4c-9862-e46578feb046 Job not found: 1000
+483755c4-43d4-45f5-a027-eb35cafefe83 Job not found: 002
+636346d1-fc20-45eb-aae1-23787881fddb Job not found: 002
+b6d3f713-abf6-447e-82f7-e3713a3061cc Updated job: 001 with message: Updated by simulated user
+d88d95c5-f199-47ec-8763-498e81f83c82 Job not found: 002
+d2c7362f-64bf-469b-8fa9-9b6933dbc859 Job not found: 1000
+99387d8a-b723-4358-9501-d4f7b39a4748 Received request: GET /jobs/001
+4d6ae68d-eb5e-4e4a-a9a9-42c6eb4c4247 Received request: DELETE /jobs/002
+4d6ae68d-eb5e-4e4a-a9a9-42c6eb4c4247 Job not found: 002
+97d67168-4217-498b-9fb5-8acf698998a1 Received request: GET /jobs
+ce9bb764-7e8a-40f8-a57b-e22d3b5a60c8 Received request: GET /jobs/1000
+970f4af5-4ac6-4568-8358-f34a8c1941c9 Received request: GET /jobs/1000
+def24559-0d9b-421e-84a0-e00620cc6360 Received request: POST /jobs
+3a4609b3-f2af-4546-ae57-281bdcca652c Received request: DELETE /jobs/002
+53334a4b-fa0c-4faa-a95f-399106dc249d Received request: GET /jobs/001
+4bb931fa-b552-4a4a-a7bf-375f7e0e8412 Received request: DELETE /jobs/1000
+603569a9-0dc2-4ba2-ac92-64c9183b9537 Received request: PUT /jobs/001
+4d54dc59-d35b-4b3a-9e8b-7a54f32d0c7a Received request: DELETE /jobs/002
+970f4af5-4ac6-4568-8358-f34a8c1941c9 Job not found: 1000
+ce9bb764-7e8a-40f8-a57b-e22d3b5a60c8 Job not found: 1000
+5cb8510a-27a1-4e7d-8d2a-3b0b008ac48d Received request: POST /jobs
+2
+6330e2a6-d119-4552-aef3-c53817690bfb Received request: PUT /jobs/001
+
+def24559-0d9b-421e-84a0-e00620cc6360 Job created successfully: job_id='992' job_type='simulated' job_message='Hello'
+99387d8a-b723-4358-9501-d4f7b39a4748 Found job: 001
+0b4653e0-5806-448a-ad51-b1e8ba260a3f Received request: POST /jobs
+ Updated by simulated user
+4bb931fa-b552-4a4a-a7bf-375f7e0e8412 Job not found: 1000
+3a4609b3-f2af-4546-ae57-281bdcca652c Job not found: 002
+4fced2bb-29db-44ad-aacd-3cb178f8c2f4 Received request: POST /jobs
+53334a4b-fa0c-4faa-a95f-399106dc249d Found job: 001
+b32922ea-bd65-44c2-ab69-6882188278c9 Received request: POST /jobs
+5cb8510a-27a1-4e7d-8d2a-3b0b008ac48d Job created successfully: job_id='344' job_type='simulated' job_message='Hello'
+dd0489c4-a082-4522-87c3-abe4edc61a99 Job not found: 002
+4d54dc59-d35b-4b3a-9e8b-7a54f32d0c7a Job not found: 002
+6552b47e-1ea4-41de-8d83-f01f94718252 Job not found: 1000
+32be6f89-dca1-4ee5-b722-11e5d0f40ca8 Job not found: 1000
+0b4653e0-5806-448a-ad51-b1e8ba260a3f Job created successfully: job_id='197' job_type='simulated' job_message='Hello'
+b32922ea-bd65-44c2-ab69-6882188278c9 Job created successfully: job_id='301' job_type='simulated' job_message='Hello'
+6330e2a6-d119-4552-aef3-c53817690bfb Updated job: 001 with message: Updated by simulated user
+4fced2bb-29db-44ad-aacd-3cb178f8c2f4 Job created successfully: job_id='355' job_type='simulated' job_message='Hello'
+494b22f6-daf3-412e-b662-f88975675991 Received request: POST /jobs
+5b6c7e6f-516c-4552-bba9-a97b7c355e43 Received request: POST /jobs
+87b77ece-e04a-4f9f-8efc-0829eaeb970e Received request: PUT /jobs/1000
+7cd2ab2e-71b7-4d18-a059-c80b4a756d22 Received request: PUT /jobs/001
+6073a137-bea4-4586-b849-72605d94b5a5 Received request: PUT /jobs/1000
+1f96f606-d9bc-4892-b2d4-81dc7f4e551f Received request: POST /jobs
+7fb04f76-058f-4814-8f9c-3ecd71e93f62 Received request: POST /jobs
+950055e5-f99c-45db-a944-db19eb3c2466 Received request: POST /jobs
+378e1585-c873-4dcf-9725-7866227fd1b9 Received request: DELETE /jobs/002
+8aceafc2-e3ad-4bce-b97f-06a37e92b9c1 Received request: GET /jobs
+2f6864cd-8f1d-43de-9001-1e02a4bb16f4 Received request: GET /jobs
+14f2f469-7d16-4881-93f4-0eed15391729 Received request: GET /jobs/001
+6073a137-bea4-4586-b849-72605d94b5a5 Job not found: 1000
+ /jobs
+0b0d8ec7-bd09-4e61-be0b-80bcbe1d4460 Received request: GET /jobs
+14f2f469-7d16-4881-93f4-0eed15391729 Found job: 001
+52da2360-e065-4fa4-9ab6-777d66f26e22 Received request: GET /jobs
+378e1585-c873-4dcf-9725-7866227fd1b9 Job not found: 002
+ully: job_id='990' job_type='simulated' job_message='Hello'
+04b5cd7a-f762-4a34-bf77-8b8e0cb71089 Received request: GET /jobs
+b2034cae-8a17-4b46-8fdd-5524fc990508 Received request: DELETE /jobs/002
+1f96f606-d9bc-4892-b2d4-81dc7f4e551f Job created successfully: job_id='223' job_type='simulated' job_message='Hello'
+7fb04f76-058f-4814-8f9c-3ecd71e93f62 Job created successfully: job_id='955' job_type='simulated' job_message='Hello'
+13b377a2-9de2-41f7-b35f-4ec5d7358fbd Received request: GET /jobs
+: Updated by simulated user
+950055e5-f99c-45db-a944-db19eb3c2466 Job created successfully: job_id='408' job_type='simulated' job_message='Hello'
+494b22f6-daf3-412e-b662-f88975675991 Job created successfully: job_id='799' job_type='simulated' job_message='Hello'
+8cd69bff-4549-4e72-bec1-98ecc3b3dfab Received request: DELETE /jobs/1000
+87b77ece-e04a-4f9f-8efc-0829eaeb970e Job not found: 1000
+99c7c770-45a9-4d97-84ed-e939d8ed5a15 Received request: GET /jobs
+b2034cae-8a17-4b46-8fdd-5524fc990508 Job not found: 002
+8cd69bff-4549-4e72-bec1-98ecc3b3dfab Job not found: 1000
+4bbef95d-8283-469e-8ced-58def08c4911 Received request: PUT /jobs/1000
+12aeee02-7508-49fd-82d0-593a8d2f4565 Received request: POST /jobs
+663afab1-3440-48a3-85de-d9ed34046750 Received request: POST /jobs
+4bbef95d-8283-469e-8ced-58def08c4911 Job not found: 1000
+12aeee02-7508-49fd-82d0-593a8d2f4565 Job created successfully: job_id='308' job_type='simulated' job_message='Hello'
+8e971e1c-85be-40d4-8eef-881802916359 Received request: POST /jobs
+5ddd225e-bd62-4f37-8a4a-9f1e4991aeb6 Received request: POST /jobs
+6ab07aec-83cb-4955-a105-25f471e61ea2 Received request: POST /jobs
+23c2700a-1ac7-433c-8cb4-a80fe6c80acb Received request: PUT /jobs/1000
+ea0bc6e8-2049-448c-b789-8f63a261a308 Received request: POST /jobs
+68603bfa-1ad4-43af-9d24-526ee4c721fe Received request: PUT /jobs/001
+774f8aae-4850-41c6-9618-24bd475ef0b3 Received request: POST /jobs
+c126507c-a5c6-4e3a-bb03-0c43386ba8c8 Received request: POST /jobs
+a199461e-3311-4803-aa8d-0889017ec346 Received request: DELETE /jobs/002
+1e826d75-6104-4890-bef5-dc292a915cb6 Received request: POST /jobs
+6ab07aec-83cb-4955-a105-25f471e61ea2 Job created successfully: job_id='914' job_type='simulated' job_message='Hello'
+52e05381-b566-44d0-9066-624a8251b8fb Received request: GET /jobs/001
+c52ae9b8-0bdc-4b86-9ea9-9282b6a93824 Received request: GET /jobs
+
+1
+bb16750a-0937-4db0-843f-fd47b9c2f60c Received request: POST /jobs
+ea0bc6e8-2049-448c-b789-8f63a261a308 Job created successfully: job_id='751' job_type='simulated' job_message='Hello'
+fb2730dd-3af0-4acb-93dd-2b6adde46f65 Received request: GET /jobs
+5ddd225e-bd62-4f37-8a4a-9f1e4991aeb6 Job created successfully: job_id='889' job_type='simulated' job_message='Hello'
+8049ce8b-9e0d-4b8c-9266-75f42805d163 Received request: DELETE /jobs/002
+1e826d75-6104-4890-bef5-dc292a915cb6 Job created successfully: job_id='585' job_type='simulated' job_message='Hello'
+d6108127-0c9f-41b4-a46b-1c6c62732801 Received request: DELETE /jobs/1000
+a199461e-3311-4803-aa8d-0889017ec346 Job not found: 002
+c126507c-a5c6-4e3a-bb03-0c43386ba8c8 Job created successfully: job_id='290' job_type='simulated' job_message='Hello'
+4a30a1b1-a9cb-4a19-94a9-ff712f9a9a21 Received request: GET /jobs/001
+23c2700a-1ac7-433c-8cb4-a80fe6c80acb Job not found: 1000
+774f8aae-4850-41c6-9618-24bd475ef0b3 Job created successfully: job_id='976' job_type='simulated' job_message='Hello'
+f7bc0d1d-fc2d-4c93-84f3-0acc56f0b764 Found job: 001
+essfully: job_id='108' job_type='simulated' job_message='Hello'
+dc5ca46c-7926-4341-ac05-37bb61e4314f Job created successfully: job_id='522' job_type='simulated' job_message='Hello'
+68603bfa-1ad4-43af-9d24-526ee4c721fe Updated job: 001 with message: Updated by simulated user
+52e05381-b566-44d0-9066-624a8251b8fb Found job: 001
+8049ce8b-9e0d-4b8c-9266-75f42805d163 Job not found: 002
+bb16750a-0937-4db0-843f-fd47b9c2f60c Job created successfully: job_id='112' job_type='simulated' job_message='Hello'
+4a30a1b1-a9cb-4a19-94a9-ff712f9a9a21 Found job: 001
+d6108127-0c9f-41b4-a46b-1c6c62732801 Job not found: 1000
+0c5d989e-592c-4a38-b2c7-81ae7111e333 Received request: PUT /jobs/001
+d45094e6-cbb9-4d61-b6a6-d0b6c469f3ce Received request: PUT /jobs/1000
+391089b9-3efe-47ec-aa8d-8343d54f1ea6 Received request: PUT /jobs/002
+46dc3b6a-c716-4bf1-95fa-89918cdf393a Received request: POST /jobs
+524d83ff-52f9-4b4f-8ebc-16eeb108d6f5 Received request: POST /jobs
+899c1e9e-151a-4d8e-93f0-51e1443acc38 Received request: PUT /jobs/002
+2
+d45094e6-cbb9-4d61-b6a6-d0b6c469f3ce Job not found: 1000
+ /jobs
+
+1
+0c5d989e-592c-4a38-b2c7-81ae7111e333 Updated job46dc3b6a-c716-4bf1-95fa-89918cdf393a Job created successfully: job_id='527' job_type='simulated' job_message='Hello'
+bc43a87b-d055-4017-b031-074b78b4ab80 Job not found: 002
+ully: job_id='395' job_type='simulated' job_message='Hello'
+899c1e9e-151a-4d8e-93f0-51e1443acc38 Job not found: 002
+bc81fdde-7c74-46c8-9207-47a49c1c5e9b Job created successfully: job_id='510' job_type='simulated' job_message='Hello'
+15465e53-bf4f-46a1-9c61-00248a25b1d3 Updated job: 001 with message: Updated by simulated user
+bd67f9f5-02f2-4152-b110-dcb3d1134be7 Found job: 001
+895336fb-a510-41a9-9c4e-f75ca72ec367 Received request: POST /jobs
+0ebf1e7e-e808-4bc3-a0db-797dea8c700c Received request: POST /jobs
+d464a874-67e2-4a4b-a7a1-d92ada4e2686 Received request: GET /jobs
+307221a0-7932-4c12-91d4-95947dc80406 Received request: POST /jobs
+fef9c85d-9c56-4767-ad28-412a2c7a73dc Received request: DELETE /jobs/1000
+22567768-b882-491e-99e7-fac2df7d9596 Received request: GET /jobs/002
+077132da-93e8-46a8-8e6d-1335bc78cb97 Received request: GET /jobs/001
+f1a7e9d0-86a5-4781-bb56-4a32d4323545 Received request: GET /jobs/1000
+895336fb-a510-41a9-9c4e-f75ca72ec367 Job created successfully: job_id='902' job_type='simulated' job_message='Hello'
+3af01c29-0a59-4e88-adb2-f71007cb59f7 Received request: DELETE /jobs/1000
+c559f0a8-ab9f-4c96-9eff-1f3052ca56e8 Received request: DELETE /jobs/002
+0ebf1e7e-e808-4bc3-a0db-797dea8c700c Job created successfully: job_id='356' job_type='simulated' job_message='Hello'
+7b4100ea-2004-4156-8bfd-c9a3b3d84485 Received request: GET /jobs
+89f24b1d-8468-42c7-9309-14f2fe37b53e Received request: GET /jobs
+000
+e2e4df09-1563-45e9-b296-93b5521525b4 Received request: DELETE /jobs/002
+671444b8-1c6d-4e4a-901d-d7e789cb7978 Received request: GET /jobs/1000
+
+f1a7e9d0-86a5-4781-bb56-4a32d4323545 Job not found: 1000
+b6d780c2-e93b-484e-a49c-5aabf61e5dcf Received request: DELETE /jobs/002
+22567768-b882-491e-99e7-fac2df7d9596 Job not found: 002
+a1d829c8-abe7-4bf9-bb21-d20dd2718579 Received request: DELETE /jobs/002
+c70d79f9-2a0f-4578-bd46-fb90fb1d7128 Received request: GET /jobs
+307221a0-7932-4c12-91d4-95947dc80406 Job created successfully: job_id='760' job_type='simulated' job_message='Hello'
+fef9c85d-9c56-4767-ad28-412a2c7a73dc Job not found: 1000
+93663df4-eca0-437c-b898-5c3948fd409f Received request: DELETE /jobs/002
+077132da-93e8-46a8-8e6d-1335bc78cb97 Found job: 001
+f388896a-74f0-4a2a-8961-7b2e7fc5cbcc Received request: DELETE /jobs/1000
+e2e4df09-1563-45e9-b296-93b5521525b4 Job not found: 002
+3af01c29-0a59-4e88-adb2-f71007cb59f7 Job not found: 1000
+c559f0a8-ab9f-4c96-9eff-1f3052ca56e8 Job not found: 002
+b6d780c2-e93b-484e-a49c-5aabf61e5dcf Job not found: 002
+f388896a-74f0-4a2a-8961-7b2e7fc5cbcc Job not found: 1000
+671444b8-1c6d-4e4a-901d-d7e789cb7978 Job not found: 1000
+4c7c43f7-768f-4cf8-8468-56feb211d09b Job not found: 1000
+7c03c6ae-1d03-4ec3-934c-05931715b486 Job not found: 002
+93663df4-eca0-437c-b898-5c3948fd409f Job not found: 002
+a1d829c8-abe7-4bf9-bb21-d20dd2718579 Job not found: 002
+2265f10f-2c4f-4318-8322-a3650f942330 Received request: PUT /jobs/1000
+8e068a8a-0643-4bd0-a057-dd44630cf768 Received request: PUT /jobs/002
+3895d219-6c56-4b3f-ad76-7b794f1667d8 Received request: POST /jobs
+72bdf9b9-15f2-49fc-a742-434f60a5d768 Received request: PUT /jobs/001
+8e068a8a-0643-4bd0-a057-dd44630cf768 Job not found: 002
+a3a31549-aa45-4741-8085-d13780a757ac Received request: DELETE /jobs/1000
+2265f10f-2c4f-4318-8322-a3650f942330 Job not found: 1000
+0b962663-53ba-48fa-9983-98ad5240ea3e Received request: GET /jobs/1000
+379d498c-97ee-4ae5-b949-ac46a8b02655 Received request: PUT /jobs/001
+77644009-825a-4a36-bc38-a0e31ce85d06 Received request: GET /jobs
+8271f6e8-3d58-46ef-8f5a-3a73d13cf917 Received request: DELETE /jobs/1000
+72bdf9b9-15f2-49fc-a742-434f60a5d768 Updated job: 001 with message: Updated by simulated user
+bd2c69aa-9899-424a-b549-1c4c918c572d Received request: GET /jobs/001
+4cdffc2c-1fa1-4c97-a28b-f5de2a95482f Received request: GET /jobs
+3895d219-6c56-4b3f-ad76-7b794f1667d8 Job created successfully: job_id='813' job_type='simulated' job_message='Hello'
+8b10c88c-a800-4a08-82f4-7fa202332187 Received request: GET /jobs
+a3a31549-aa45-4741-8085-d13780a757ac Job not found: 1000
+8271f6e8-3d58-46ef-8f5a-3a73d13cf917 Job not found: 1000
+0b962663-53ba-48fa-9983-98ad5240ea3e Job not found: 1000
+8eb8d5dd-fcbf-463a-bddb-cb7b9df150ec Received request: GET /jobs
+a11a5c0b-6f9d-4a19-8fec-c16a9db76d0b Received request: DELETE /jobs/1000
+da7c4f2a-1b7a-469e-a8c3-40b042d8c791 Received request: GET /jobs/1000
+a324ad2c-3dc1-4cd4-a7d3-07bfff7d1f2f Received request: DELETE /jobs/1000
+379d498c-97ee-4ae5-b949-ac46a8b02655 Updated job: 001 with message: Updated by simulated user
+da7c4f2a-1b7a-469e-a8c3-40b042d8c791 Job not found: 1000
+a11a5c0b-6f9d-4a19-8fec-c16a9db76d0b Job not found: 1000
+a324ad2c-3dc1-4cd4-a7d3-07bfff7d1f2f Job not found: 1000
+3cabf079-4b43-4d2c-abbb-58bcbbbf6450 Received request: PUT /jobs/002
+9250f38c-c9ad-41bb-a26e-0d4a427ec899 Received request: PUT /jobs/1000
+e67a0fe5-43ac-4f3d-ae31-2bccc9014c9d Received request: PUT /jobs/1000
+d560dba6-91c7-4302-9833-76b8b1cfbfb0 Received request: DELETE /jobs/1000
+a9c3edfd-4fc9-4a14-8afb-a791dadcb84c Received request: PUT /jobs/1000
+1e14f641-3f12-444b-8c00-8556243d8e6a Received request: PUT /jobs/1000
+5259683f-2a1e-4666-a973-8f1323864143 Received request: PUT /jobs/001
+e106de88-58e6-4642-abd0-9e8e763e1840 Received request: DELETE /jobs/1000
+61f1485c-b147-4d11-82d2-3169d9b97362 Received request: DELETE /jobs/1000
+2cbe554e-1ca5-4562-97bb-eba9a2607971 Received request: GET /jobs/002
+a232c285-0aa1-433c-b908-83c6e91408e8 Received request: GET /jobs
+cb9c3be3-9245-4bd9-98a2-433e5ce06965 Received request: DELETE /jobs/1000
+5f88d72f-c65e-4013-ad4a-5b218d3f30e1 Received request: GET /jobs/001
+cb9c3be3-9245-4bd9-98a2-433e5ce06965 Job not found: 1000
+672e6d1a-1584-42e5-95bf-b769ff6a1554 Received request: DELETE /jobs/002
+c6d25283-3811-4337-895d-c49787304235 Received request: GET /jobs/1000
+d560dba6-91c7-4302-9833-76b8b1cfbfb0 Job not found: 1000
+5c81bda3-a476-495c-8d30-25ecd1473a08 Received request: DELETE /jobs/1000
+9250f38c-c9ad-41bb-a26e-0d4a427ec899 Job not found: 1000
+3cabf079-4b43-4d2c-abbb-58bcbbbf6450 Job not found: 002
+
+a9c3edfd-4fc9-4a14-8afb-a791dadcb84c Job not found: 1000
+ /jobs/002
+5259683f-2a1e-4666-a973-8f1323864143 Updated job: 001 with message: Updated by simulated user
+e2f4cd45-1a14-42f1-a501-ed86b579b376 Received request: GET /jobs/001
+2cbe554e-1ca5-4562-97bb-eba9a2607971 Job not found: 002
+61f1485c-b147-4d11-82d2-3169d9b97362 Job not found: 1000
+e106de88-58e6-4642-abd0-9e8e763e1840 Job not found: 1000
+5998dd10-f82d-4f62-87ab-9962232beeb7 Received request: GET /jobs
+5f88d72f-c65e-4013-ad4a-5b218d3f30e1 Found job: 001
+5c81bda3-a476-495c-8d30-25ecd1473a08 Job not found: 1000
+32dfd763-a9b5-4a1c-b680-6958eedf1a8b Job not found: 002
+e2f4cd45-1a14-42f1-a501-ed86b579b376 Found job: 001
+63b75226-8e62-4fd5-88fb-efe365cd9ef9 Received request: POST /jobs
+318e4239-ead8-4742-b27f-9dd4ca0891f7 Received request: PUT /jobs/002
+eb5b2f7d-9de2-47d2-8e25-46c4cc0f6de7 Received request: POST /jobs
+a4882c2c-3b5c-4354-bb19-bf317db2c564 Received request: POST /jobs
+77d19201-b02f-4426-b3c9-b6bcfe752f55 Received request: PUT /jobs/002
+1e3d4e38-f26c-4e2f-bbb9-d81754012635 Received request: PUT /jobs/1000
+4aca733f-10b6-44f4-b247-8ae4eb048072 Received request: PUT /jobs/1000
+394d6da2-bf4e-4b5f-8a8c-3c601c464bae Received request: DELETE /jobs/002
+b29a1cef-06db-4e94-8edb-1f4d93e99fc3 Received request: POST /jobs
+5c19419d-e59a-429c-80d0-a0299d1cebb6 Received request: GET /jobs
+bdc10118-6d35-4b62-ba84-3ea07d6a1fc9 Received request: DELETE /jobs/1000
+65871b34-8b71-455f-9612-cf912e3a8c3d Received request: DELETE /jobs/002
+eb5b2f7d-9de2-47d2-8e25-46c4cc0f6de7 Job created successfully: job_id='511' job_type='simulated' job_message='Hello'
+2680d84e-8ba5-42de-8d04-4d6767c10a8d Received request: DELETE /jobs/1000
+8381440a-5d81-448b-9fd7-5100c4552c9f Received request: DELETE /jobs/002
+394d6da2-bf4e-4b5f-8a8c-3c601c464bae Job not found: 002
+ully: job_id='904' job_type='simulated' job_message='Hello'
+6fc337f2-f17c-4dfa-a5c0-e702a26fbc99 Received request: GET /jobs/002
+161c12dd-079c-405d-b572-c655cf2ca976 Received request: GET /jobs/001
+4aca733f-10b6-44f4-b247-8ae4eb048072 Job not found: 1000
+a4882c2c-3b5c-4354-bb19-bf317db2c564 Job created successfully: job_id='574' job_type='simulated' job_message='Hello'
+88c50655-0552-4d51-a18c-4f4a7e0563b2 Received request: GET /jobs/002
+63b75226-8e62-4fd5-88fb-efe365cd9ef9 Job created successfully: job_id='718' job_type='simulated' job_message='Hello'
+bdc10118-6d35-4b62-ba84-3ea07d6a1fc9 Job not found: 1000
+ /jobs/001
+724fa8d9-9394-419a-b440-d742439bdd1d Received request: DELETE /jobs/002
+318e4239-ead8-4742-b27f-9dd4ca0891f7 Job not found: 002
+65871b34-8b71-455f-9612-cf912e3a8c3d Job not found: 002
+2680d84e-8ba5-42de-8d04-4d6767c10a8d Job not found: 1000
+1e3d4e38-f26c-4e2f-bbb9-d81754012635 Job not found: 1000
+79afd5ca-a21f-4b87-8a8b-1b8de83bec26 Found job: 001
+6fc337f2-f17c-4dfa-a5c0-e702a26fbc99 Job not found: 002
+6062b2bc-a9b0-47d2-9e45-05c32e62b1f1 Job not found: 002
+161c12dd-079c-405d-b572-c655cf2ca976 Found job: 001
+724fa8d9-9394-419a-b440-d742439bdd1d Job not found: 002
+8381440a-5d81-448b-9fd7-5100c4552c9f Job not found: 002
+88c50655-0552-4d51-a18c-4f4a7e0563b2 Job not found: 002
+6b1e3b9e-8025-4199-8f35-d2a6fb6a7cd6 Received request: PUT /jobs/1000
+44ead492-0cb5-4ace-a6ac-5a50c80ab266 Received request: POST /jobs
+626bce4d-430c-4a8e-8d77-e21885441d9a Received request: POST /jobs
+30cb4302-ac6c-47c8-b5a1-db2105146bdf Received request: POST /jobs
+fa9b11bb-bc96-4ef3-aed9-f9387f5398cb Received request: PUT /jobs/1000
+8e411eb5-5cc5-4cd0-8522-4c55a9cea3ff Received request: PUT /jobs/1000
+9209731e-e65b-4b47-a8bc-4cec992e274b Received request: POST /jobs
+85cab5b0-330e-40b5-a944-eb44330d34af Received request: POST /jobs
+464c1bf3-2a16-432d-acc7-57d186058dfb Received request: GET /jobs
+31599a03-3e59-45e7-8daa-096ee9443bab Received request: GET /jobs
+6b1e3b9e-8025-4199-8f35-d2a6fb6a7cd6 Job not found: 1000
+fa9b11bb-bc96-4ef3-aed9-f9387f5398cb Job not found: 1000
+6f6c317b-959c-4228-841b-ecffe93026f2 Received request: DELETE /jobs/002
+4e0c0d31-a1e3-4338-b09e-4b6c820b0d56 Received request: GET /jobs/001
+14dc9e54-ccf0-4290-95ca-acc4d1f89484 Received request: GET /jobs/002
+8e411eb5-5cc5-4cd0-8522-4c55a9cea3ff Job not found: 1000
+0e634123-3893-444c-9982-0691e7140f58 Received request: GET /jobs/001
+5e621936-1979-42f6-a8ba-7737131d1df0 Received request: GET /jobs
+44ead492-0cb5-4ace-a6ac-5a50c80ab266 Job created successfully: job_id='781' job_type='simulated' job_message='Hello'
+efb61dea-400a-46b0-91e3-1bacae579291 Received request: GET /jobs/001
+85cab5b0-330e-40b5-a944-eb44330d34af Job created successfully: job_id='569' job_type='simulated' job_message='Hello'
+9209731e-e65b-4b47-a8bc-4cec992e274b Job created successfully: job_id='724' job_type='simulated' job_message='Hello'
+4e0c0d31-a1e3-4338-b09e-4b6c820b0d56 Found job: 001
+aa0543bb-2245-414f-8227-64b201e11399 Received request: DELETE /jobs/1000
+30cb4302-ac6c-47c8-b5a1-db2105146bdf Job created successfully: job_id='395' job_type='simulated' job_message='Hello'
+a068e3c0-9e58-4209-b5f5-a35568e0dcf9 Received request: PUT /jobs/001
+626bce4d-430c-4a8e-8d77-e21885441d9a Job created successfully: job_id='238' job_type='simulated' job_message='Hello'
+efb61dea-400a-46b0-91e3-1bacae579291 Found job: 001
+0e634123-3893-444c-9982-0691e7140f58 Found job: 001
+6f6c317b-959c-4228-841b-ecffe93026f2 Job not found: 002
+14dc9e54-ccf0-4290-95ca-acc4d1f89484 Job not found: 002
+a068e3c0-9e58-4209-b5f5-a35568e0dcf9 Updated job: 001 with message: Updated by simulated user
+aa0543bb-2245-414f-8227-64b201e11399 Job not found: 1000
+967ea12f-cec6-4584-bc68-b48fe73456a7 Received request: PUT /jobs/001
+9899b713-c952-477d-9bdf-10a5648ea2b0 Received request: PUT /jobs/002
+3f65f887-74f2-4846-90e7-f5a8ca67e110 Received request: PUT /jobs/1000
+bc807e40-fc6c-47b9-9522-51c69a66563a Received request: DELETE /jobs/002
+4c63ce92-e5de-48b3-882b-7bdc31b15856 Received request: DELETE /jobs/002
+25887866-0d95-44d2-92d4-a9cebe4e858c Received request: GET /jobs/1000
+54204d15-9720-4a51-a36a-ac917061e55c Received request: GET /jobs/001
+7673bf2c-a194-40f1-b712-b000d60d0812 Received request: DELETE /jobs/1000
+1e055abc-f1bd-429a-a5c6-cfd5adc0a98f Received request: GET /jobs
+: Updated by simulated user
+9899b713-c952-477d-9bdf-10a5648ea2b0 Job not found: 002
+e4b677ad-71a8-4ccb-b93d-187ab0aa726d Received request: DELETE /jobs/002
+13c391cc-4665-40cf-8489-9c11eceaf394 Received request: GET /jobs
+39727488-65ac-496d-9f3e-5db95fbc9b72 Received request: DELETE /jobs/1000
+4c63ce92-e5de-48b3-882b-7bdc31b15856 Job not found: 002
+7b393776-0a97-40f3-acf7-298c2a824e1e Job created successfully: job_id='112' job_type='simulated' job_message='Hello'
+0c074c2c-56ed-4668-ad7d-7a4f1eea0432 Received request: DELETE /jobs/002
+54204d15-9720-4a51-a36a-ac917061e55c Found job: 001
+25887866-0d95-44d2-92d4-a9cebe4e858c Job not found: 1000
+8e9ede6a-2f0b-41c1-b9d8-8fd028b5d8f8 Received request: GET /jobs
+34f4706f-db3b-4e68-bfca-62dc93794f7c Received request: GET /jobs/002
+3f65f887-74f2-4846-90e7-f5a8ca67e110 Job not found: 1000
+ce1305fb-0f89-4dc4-ae0c-e0a411d9e012 Received request: GET /jobs
+bc807e40-fc6c-47b9-9522-51c69a66563a Job not found: 002
+e4b677ad-71a8-4ccb-b93d-187ab0aa726d Job not found: 002
+3b85f74a-2ac8-4ce3-952b-2f63096860ad Received request: DELETE /jobs/1000
+39727488-65ac-496d-9f3e-5db95fbc9b72 Job not found: 1000
+34f4706f-db3b-4e68-bfca-62dc93794f7c Job not found: 002
+0c074c2c-56ed-4668-ad7d-7a4f1eea0432 Job not found: 002
+3b85f74a-2ac8-4ce3-952b-2f63096860ad Job not found: 1000
+423bfeb2-6e3b-4127-9dd3-1cd287910a0d Received request: POST /jobs
+6630c763-6633-4edd-9f32-b037ba5d653c Received request: POST /jobs
+423bfeb2-6e3b-4127-9dd3-1cd287910a0d Job created successfully: job_id='512' job_type='simulated' job_message='Hello'
+c6b2a87e-8609-432e-b2e3-ae0cc3f49b6c Received request: PUT /jobs/001
+9f66d1a3-33f5-4d19-8af0-82d36b34d37a Received request: PUT /jobs/002
+0d9b2ce6-4ed2-4317-aed8-1625475fb493 Received request: PUT /jobs/002
+6cc530e2-2930-4a6b-b54b-3629b4adb77c Received request: GET /jobs
+3e0e5657-89c2-4c1e-86d2-2c1c7f48b13c Received request: DELETE /jobs/1000
+e6cb9d94-1c32-4ba4-87de-c4f274904359 Received request: DELETE /jobs/1000
+6630c763-6633-4edd-9f32-b037ba5d653c Job created successfully: job_id='565' job_type='simulated' job_message='Hello'
+9f66d1a3-33f5-4d19-8af0-82d36b34d37a Job not found: 002
+b214f52e-675e-4774-9ecd-d99080a027bb Received request: GET /jobs/002
+e40bbfdf-e875-4c6f-84a4-d8249334a0b6 Received request: POST /jobs
+c6b2a87e-8609-432e-b2e3-ae0cc3f49b6c Updated job: 001 with message: Updated by simulated user
+b214f52e-675e-4774-9ecd-d99080a027bb Job not found: 002
+b002220c-7cc9-40c4-8b68-20aec96833f0 Received request: GET /jobs/1000
+b6daebca-a086-462c-aeac-b8bf556c3517 Received request: DELETE /jobs/1000
+3e0e5657-89c2-4c1e-86d2-2c1c7f48b13c Job not found: 1000
+ /jobs/001
+0d9b2ce6-4ed2-4317-aed8-1625475fb493 Job not found: 002
+25624260-a7d0-4213-8583-9b5ec6c7768e Received request: GET /jobs
+68eb8d64-9236-42c3-9855-35639a990d9e Received request: GET /jobs/001
+d475472d-7b8a-44c5-b66b-6fa90e56e003 Received request: DELETE /jobs/002
+2175c02e-6942-4f82-8091-bc57c2650566 Received request: DELETE /jobs/002
+e6cb9d94-1c32-4ba4-87de-c4f274904359 Job not found: 1000
+b6daebca-a086-462c-aeac-b8bf556c3517 Job not found: 1000
+e40bbfdf-e875-4c6f-84a4-d8249334a0b6 Job created successfully: job_id='832' job_type='simulated' job_message='Hello'
+b002220c-7cc9-40c4-8b68-20aec96833f0 Job not found: 1000
+68eb8d64-9236-42c3-9855-35639a990d9e Found job: 001
+d7192d3b-6c23-4653-b9d6-038dc3f99f9e Job created successfully: job_id='525' job_type='simulated' job_message='Hello'
+d475472d-7b8a-44c5-b66b-6fa90e56e003 Job not found: 002
+ec76599d-df7d-4073-a2c1-aa53d2d2bdeb Found job: 001
+2175c02e-6942-4f82-8091-bc57c2650566 Job not found: 002
+0faf1176-ff1b-49f2-a0f7-c2628d467d35 Received request: POST /jobs
+c62cd6e6-7d04-449b-9a21-d841729e864d Received request: POST /jobs
+eb022cc1-efe8-468f-8487-c1505881b671 Received request: POST /jobs
+0faf1176-ff1b-49f2-a0f7-c2628d467d35 Job created successfully: job_id='633' job_type='simulated' job_message='Hello'
+688cb2dd-74cd-4dd0-a9a5-6a703aeb95c2 Received request: PUT /jobs/1000
+5b3f6527-0d26-4cac-8efb-dc9d016d6633 Received request: POST /jobs
+33953ac1-3dfd-4d31-85e7-dbbaaae84fd1 Received request: DELETE /jobs/002
+374c4260-98a3-49ff-b6b9-dc779b01e3d5 Received request: PUT /jobs/1000
+6060a460-b263-4bf5-88cc-97b5df517936 Received request: GET /jobs
+eb022cc1-efe8-468f-8487-c1505881b671 Job created successfully: job_id='318' job_type='simulated' job_message='Hello'
+688cb2dd-74cd-4dd0-a9a5-6a703aeb95c2 Job not found: 1000
+b4db8055-0f70-42d8-8800-8d2e239ba445 Received request: GET /jobs
+dc6d54fb-f73c-4031-b138-14531b12ae75 Received request: GET /jobs
+bdf803b6-0361-4947-92a9-cc426a5a6f3d Received request: GET /jobs
+374c4260-98a3-49ff-b6b9-dc779b01e3d5 Job not found: 1000
+ETE /jobs/002
+5b3f6527-0d26-4cac-8efb-dc9d016d6633 Job created successfully: job_id='893' job_type='simulated' job_message='Hello'
+c62cd6e6-7d04-449b-9a21-d841729e864d Job created successfully: job_id='475' job_type='simulated' job_message='Hello'
+2ce55611-76a2-4813-8643-da3e9fa3ea55 Received request: GET /jobs
+52a47af4-185a-4bc3-9fde-b557c179efab Received request: GET /jobs
+3aac197a-3d96-4f07-9a94-05ee73809d30 Received request: DELETE /jobs/002
+33953ac1-3dfd-4d31-85e7-dbbaaae84fd1 Job not found: 002
+ceed812e-ad2a-44a9-9900-818c695430c8 Job not found: 002
+T /jobs
+3aac197a-3d96-4f07-9a94-05ee73809d30 Job not found: 002
+47cced75-9e3b-4b88-a34d-99db6a5876a7 Received request: GET /jobs/001
+00
+02fee09f-9c7c-4eb0-b43a-94e903a2c91a Received request: GET /jobs/002
+79e079c1-63f0-45cb-91a3-5684d04342d4 Received request: GET /jobs
+c2fb3946-9114-4eaf-8191-65e447d63ccd Received request: POST /jobs
+d58a801a-cf16-40d5-94f0-f0b472409ec3 Received request: PUT /jobs/001
+c5a9b91e-649e-4ee4-9b0e-bb3929bff711 Received request: POST /jobs
+adc63bfe-c6db-4e59-ba82-bbbe35d6616f Received request: POST /jobs
+532842de-9777-4640-bab1-2491f86c0a77 Received request: DELETE /jobs/1000
+69f1bae9-43e6-4490-a0f8-0b28cec5b871 Received request: PUT /jobs/1000
+6c04e18f-cba4-4f6d-908d-fca66d3333dd Received request: DELETE /jobs/002
+47cced75-9e3b-4b88-a34d-99db6a5876a7 Found job: 001
+334b4654-0c7c-457c-924a-a6b461a0e8fe Job not found: 1000
+18ddbb9a-85bb-4abf-b5ec-ea9abb943860 Received request: POST /jobs
+02fee09f-9c7c-4eb0-b43a-94e903a2c91a Job not found: 002
+c2fb3946-9114-4eaf-8191-65e447d63ccd Job created successfully: job_id='579' job_type='simulated' job_message='Hello'
+dc132db6-559b-452b-88de-8c12b4dbc379 Received request: PUT /jobs/002
+142677e7-bca1-48fe-8282-d7ca6c8c6dad Received request: PUT /jobs/1000
+aafa6fe2-4580-4302-9892-0b2cabe17550 Received request: GET /jobs/1000
+69f1bae9-43e6-4490-a0f8-0b28cec5b871 Job not found: 1000
+3d8cb008-9bc1-447d-87a2-3ec4e53f5ffb Received request: PUT /jobs/001
+c5a9b91e-649e-4ee4-9b0e-bb3929bff711 Job created successfully: job_id='543' job_type='simulated' job_message='Hello'
+142677e7-bca1-48fe-8282-d7ca6c8c6dad Job not found: 1000
+adc63bfe-c6db-4e59-ba82-bbbe35d6616f Job created successfully: job_id='487' job_type='simulated' job_message='Hello'
+532842de-9777-4640-bab1-2491f86c0a77 Job not found: 1000
+aafa6fe2-4580-4302-9892-0b2cabe17550 Job not found: 1000
+18ddbb9a-85bb-4abf-b5ec-ea9abb943860 Job created successfully: job_id='426' job_type='simulated' job_message='Hello'
+d58a801a-cf16-40d5-94f0-f0b472409ec3 Updated job: 001 with message: Updated by simulated user
+3d8cb008-9bc1-447d-87a2-3ec4e53f5ffb Updated job: 001 with message: Updated by simulated user
+dc132db6-559b-452b-88de-8c12b4dbc379 Job not found: 002
+12391871-2fa5-40f7-a0c3-d92698d6e1ac Received request: POST /jobs
+12391871-2fa5-40f7-a0c3-d92698d6e1ac Job created successfully: job_id='228' job_type='simulated' job_message='Hello'
+79bfed57-1335-459f-98dc-ccdc81af2901 Received request: POST /jobs
+26fca79a-0a6c-4fb8-af32-49b7800b5db1 Received request: POST /jobs
+0c700581-3090-47f8-8f2f-5ddce577bfc6 Received request: POST /jobs
+8014d6ac-5d3f-48c1-a54c-855236ec62fd Received request: POST /jobs
+25584832-2c46-4856-bda1-9dbfb8faba05 Received request: POST /jobs
+15d07f5b-b80e-4ebe-b101-2c8e1279f357 Received request: POST /jobs
+66ff247f-132d-45e8-b622-46da144e2084 Received request: PUT /jobs/002
+26fca79a-0a6c-4fb8-af32-49b7800b5db1 Job created successfully: job_id='583' job_type='simulated' job_message='Hello'
+60ed3fe9-59b7-49a9-af5f-c2008c33de4d Received request: GET /jobs
+s/002
+15d07f5b-b80e-4ebe-b101-2c8e1279f357 Job created successfully: job_id='5218a50e595-6da3-486d-bbc7-f5be48432779 Received request: GET /jobs
+e36b24b5-1c08-4da0-a358-3a4493c5ab2f Received request: DELETE /jobs/1000
+a211bad0-f1be-46b5-b780-8568293e4e8b Received request: DELETE /jobs/1000
+66ff247f-132d-45e8-b622-46da144e2084 Job not found: 002
+6e9b3457-6969-4810-9f2c-26293d82b007 Updated job: 001 with message: Updated by simulated user
+22cc0125-f9a1-45b6-abc0-fd36deb78a9f Received request: GET /jobs/001
+b0f63e6d-a3a1-48f7-a0a0-6b792e9943e6 Received request: GET /jobs/002
+0c700581-3090-47f8-8f2f-5ddce577bfc6 Job created successfully: job_id='829' job_type='simulated' job_message='Hello'
+25584832-2c46-4856-bda1-9dbfb8faba05 Job created successfully: job_id='754' job_type='simulated' job_message='Hello'
+8014d6ac-5d3f-48c1-a54c-855236ec62fd Job created successfully: job_id='547' job_type='simulated' job_message='Hello'
+9e438bfd-99fe-4ce8-b3a1-3c9c4e41fd3c Job created successfully: job_id='883' job_type='simulated' job_message='Hello'
+d946716e-9bcf-43ad-bd99-5baab7e643c3 Job not found: 1000
+3b86f1f9-b378-408e-a1f0-d550966b4e67 Job not found: 1000
+4b868a6d-a345-4614-91e4-0cd283965f1a Job not found: 1000
+e36b24b5-1c08-4da0-a358-3a4493c5ab2f Job not found: 1000
+06e015c1-f812-46f5-b3d6-636525d9ebef Job not found: 1000
+a211bad0-f1be-46b5-b780-8568293e4e8b Job not found: 1000
+fcb1e20a-3a5f-434f-ace0-96c3db9d7061 Job not found: 1000
+ce8f52f1-f8bb-4621-9af2-a1ac30827edd Job not found: 002
+261f9f9b-2bdc-45f0-96ee-5dce324a7e15 Job not found: 002
+22cc0125-f9a1-45b6-abc0-fd36deb78a9f Found job: 001
+02
+3bbd76e3-1a82-4cbc-8382-d02d52736001 Received request: PUT /jobs/1000
+14851aef-e506-463e-8add-09079e9f2733 Received request: POST /jobs
+53555ef5-6fc3-4579-9b86-26653e6d94d8 Received request: POST /jobs
+9257730d-3e5f-4b16-a001-b836b3668a14 Received request: PUT /jobs/1000
+e05ab5b9-f51a-491c-af8d-1b7091ed960f Received request: GET /jobs
+f5126f7e-d6e7-4fd1-bd56-bf27b6e245bf Received request: DELETE /jobs/002
+369b9438-89c0-4208-8399-a199237aa97e Received request: GET /jobs/001
+3dc94c64-7bc0-4246-bcc6-e4802e0e7635 Received request: GET /jobs
+88582430-98e4-4db8-9db2-0f12f1cf937e Received request: GET /jobs
+7a4ff1db-ebf4-4ad7-bd9d-f44f188a141f Received request: GET /jobs
+02
+80476611-fa1a-4ca1-98d3-80467d03bba1 Received request: GET /jobs
+47b66a09-5c8d-44ea-be97-954f64cc3d73 Received request: DELETE /jobs/002
+36002940-3cf5-4d91-a5c5-50fa807a6d96 Received request: PUT /jobs/002
+00
+f5126f7e-d6e7-4fd1-bd56-bf27b6e245bf Job not found: 002
+9257730d-3e5f-4b16-a001-b836b3668a14 Job not found: 1000
+ /jobs
+53555ef5-6fc3-4579-9b86-26653e6d94d8 Job created successfully: job_id='655' job_type='simulated' job_message='Hello'
+d7bf4ded-7395-4e4b-b7af-96b1c918ae81 Job not found: 1000
+14851aef-e506-463e-8add-09079e9f2733 Job created successfully: job_id='499' job_type='simulated' job_message='Hello'
+758bd70a-b762-4dfe-a999-7e9d41bafd26 Received request: GET /jobs/002
+369b9438-89c0-4208-8399-a199237aa97e Found job: 001
+fd18ce19-d62f-4222-a0ea-ce03090fa3d2 Job not found: 002
+3bbd76e3-1a82-4cbc-8382-d02d52736001 Job not found: 1000
+47b66a09-5c8d-44ea-be97-954f64cc3d73 Job not found: 002
+758bd70a-b762-4dfe-a999-7e9d41bafd26 Job not found: 002
+63607d36-fce4-428b-aaf3-f06824e8ff72 Received request: PUT /jobs/1000
+c3961f01-4511-4ed9-aaea-b7bf64b0450c Received request: GET /jobs/002
+d5131c7f-7053-4d66-84dd-7dcdb78dfb00 Received request: PUT /jobs/1000
+640dda36-f05a-4e80-84e1-bdcb7defed42 Received request: PUT /jobs/001
+824c71b8-d0c7-4177-b968-b5b889db3cd4 Received request: PUT /jobs/001
+02e7db5a-b9be-477b-80f5-4f18e7db15a9 Received request: GET /jobs/1000
+
+
+52514639-ec6f-4743-8c0e-c73d44802da0 Received request: GET /jobs/001
+8487d296-1972-4041-9391-eed361f33ebc Received request: GET /jobs
+000
+52a2fbf3-c1b2-4012-a334-f83a95a17321 Received request: PUT /jobs/001
+c9357793-8c0e-40cc-ade2-b8390fbcf9bb Received request: GET /jobs/1000
+a0d0af9a-a0de-41da-ae2b-5544f2f09f43 Received request: GET /jobs
+c3961f01-4511-4ed9-aaea-b7bf64b0450c Job not found: 002
+640dda36-f05a-4e80-84e1-bdcb7defed42 Updated job: 001 with message: Updated by simulated user
+63607d36-fce4-428b-aaf3-f06824e8ff72 Job not found: 1000
+d5131c7f-7053-4d66-84dd-7dcdb78dfb00 Job not found: 1000
+40a591ff-b6ad-4223-96a4-f80ac3875a8c Job created successfully: job_id='102' job_type='simulated' job_message='Hello'
+824c71b8-d0c7-4177-b968-b5b889db3cd4 Updated job: 001 with message: Updated by simulated user
+7840c211-9688-44e5-809f-3086eb43dc54 Job not found: 1000
+02e7db5a-b9be-477b-80f5-4f18e7db15a9 Job not found: 1000
+113eb4b8-856e-4963-b4b7-9fe2510ac819 Job not found: 002
+2c72969b-2bcd-4043-a67b-ebb6221a5fa4 Job not found: 1000
+52514639-ec6f-4743-8c0e-c73d44802da0 Found job: 001
+f781cf00-80ef-48e2-96c9-c5a3eedb99c9 Job not found: 1000
+52a2fbf3-c1b2-4012-a334-f83a95a17321 Updated job: 001 with message: Updated by simulated user
+dd28f747-8400-46b7-a35f-147369ac7f04 Received request: PUT /jobs/001
+88a15a28-55b5-4179-8c1a-c818e027803e Received request: PUT /jobs/001
+925c31f1-00cd-4d75-a630-92540af8d1ca Received request: POST /jobs
+2add6507-7b74-43b8-8bb9-75bc1ea2153c Received request: POST /jobs
+cf9e93d5-982f-4003-9ae6-df0c47c2352a Received request: PUT /jobs/001
+762da9a2-7f38-404f-9e59-1b398509d7c5 Received request: DELETE /jobs/1000
+cc26cff2-586e-4484-960b-30eb4c0872da Received request: PUT /jobs/002
+349f8473-d46d-4081-adb2-5e4552f8fdbd Received request: GET /jobs/001
+d0f3d86a-097c-4f77-9497-19fdedd10db3 Received request: DELETE /jobs/1000
+dd28f747-8400-46b7-a35f-147369ac7f04 Updated job: 001 with message: Updated by simulated user
+140d9072-0a03-48e5-9ac7-1942cd41d888 Job not found: 002
+T /jobs/002
+f5f0032e-8897-45de-afb9-0d40718b19c4 Received request: DELETE /jobs/1000
+cf9e93d5-982f-4003-9ae6-df0c47c2352a Updated job: 001 with message: Updated by simulated user
+2add6507-7b74-43b8-8bb9-75bc1ea2153c Job created successfully: job_id='164' job_type='simulated' job_message='Hello'
+925c31f1-00cd-4d75-a630-92540af8d1ca Job created successfully: job_id='193' job_type='simulated' job_message='Hello'
+349f8473-d46d-4081-adb2-5e4552f8fdbd Found job: 001
+d0f3d86a-097c-4f77-9497-19fdedd10db3 Job not found: 1000
+cc26cff2-586e-4484-960b-30eb4c0872da Job not found: 002
+762da9a2-7f38-404f-9e59-1b398509d7c5 Job not found: 1000
+f5f0032e-8897-45de-afb9-0d40718b19c4 Job not found: 1000
+7d713ee4-28d9-4ac3-b6f1-6ec9b0772035 Job not found: 002
+d4e1d28c-e7eb-47d0-bc88-a92d4a25791a Received request: PUT /jobs/001
+68c2bd78-bafc-46a2-bc1c-c30c19a2d1df Received request: PUT /jobs/001
+d4e1d28c-e7eb-47d0-bc88-a92d4a25791a Updated job: 001 with message: Updated by simulated user
+f67b6ed6-48e5-4ec6-8468-46088dd91671 Received request: GET /jobs
+7f856cca-2cce-4c91-b70d-63ffb4cf356f Received request: GET /jobs/1000
+2647788c-898f-4410-b034-7ce1f47fff9a Received request: DELETE /jobs/002
+b6e635d7-0f84-4e11-a096-194be798f4df Received request: GET /jobs/002
+572815fb-528e-45a2-84a8-66392dd0cbc0 Received request: DELETE /jobs/002
+2c0809b8-eaeb-4bdb-b4a1-53bd9654138f Received request: PUT /jobs/1000
+7960bbc2-666a-4b26-8a71-d099a5e0924c Received request: GET /jobs
+s/1000
+56518aa9-b49f-4178-8076-c3e3f64914d1 Received request: GET /jobs/1000
+b6e635d7-0f84-4e11-a096-194be798f4df Job not found: 002
+60573685-6c3c-4052-a40e-3c82eb5cc025 Received request: GET /jobs
+2647788c-898f-4410-b034-7ce1f47fff9a Job not found: 002
+0258f3d7-e0be-40ad-a8b5-8b037650842b Received request: GET /jobs/1000
+572815fb-528e-45a2-84a8-66392dd0cbc0 Job not found: 002
+13b8ee4b-b120-48d9-a9f5-3aa881d2eb6d Received request: GET /jobs/001
+68c2bd78-bafc-46a2-bc1c-c30c19a2d1df Updated job: 001 with6ab3b62b-7f3a-47cd-9c3a-ae8f483692c0 Received request: DELETE /jobs/002
+
+c4c3c1fc-0f0f-4ab2-87d0-3c49512ff7d2 Received request: GET /jobs/1000
+6b7c63f5-ab0f-4b98-b218-dfd024830139 Received request: DELETE /jobs/1000
+56518aa9-b49f-4178-8076-c3e3f64914d1 Job not found: 1000
+c3c9b9c4-d2e7-4191-8de4-0ed5fc0a2002 Job not found: 1000
+0258f3d7-e0be-40ad-a8b5-8b037650842b Job not found: 1000
+2c0809b8-eaeb-4bdb-b4a1-53bd9654138f Job not found: 1000
+6ab3b62b-7f3a-47cd-9c3a-ae8f483692c0 Job not found: 002
+ed55dbc6-681a-421a-a40d-a1b8d8e69d9b Job not found: 1000
+13b8ee4b-b120-48d9-a9f5-3aa881d2eb6d Found job: 001
+c4c3c1fc-0f0f-4ab2-87d0-3c49512ff7d2 Job not found: 1000
+6b7c63f5-ab0f-4b98-b218-dfd024830139 Job not found: 1000
+cc7ba44b-1743-4201-a720-b5359ff050d2 Received request: POST /jobs
+e5abfa68-4936-4a6f-a9a2-99fffc86142c Received request: PUT /jobs/001
+8a53d5db-eea2-4b29-8beb-31b40ea84d90 Received request: PUT /jobs/001
+
+1a212226-293e-452e-9b8e-57cc8679c260 Received request: PUT /jobs/1000
+13660057-a4ca-4641-b4f9-36cb1bfa6c16 Received request: PUT /jobs/1000
+aa2b20b1-6348-48aa-8627-4501ab7379db Received request: POST /jobs
+8a501dc6-3b36-4c4b-ae4d-11e1d50727cf Received request: PUT /jobs/001
+873f2824-8cca-4d6c-8efe-7ce587412025 Received request: POST /jobs
+763c6983-1eb5-43f6-b505-348918f51a9d Received request: PUT /jobs/1000
+97ef7729-9036-41ba-a157-8c1446de26c1 Received request: PUT /jobs/001
+16b88363-55cd-404f-adef-f550ac32a7cb Received request: GET /jobs/001
+79bd9edb-3903-4a8e-8b36-7680324e42dc Received request: DELETE /jobs/002
+0f9bf250-0f77-4ac8-855c-801163f95b45 Received request: GET /jobs
+de91fb4a-49b3-4c42-9be9-4d5c01b49712 Received request: GET /jobs
+02
+c4c2847f-4967-4f38-94c0-6a68c16ad60f Received request: GET /jobs/1000
+763c6983-1eb5-43f6-b505-348918f51a9d Job not found: 1000
+ /jobs/001
+
+ated by simulated user
+02f3ea47-3c9b-40cf-9d44-a19d2c993242 Received request: GET /jobs
+ffbff20e-7003-4865-94d8-00ddb0909738 Job not found: 002
+f7e017a9-9773-4dee-8e6d-d92a07cf9e47 Received request: GET /jobs
+d3a187e7-5826-4ffb-a688-b85f77686c2f Job not found: 1000
+1a212226-293e-452e-9b8e-57cc8679c260 Job not found: 1000
+97ef7729-9036-41ba-a157-8c1446de26c1 Updated job: 001 with message: Updated by simulated user
+895f3f23-7800-4e4f-bd06-3bfd827baeef Received request: GET /jobs/002
+b44acca6-c199-4177-bb35-d72a958416b8 Received request: GET /jobs
+cb0de05d-314f-4e0b-a50e-c68512fd0a8d Received request: GET /jobs/001
+8a501dc6-3b36-4c4b-ae4d-11e1d50727cf Updated job: 001 with message: Updated by simulated user
+cc7ba44b-1743-4201-a720-b5359ff050d2 Job created successfully: job_id='690' job_type='simulated' job_message='Hello'
+16b88363-55cd-404f-adef-f550ac32a7cb Found job: 001
+1e937c74-3f43-474d-9c1c-bd0553ee15ec Received request: GET /jobs
+79bd9edb-3903-4a8e-8b36-7680324e42dc Job not found: 002
+aa2b20b1-6348-48aa-8627-4501ab7379db Job created successfully: job_id='402' job_type='simulated' job_message='Hello'
+8a53d5db-eea2-4b29-8beb-31b40ea84d90 Updated job: 001 with message: Updated by simulated user
+c4c2847f-4967-4f38-94c0-6a68c16ad60f Job not found: 1000
+67b7f18e-d335-4d45-a9cc-09a57922ca99 Job not found: 1000
+21160295-88db-4dc6-ae26-6d0564862af3 Found job: 001
+13660057-a4ca-4641-b4f9-36cb1bfa6c16 Job not found: 1000
+cb0de05d-314f-4e0b-a50e-c68512fd0a8d Found job: 001
+895f3f23-7800-4e4f-bd06-3bfd827baeef Job not found: 002
+873f2824-8cca-4d6c-8efe-7ce587412025 Job created successfully: job_id='465' job_type='simulated' job_message='Hello'
+7eb95477-11bd-48f3-a624-a018c73f2212 Job not found: 1000
+b93628a7-bc2a-4be5-8cfe-bf6df968f446 Job not found: 002
+d5f47672-7f9e-4dcd-b0cd-b0b17b755e30 Received request: GET /jobs
+05364439-655b-4cd2-ab04-07ea06b9d1a4 Received request: GET /jobs/001
+3a47da18-209e-49d6-bdd0-a68b55456e10 Received request: PUT /jobs/002
+36c68f90-9504-4348-b420-4804012de2f4 Received request: GET /jobs/1000
+a533a4bb-d162-402e-900a-2bff128006c0 Received request: DELETE /jobs/002
+bb55c0fc-bbe7-4d87-9820-7b310ad282bb Received request: GET /jobs/1000
+9e44a73b-7db4-4732-afca-1a14de4d5ca4 Received request: PUT /jobs/002
+6f0f6779-80dd-48cb-8190-abe4d884a4cd Received request: PUT /jobs/1000
+4ff18efd-8256-4046-99ed-3167e89315d0 Received request: PUT /jobs/002
+3a47da18-209e-49d6-bdd0-a68b55456e10 Job not found: 002
+7fb7a80f-4d2e-4637-90cd-4842dde0c401 Received request: GET /jobs
+815992de-b783-4a97-a594-9478d8d7b63d Received request: POST /jobs
+942d0ee1-b0fa-4afd-bdb1-721dac4ff35e Received request: POST /jobs
+2a793e54-28dc-48d1-b7a2-973ee63bee42 Received request: POST /jobs
+6f0f6779-80dd-48cb-8190-abe4d884a4cd Job not found: 1000
+05364439-655b-4cd2-ab04-07ea06b9d1a4 Found job: 001
+36c68f90-9504-4348-b420-4804012de2f4 Job not found: 1000
+bb55c0fc-bbe7-4d87-9820-7b310ad282bb Job not found: 1000
+4ff18efd-8256-4046-99ed-3167e89315d0 Job not found: 002
+a533a4bb-d162-402e-900a-2bff128006c0 Job not found: 002
+815992de-b783-4a97-a594-9478d8d7b63d Job created successfully: job_id='738' job_type='simulated' job_message='Hello'
+942d0ee1-b0fa-4afd-bdb1-721dac4ff35e Job created successfully: job_id='638' job_type='simulated' job_message='Hello'
+2a793e54-28dc-48d1-b7a2-973ee63bee42 Job created successfully: job_id='320' job_type='simulated' job_message='Hello'
+9e44a73b-7db4-4732-afca-1a14de4d5ca4 Job not found: 002
+6ccb6cd4-c4ce-48c5-9b14-e475604fb850 Received request: GET /jobs
+3c741459-9624-4a43-85d6-06f13d8123c2 Received request: PUT /jobs/1000
+3c741459-9624-4a43-85d6-06f13d8123c2 Job not found: 1000
+bd4bcda7-8b3e-4d6e-877d-35e511703da8 Received request: PUT /jobs/002
+dc750889-f0dc-44df-981a-d6f0ed762ebc Received request: GET /jobs/002
+f148c0c9-e49f-453b-841d-2bceb930ab1c Received request: PUT /jobs/1000
+986cab58-3484-49df-b59e-8da02d263cd9 Received request: POST /jobs
+3d7766fb-15cb-4f2a-8e6f-0a1a5b6216eb Received request: DELETE /jobs/1000
+7991ec1f-d42c-4ed7-b80d-5076cbe0fc7c Received request: GET /jobs/001
+4e6ccf92-9ca1-4d88-a14b-8b6a371076d6 Received request: GET /jobs
+e20df43a-8de7-4e30-a055-447d827cce54 Received request: GET /jobs
+8a2bf368-20de-43c0-83bb-93ca6610d457 Received request: GET /jobs
+dc750889-f0dc-44df-981a-d6f0ed762ebc Job not found: 002
+3d7766fb-15cb-4f2a-8e6f-0a1a5b6216eb Job not found: 1000
+5e663d79-98f3-4be7-aef7-9ad4e7a90db7 Received request: DELETE /jobs/1000
+02799d28-4318-4615-9604-ca8e44834f5b Received request: GET /jobs
+babaff40-a0f9-4007-b735-4f5787f01db3 Received request: GET /jobs
+986cab58-3484-49df-b59e-8da02d263cd9 Job created successfully: job_id='857' job_type='simulated' job_message='Hello'
+22982961-3c46-46d5-bb24-164132dee3ea Received request: GET /jobs/002
+546c26d2-5e3b-494f-9f09-2d369dcbc87a Received request: DELETE /jobs/002
+7991ec1f-d42c-4ed7-b80d-5076cbe0fc7c Found job: 001
+02
+f148c0c9-e49f-453b-841d-2bceb930ab1c Job not found: 1000
+c74e1988-5ee0-4ee6-94b3-4a31b37623ec Received request: GET /jobs
+546c26d2-5e3b-494f-9f09-2d369dcbc87a Job not found: 002
+5e663d79-98f3-4be7-aef7-9ad4e7a90db7 Job not found: 1000
+22982961-3c46-46d5-bb24-164132dee3ea Job not found: 002
+3c086be5-161f-4f98-b20b-7a0553fabaec Received request: POST /jobs
+cde3f323-fcd0-468b-a1b9-afa55fa02e6f Received request: POST /jobs
+1e53e238-1da7-42c9-a34e-4c5651dea6f8 Received request: POST /jobs
+3c086be5-161f-4f98-b20b-7a0553fabaec Job created successfully: job_id='106' job_type='simulated' job_message='Hello'
+cde3f323-fcd0-468b-a1b9-afa55fa02e6f Job created successfully: job_id='387' job_type='simulated' job_message='Hello'
+1e53e238-1da7-42c9-a34e-4c5651dea6f8 Job created successfully: job_id='923' job_type='simulated' job_message='Hello'
+3e00c81c-745f-47bf-ba9b-99f1fae6ceef Received request: PUT /jobs/1000
+83740498-3ec6-425e-b01a-7a5d0b43645d Received request: GET /jobs/1000
+8c8ddaf2-2c2e-4007-88f9-a670c7d88dd8 Received request: POST /jobs
+4a038dd7-2b04-4ed1-944e-941b9a8c8ce3 Received request: GET /jobs/001
+
+3e00c81c-745f-47bf-ba9b-99f1fae6ceef Job not found: 1000
+ /jobs
+a1183186-e9b0-43e6-a102-d562b8092e9f Received request: GET /jobs/002
+aac91123-00bb-4a80-9148-6fafb174d9d0 Received request: GET /jobs/001
+e92f8d81-d56d-4f2b-b52a-59e5b942c4bb Received request: POST /jobs
+b5256392-8499-4aa4-970c-af84d0fdb3ea Received request: POST /jobs
+d88caa78-0ecd-40d2-bd0e-2c42d5b00fcd Received request: PUT /jobs/002
+4164034e-bf84-43a4-812b-f72000149127 Job created successfully: job_id='833' job_type='simulated' job_message='Hello'
+83740498-3ec6-425e-b01a-7a5d0b43645d Job not found: 1000
+a1183186-e9b0-43e6-a102-d562b8092e9f Job not found: 002
+8c8ddaf2-2c2e-4007-88f9-a670c7d88dd8 Job created successfully: job_id='377' job_type='simulated' job_message='Hello'
+4a038dd7-2b04-4ed1-944e-941b9a8c8ce3 Found job: 001
+aac91123-00bb-4a80-9148-6fafb174d9d0 Found job: 001
+a4b48e32-a199-4b21-81e0-fba79e697422 Received request: GET /jobs/1000
+d03836f6-6712-484f-ab2e-7eb402a7239b Job not found: 1000
+a380b805-8ed1-4a7c-b76c-5220696a772e Received request: DELETE /jobs/002
+35879d8c-9930-47ae-ad75-4cf9749421b2 Received request: GET /jobs/1000
+e92f8d81-d56d-4f2b-b52a-59e5b942c4bb Job created successfully: jobe8e1aa8a-793e-477e-85f0-54f880e9c5bb Received request: GET /jobs/002
+1d94a596-3cda-41d8-9d06-84a751ae4cca Received request: GET /jobs/1000
+b5256392-8499-4aa4-970c-af84d0fdb3ea Job created successfully: job_id='203' job_type='simulated' job_message='Hello'
+8b997f5d-1a69-4b7b-affd-71975d37f6ff Received request: GET /jobs
+d88caa78-0ecd-40d2-bd0e-2c42d5b00fcd Job not found: 002
+3d96763e-6089-4454-8958-5f80d833f83b Received request: DELETE /jobs/002
+35879d8c-9930-47ae-ad75-4cf9749421b2 Job not found: 1000
+a380b805-8ed1-4a7c-b76c-5220696a772e Job not found: 002
+a4b48e32-a199-4b21-81e0-fba79e697422 Job not found: 1000
+cd527707-2744-47ef-b17b-6d41153a1734 Job not found: 002
+e8e1aa8a-793e-477e-85f0-54f880e9c5bb Job not found: 002
+d2290a87-53ee-4a36-8f01-3d0a032aaca6 Received request: POST /jobs
+974f766a-00ef-4481-bddc-6124dc21be85 Received request: PUT /jobs/1000
+5d13215e-9bdc-44c4-8699-464bbf18f8ac Received request: PUT /jobs/002
+79abf53f-7c6c-4e1c-b24c-556aa4d2ca8c Received request: POST /jobs
+1d94a596-3cda-41d8-9d06-84a751ae4cca Job not found: 1000
+ca4f0bca-1a85-4294-9a66-5274abf463c8 Received request: POST /jobs
+3d96763e-6089-4454-8958-5f80d833f83b Job not found: 002
+5d13215e-9bdc-44c4-8699-464bbf18f8ac Job not found: 002
+d2290a87-53ee-4a36-8f01-3d0a032aaca6 Job created successfully: job_id='571' job_type='simulated' job_message='Hello'
+974f766a-00ef-4481-bddc-6124dc21be85 Job not found: 1000
+79abf53f-7c6c-4e1c-b24c-556aa4d2ca8c Job created successfully: job_id='726' job_type='simulated' job_message='Hello'
+ca4f0bca-1a85-4294-9a66-5274abf463c8 Job created successfully: job_id='255' job_type='simulated' job_message='Hello'
+ad1e6046-65ae-4aa8-8172-64053fc7d196 Received request: GET /jobs
+92a6e701-d79f-46d0-b324-c4a9bfc17f00 Received request: GET /jobs
+bf996443-afff-4d22-854d-6a7bf7e97bd2 Received request: GET /jobs
+aeb23a72-38f1-4f32-8df1-dac2541b1eb3 Received request: PUT /jobs/1000
+9c720ca9-a7fc-4455-9d8a-318c9510e514 Received request: PUT /jobs/002
+298105b6-5774-4f16-8820-a84fd7556ebf Received request: PUT /jobs/002
+aeb23a72-38f1-4f32-8df1-dac2541b1eb3 Job not found: 1000
+95b13332-62f6-4dfd-8856-b6f4c9d031f9 Received request: PUT /jobs/1000
+ed66c9ce-f8e6-4148-90d9-34e1ac364577 Received request: PUT /jobs/001
+9c720ca9-a7fc-4455-9d8a-318c9510e514 Job not found: 002
+298105b6-5774-4f16-8820-a84fd7556ebf Job not found: 002
+95b13332-62f6-4dfd-8856-b6f4c9d031f9 Job not found: 1000
+ed66c9ce-f8e6-4148-90d9-34e1ac364577 Updated job: 001 with message: Updated by simulated user
+a3520887-c981-465b-8a16-123fd279003e Received request: POST /jobs
+de165b2b-39a4-47f9-82b0-ab4df5dc6e3e Received request: POST /jobs
+de165b2b-39a4-47f9-82b0-ab4df5dc6e3e Job created successfully: job_id='548' job_type='simulated' job_message='Hello'
+131694f1-c551-4460-b27d-bbd83fb8a361 Received request: GET /jobs
+8c0510f1-ab13-4294-ac0c-dce749483929 Received request: GET /jobs/002
+b0673ce2-28de-44f9-ba85-63c63c0be10b Received request: DELETE /jobs/1000
+da3bbad2-5359-49e9-9125-d5f3008b495b Received request: DELETE /jobs/002
+46f671f4-40f2-4c84-a640-3d136b674151 Received request: GET /jobs/001
+225e19c2-3506-4b1b-8ce5-58dd304fa9db Received request: GET /jobs/002
+6496b34c-1b6b-472a-b9f9-0be3ad24cdf8 Received request: DELETE /jobs/002
+c7a31c46-db04-4d35-a77b-14c99c196dd9 Received request: DELETE /jobs/002
+11d4c994-7ba3-4097-80f8-0093c622efed Received request: DELETE /jobs/1000
+0dd1719a-6264-4fce-a154-1b001d239762 Received request: GET /jobs
+bc44dd24-b8ac-4326-a6e1-8a43505e6417 Received request: GET /jobs/002
+92df9d81-f50d-4f2d-86d0-a187fbaaa502 Received request: GET /jobs/002
+de8a26e0-7b3a-4a71-b3fa-cf33718867a3 Received request: GET /jobs
+fb9a4f62-f60c-4a87-985e-955ca0ff05bc Received request: GET /jobs
+000
+b0673ce2-28de-44f9-ba85-63c63c0be10b Job not found: 1000
+225e19c2-3506-4b1b-8ce5-58dd304fa9db Job not found: 002
+46f671f4-40f2-4c84-a640-3d136b674151 Found job: 001
+8c0510f1-ab13-4294-ac0c-dce749483929 Job not found: 002
+bc44dd24-b8ac-4326-a6e1-8a43505e6417 Job not found: 002
+c7a31c46-db04-4d35-a77b-14c99c196dd9 Job not found: 002
+da3bbad2-5359-49e9-9125-d5f3008b495b Job not found: 002
+0059b983-07dd-4412-9191-d4c615d613a1 Job not found: 1000
+6496b34c-1b6b-472a-b9f9-0be3ad24cdf8 Job not found: 002
+
+92df9d81-f50d-4f2d-86d0-a187fbaaa502 Job not found: 002
+336c7917-bb08-4af0-9fa1-eb4630a225a6 Received request: GET /jobs
+aca03873-0893-46f9-9151-cd8e6042e7fa Received request: GET /jobs/002
+74aa24b5-e44e-484b-bd1f-39bdd1341367 Received request: GET /jobs
+92410e7a-03ac-4d78-a536-f76f8f032474 Received request: GET /jobs/1000
+9c4f154d-b452-4550-96b8-e52129555a29 Received request: GET /jobs
+58c18150-1d79-419f-b025-8231a2ad93a8 Received request: DELETE /jobs/1000
+8c9d5799-c640-4f3c-86f3-1a79ed065d55 Received request: DELETE /jobs/1000
+d14cf6b7-69b1-45e6-96e8-20c19e86476f Received request: DELETE /jobs/1000
+92410e7a-03ac-4d78-a536-f76f8f032474 Job not found: 1000
+aca03873-0893-46f9-9151-cd8e6042e7fa Job not found: 002
+58c18150-1d79-419f-b025-8231a2ad93a8 Job not found: 1000
+df37c05a-0053-482d-bd4e-0feb5dbf08fd Received request: PUT /jobs/1000
+c85e6b1c-595d-493b-afec-a749261a3018 Received request: PUT /jobs/001
+b0121945-8d72-4cc1-a015-bd907bce8107 Received request: POST /jobs
+911d7f68-2d12-4d4d-ac41-446c6ae1c82d Received request: POST /jobs
+07b96ce0-15ce-410a-8e77-05243e7b76b8 Received request: POST /jobs
+8c9d5799-c640-4f3c-86f3-1a79ed065d55 Job not found: 1000
+88387ab4-0008-4fd0-acc6-2a8778e46946 Received request: POST /jobs
+6ca0e911-b635-4816-9a9f-b1ab6b04eb93 Received request: PUT /jobs/002
+d14cf6b7-69b1-45e6-96e8-20c19e86476f Job not found: 1000
+b3717a7a-4fe6-4920-8444-1ab16e613062 Received request: PUT /jobs/1000
+58609d27-c578-45d4-a2db-bc38d0f1e5bc Received request: PUT /jobs/001
+9ad8ce50-c184-4b6e-abb9-431d0783dbae Received request: POST /jobs
+id='141' job_type='simulated' job_message='Hello'
+88387ab4-0008-4fd0-acc6-2a8778e46946 Job created successfully: job_id='725' job_type='simulated' job_message='Hello'
+c85e6b1c-595d-493b-afec-a749261a3018 Updated job: 001 with message: Updated by simulated user
+911d7f68-2d12-4d4d-ac41-446c6ae1c82d Job created successfully: job_id='933' job_type='simulated' job_message='Hello'
+df37c05a-0053-482d-bd4e-0feb5dbf08fd Job not found: 1000
+3f6f5203-e22e-4582-aede-e5bc0e551b38 Job created successfully: job_id='346' job_type='simulated' job_message='Hello'
+07b96ce0-15ce-410a-8e77-05243e7b76b8 Job created successfully: job_id='254' job_type='simulated' job_message='Hello'
+6ca0e911-b635-4816-9a9f-b1ab6b04eb93 Job not found: 002
+9ad8ce50-c184-4b6e-abb9-431d0783dbae Job created successfully: job_id='104' job_type='simulated' job_message='Hello'
+b3717a7a-4fe6-4920-8444-1ab16e613062 Job not found: 1000
+58609d27-c578-45d4-a2db-bc38d0f1e5bc Updated job: 001 with message: Updated by simulated user
+c83f52b7-6877-4dc7-9228-452353f888a5 Received request: POST /jobs
+442dc601-4887-4263-8f04-ca55a4da7392 Received request: GET /jobs/001
+6fef6632-b60d-4fe1-a520-358e7e3452a5 Received request: POST /jobs
+df0359ac-a17c-472e-8ec6-2cc438c4043e Received request: PUT /jobs/002
+442dc601-4887-4263-8f04-ca55a4da7392 Found job: 001
+3240a73e-e149-4c0c-b1d1-141aff72fe75 Received request: PUT /jobs/002
+c83f52b7-6877-4dc7-9228-452353f888a5 Job created successfully: job_id='643' job_type='simulated' job_message='Hello'
+45724744-48e2-4f02-9d43-c606fb628cbc Received request: PUT /jobs/1000
+633ab6fd-e757-45a9-8508-9981458d311d Received request: PUT /jobs/001
+6fef6632-b60d-4fe1-a520-358e7e3452a5 Job created successfully: job_id='551' job_type='simulated' job_message='Hello'
+df0359ac-a17c-472e-8ec6-2cc438c4043e Job not found: 002
+3240a73e-e149-4c0c-b1d1-141aff72fe75 Job not found: 002
+45724744-48e2-4f02-9d43-c606fb628cbc Job not found: 1000
+633ab6fd-e757-45a9-8508-9981458d311d Updated job: 001 with message: Updated by simulated user
+a4f4326b-c3a7-48d8-b985-ce1f1a5ef2cb Received request: DELETE /jobs/002
+d8080c00-f9d9-4896-a0f2-3c67aa0eb18e Received request: GET /jobs/002
+f351a381-7eb6-4f17-83ed-d26a98456e2e Received request: GET /jobs/1000
+1515c37a-9d04-434d-a2eb-a016d5b72ea4 Received request: DELETE /jobs/1000
+15643956-8ef1-48bf-8f07-72a14e41c934 Received request: GET /jobs/002
+c54cd0d2-1154-4fc3-b561-c54e64581c11 Received request: GET /jobs/002
+268b0e07-2971-44af-811d-081e04ec7b8f Received request: GET /jobs/001
+2d49fdd1-edfb-4c27-9971-ac159dc91b35 Received request: GET /jobs/001
+181b7db1-38f9-4901-8584-ea28fe2f6b31 Received request: GET /jobs/001
+a4f4326b-c3a7-48d8-b985-ce1f1a5ef2cb Job not found: 002
+f351a381-7eb6-4f17-83ed-d26a98456e2e Job not found: 1000
+15643956-8ef1-48bf-8f07-72a14e41c934 Job not found: 002
+2d49fdd1-edfb-4c27-9971-ac159dc91b35 Found job: 001
+1515c37a-9d04-434d-a2eb-a016d5b72ea4 Job not found: 1000
+c54cd0d2-1154-4fc3-b561-c54e64581c11 Job not found: 002
+181b7db1-38f9-4901-8584-ea28fe2f6b31 Found job: 001
+ab68e241-0e83-4664-8f83-a5f86e318fd4 Received request: POST /jobs
+38d7cd9e-6592-4e17-9d2a-91b2b013a222 Received request: PUT /jobs/002
+ab68e241-0e83-4664-8f83-a5f86e318fd4 Job created successfully: job_id='992' job_type='simulated' job_message='Hello'
+38d7cd9e-6592-4e17-9d2a-91b2b013a222 Job not found: 002
+a07b5da8-f265-425b-a9dd-9a99333a897c Received request: DELETE /jobs/002
+7647554b-93af-4ea9-a11b-bd0695fa7a62 Received request: GET /jobs
+01
+79830887-ba7c-417b-a949-eda9251b138b Received request: POST /jobs
+e50dbec4-5f0e-4426-a743-3886ce3578e5 Received request: PUT /jobs/002
+aa7f5fef-674c-42ac-be88-8b59d80dada2 Received request: POST /jobs
+4e0b339f-43f8-4fa3-8d5a-80f07a288b47 Received request: GET /jobs
+9ee0a775-471b-431f-a577-51046430757f Received request: POST /jobs
+7d11bdec-7301-46e6-9961-df043c323728 Received request: GET /jobs/001
+a82a000a-529a-463c-9235-d26d27df7693 Received request: GET /jobs/001
+cc17d4e7-171e-47b9-bf4a-7fc67898d29a Received request: PUT /jobs/1000
+54c43a3e-7b54-4e87-b774-96bed914b9b2 Received request: DELETE /jobs/002
+a07b5da8-f265-425b-a9dd-9a99333a897c Job not found: 002
+9668f055-1a92-4055-9ee0-39405000f61b Found job: 001
+e50dbec4-5f0e-4426-a743-3886ce3578e5 Job not found: 002
+9ee0a775-471b-431f-a577-51046430757f Job created successfully: job_id='814' job_type='simulated' job_message='Hello'
+7e3ab769-ea5d-4afe-b737-5293cc2284bf Found job: 001
+79830887-ba7c-417b-a949-eda9251b138b Job created successfully: job_id='992' job_type='simulated' job_message='Hello'
+e246eaf3-0d39-4526-bbe0-64fd4ddc308c Received request: GET /jobs
+aa7f5fef-674c-42ac-be88-8b59d80dada2 Job created successfully: job_id='826' job_type='simulated' job_message='Hello'
+54c43a3e-7b54-4e87-b774-96bed914b9b2 Job not found: 002
+0bad32b1-46ef-4950-9e0c-9b57994b287b Received request: PUT /jobs/1000
+cc17d4e7-171e-47b9-bf4a-7fc67898d29a Job not found: 1000
+7d11bdec-7301-46e6-9961-df043c323728 Found job: 001
+a82a000a-529a-463c-9235-d26d27df7693 Found job: 001
+0bad32b1-46ef-4950-9e0c-9b57994b287b Job not found: 1000
+e622b664-cccc-478d-b17c-5393c277fa7d Received request: DELETE /jobs/002
+a59b9c59-7669-48d2-9421-9995b957b377 Received request: DELETE /jobs/002
+931d0440-b5bd-44e1-b025-5eb5d0b398b6 Received request: DELETE /jobs/002
+e5920694-d7a8-443e-903d-7cde7ad84eb9 Received request: GET /jobs/002
+76993a83-c794-4236-8dc6-6a6a02729e32 Received request: GET /jobs/1000
+e622b664-cccc-478d-b17c-5393c277fa7d Job not found: 002
+b5c13de2-eb65-489a-b008-d8e915bfca98 Received request: DELETE /jobs/002
+7c7ed26f-44d9-4268-8b27-cd8c9ee47905 Received request: DELETE /jobs/1000
+1a7edfed-96f3-47d8-8681-abdf5e744636 Received request: GET /jobs/1000
+931d0440-b5bd-44e1-b025-5eb5d0b398b6 Job not found: 002
+e5920694-d7a8-443e-903d-7cde7ad84eb9 Job not found: 002
+1a7edfed-96f3-47d8-8681-abdf5e744636 Job not found: 1000
+a59b9c59-7669-48d2-9421-9995b957b377 Job not found: 002
+7c7ed26f-44d9-4268-8b27-cd8c9ee47905 Job not found: 1000
+b5c13de2-eb65-489a-b008-d8e915bfca98 Job not found: 002
+340e8a72-a270-493a-9f7d-081c0fcd369a Received request: POST /jobs
+81951fb6-ccde-436f-84af-bf7d7c73f316 Received request: PUT /jobs/001
+9fe8dc2e-8f87-4549-bb16-7ae1035600e7 Received request: POST /jobs
+340e8a72-a270-493a-9f7d-081c0fcd369a Job created successfully: job_id='639' job_type='simulated' job_message='Hello'
+9fe8dc2e-8f87-4549-bb16-7ae1035600e7 Job created successfully: job_id='350' job_type='simulated' job_message='Hello'
+ac359e28-e62b-45f0-9aba-f5f29710883b Received request: POST /jobs
+ Updated by simulated user
+4ec6990d-49c0-44d4-a00a-886fafa45c92 Received request: PUT /jobs/002
+300387ee-e426-4729-8d5f-963d21e5dfdf Received request: PUT /jobs/002
+42df50de-08d7-4a81-a3e8-e6a247a72385 Received request: POST /jobs
+a500aa79-f29d-41b0-9cc0-d2de6d5dd6ef Received request: POST /jobs
+42df50de-08d7-4a81-a3e8-e6a247a72385 Job created successfully: job_id='297' job_type='simulated' job_message='Hello'
+300387ee-e426-4729-8d5f-963d21e5dfdf Job not found: 002
+ac359e28-e62b-45f0-9aba-f5f29710883b Job created successfully: job_id='801' job_type='simulated' job_message='Hello'
+4ec6990d-49c0-44d4-a00a-886fafa45c92 Job not found: 002
+a500aa79-f29d-41b0-9cc0-d2de6d5dd6ef Job created successfully: job_id='403' job_type='simulated' job_message='Hello'
+18c28ced-125e-4703-b1b4-c618f70648e1 Received request: POST /jobs
+5da28d2b-9662-4306-9495-5d2b4b1b2f0d Received request: POST /jobs
+53537b75-73f6-421b-b8c1-42c296243628 Received request: PUT /jobs/001
+d09d9d05-64d7-4223-8bdd-9c2c99886c8f Received request: PUT /jobs/002
+18c28ced-125e-4703-b1b4-c618f70648e1 Job created successfully: job_id='838' job_type='simulated' job_message='Hello'
+5da28d2b-9662-4306-9495-5d2b4b1b2f0d Job created successfully: job_id='826' job_type='simulated' job_message='Hello'
+d09d9d05-64d7-4223-8bdd-9c2c99886c8f Job not found: 002
+53537b75-73f6-421b-b8c1-42c296243628 Updated job: 001 with message: Updated by simulated user
+77c13b49-7fa2-47fd-8622-20d218f0a072 Received request: GET /jobs
+c84fa1e5-c016-4bcb-a27b-010e6348f576 Received request: GET /jobs/001
+af94d8c6-d987-4895-b8d0-bab23d2c5870 Received request: GET /jobs/002
+c84fa1e5-c016-4bcb-a27b-010e6348f576 Found job: 001
+af94d8c6-d987-4895-b8d0-bab23d2c5870 Job not found: 002
+9909e0cc-5b53-41fd-9eb0-250c846facb6 Received request: DELETE /jobs/1000
+7931fe8d-5a9b-47d0-a632-1ccedc05497a Received request: GET /jobs
+9909e0cc-5b53-41fd-9eb0-250c846facb6 Job not found: 1000
+9928cd9a-d364-4d50-8e7e-148282e89ffd Received request: GET /jobs
+5501980c-d1ba-43de-a2e8-953d8421bd73 Received request: DELETE /jobs/1000
+9902e90f-eddb-497a-a4d4-acd7560aeddd Received request: GET /jobs
+2f063f0d-3bdf-436f-8133-1696f9e2144b Received request: GET /jobs
+f00ea824-6dc9-44f3-8e93-1230b2eef600 Received request: GET /jobs/001
+ff535b99-5e74-4353-b2a7-e88b7886ea2c Received request: DELETE /jobs/1000
+5501980c-d1ba-43de-a2e8-953d8421bd73 Job not found: 1000
+f00ea824-6dc9-44f3-8e93-1230b2eef600 Found job: 001
+ff535b99-5e74-4353-b2a7-e88b7886ea2c Job not found: 1000
+35fbad77-9c47-4834-9d19-28f127f9df29 Received request: POST /jobs
+3dbadc02-01d7-47db-896d-68678a99451c Received request: PUT /jobs/001
+c4f288bf-d8bd-4d64-b9df-a261794fc0b8 Received request: POST /jobs
+6f7433d7-3601-4115-a4bc-d294df482d9c Received request: PUT /jobs/001
+35fbad77-9c47-4834-9d19-28f127f9df29 Job created successfully: job_id='648' job_type='simulated' job_message='Hello'
+d8b1db5b-074e-4ebc-abb9-0ac3dd6dd1e3 Received request: POST /jobs
+3dbadc02-01d7-47db-896d-68678a99451c Updated job: 001 with message: Updated by simulated user
+6ae4e8da-e799-44b3-9aca-26e665186f16 Received request: PUT /jobs/1000
+d47c510e-de10-4ade-8007-8779bcfdfec7 Received request: PUT /jobs/002
+97bd0f6e-6b1d-4717-a7e2-020793855205 Received request: PUT /jobs/002
+03a5f9f0-2231-4f1b-a961-3f3f45efa523 Received request: PUT /jobs/1000
+81f226a5-5740-41bf-9131-fe7bafbd0e8d Received request: PUT /jobs/001
+d8b1db5b-074e-4ebc-abb9-0ac3dd6dd1e3 Job created successfully: job_id='472' job_type='simulated' job_message='Hello'
+6f7433d7-3601-4115-a4bc-d294df482d9c Updated job: 001 with message: Updated by simulated user
+c4f288bf-d8bd-4d64-b9df-a261794fc0b8 Job created successfully: job_id='356' job_type='simulated' job_message='Hello'
+11612be9-74e1-4bea-84b9-135069886787 Received request: PUT /jobs/001
+6ae4e8da-e799-44b3-9aca-26e665186f16 Job not found: 1000
+b477bc05-a00c-4528-8647-c4f949ae94c3 Received request: PUT /jobs/002
+d112d99c-3f2d-4267-a0ed-28c0cb9d35ab Received request: POST /jobs
+2
+97bd0f6e-6b1d-4717-a7e2-020793855205 Job not found: 002
+77a18854-8fd6-4d20-84a7-bc8d80ec782b Received request: POST /jobs
+bddc2510-9872-46a3-a0e8-41f0fcdd647c Received request: POST /jobs
+03a5f9f0-2231-4f1b-a961-3f3f45efa523 Job not found: 1000
+81f226a5-5740-41bf-9131-fe7bafbd0e8d Updated job: 001 with message: Updated by simulated user
+b624e78f-cce3-4550-933f-cd784e1fdeda Job not found: 002
+d112d99c-3f2d-4267-a0ed-28c0cb9d35ab Job created successfully: job_id='228' job_type='simulated' job_message='Hello'
+b477bc05-a00c-4528-8647-c4f949ae94c3 Job not found: 002
+77a18854-8fd6-4d20-84a7-bc8d80ec782b Job created successfully: job_id='360' job_type='simulated' job_message='Hello'
+d47c510e-de10-4ade-8007-8779bcfdfec7 Job not found: 002
+bddc2510-9872-46a3-a0e8-41f0fcdd647c Job created successfully: job_id='832' job_type='simulated' job_message='Hello'
+11612be9-74e1-4bea-84b9-135069886787 Updated job: 001 with message: Updated by simulated user
+71cec5fa-60e6-4cc8-91bf-1f17b12c0805 Received request: GET /jobs
+619c8eb2-d32f-4f57-bca1-5460aff68aa7 Received request: DELETE /jobs/002
+48e915b2-83e9-44a0-a129-a8eef1e24464 Received request: DELETE /jobs/002
+488bbb46-44c8-4bc6-a794-c76bc10b5b22 Received request: GET /jobs/001
+619c8eb2-d32f-4f57-bca1-5460aff68aa7 Job not found: 002
+48e915b2-83e9-44a0-a129-a8eef1e24464 Job not found: 002
+488bbb46-44c8-4bc6-a794-c76bc10b5b22 Found job: 001
+25fd35b8-5e1e-4665-8124-32b261728969 Received request: DELETE /jobs/1000
+5a572607-b66d-4c06-b9bf-6d2f81a925d8 Received request: GET /jobs/002
+b183d41e-f95c-470f-a183-d64092fec3f5 Received request: GET /jobs
+289a3540-0a39-4236-96d1-dea877d840aa Received request: DELETE /jobs/1000
+16467db1-378d-4188-be78-ac75fee3a261 Received request: DELETE /jobs/1000
+371db2de-296d-43e9-a22f-cbba01cb90e2 Received request: DELETE /jobs/1000
+c55a8ed6-439c-4580-9b49-c6c1320e5dd1 Received request: DELETE /jobs/1000
+3576628f-a702-48d7-8814-bab80b8064ac Received request: GET /jobs/1000
+5af6ddc3-4630-4fe2-8097-c4d23325f70b Received request: GE25fd35b8-5e1e-4665-8124-32b261728969 Job not found: 1000
+371db2de-296d-43e9-a22f-cbba01cb90e2 Job not found: 1000
+3576628f-a702-48d7-8814-bab80b8064ac Job not found: 1000
+c55a8ed6-439c-4580-9b49-c6c1320e5dd1 Job not found: 1000
+0aa97f8b-e886-40ca-9c0e-8b0dc85d1502 Received request: GET /jobs
+16467db1-378d-4188-be78-ac75fee3a261 Job not found: 1000
+9d0ab534-ee9a-4437-abf6-5988002065b5 Received request: DELETE /jobs/002
+289a3540-0a39-4236-96d1-dea877d840aa Job not found: 1000
+b68da49d-0c99-470c-a3d7-7afb1faac132 Received request: GET /jobs/1000
+7929845c-2f80-4d71-9355-8c29a4e9ef31 Received request: GET /jobs/1000
+b68da49d-0c99-470c-a3d7-7afb1faac132 Job not found: 1000
+9d0ab534-ee9a-4437-abf6-5988002065b5 Job not found: 002
+7929845c-2f80-4d71-9355-8c29a4e9ef31 Job not found: 1000
+33b4a9ca-5360-4a3d-9bd9-8cbdd960efa4 Received request: PUT /jobs/001
+afa3245c-916a-4b07-bda4-8a7aaa9c23be Received request: POST /jobs
+19523332-b506-4932-8317-7f475f1e10bc Received request: PUT /jobs/001
+dae4d16f-1474-426f-aee9-43af274e7fe1 Received request: POST /jobs
+d0de09e4-6130-4274-a185-897ea87ebd45 Received request: POST /jobs
+926ee88d-3250-40fc-9f0b-221c00a6ffa5 Received request: PUT /jobs/001
+4a205039-9c46-4f99-b64f-11ebc9c80d1b Received request: POST /jobs
+33b4a9ca-5360-4a3d-9bd9-8cbdd960efa4 Updated job: 001 with message: Updated by simulated user
+afa3245c-916a-4b07-bda4-8a7aaa9c23be Job created successfully: job_id='464' job_type='simulated' job_message='Hello'
+19523332-b506-4932-8317-7f475f1e10bc Updated job: 001 with message: Updated by simulated user
+dae4d16f-1474-426f-aee9-43af274e7fe1 Job created successfully: job_id='308' job_type='simulated' job_message='Hello'
+926ee88d-3250-40fc-9f0b-221c00a6ffa5 Updated job: 001 with message: Updated by simulated user
+d0de09e4-6130-4274-a185-897ea87ebd45 Job created successfully: job_id='287' job_type='simulated' job_message='Hello'
+4a205039-9c46-4f99-b64f-11ebc9c80d1b Job created successfully: job_id='700' job_type='simulated' job_message='Hello'
+70295c7d-c924-4b14-bd11-cb5a76468d57 Received request: DELETE /jobs/002
+70295c7d-c924-4b14-bd11-cb5a76468d57 Job not found: 002
+89dcca41-06f4-4a5c-a355-05019e165f9f Received request: DELETE /jobs/1000
+35068d9c-c114-431e-b396-7e90fd04afe9 Received request: GET /jobs/1000
+73684d2f-61f5-4832-91cb-193dfb59babe Received request: DELETE /jobs/1000
+b85eda54-3676-44cb-8f47-16602e2f87d4 Received request: GET /jobs
+89dcca41-06f4-4a5c-a355-05019e165f9f Job not found: 1000
+35068d9c-c114-431e-b396-7e90fd04afe9 Job not found: 1000
+73684d2f-61f5-4832-91cb-193dfb59babe Job not found: 1000
+6a236e3d-6912-4ffb-a4bd-814223eec83a Received request: POST /jobs
+fe43d06a-1535-428d-b536-e9c549246789 Received request: POST /jobs
+6a236e3d-6912-4ffb-a4bd-814223eec83a Job created successfully: job_id='508' job_type='simulated' job_message='Hello'
+fe43d06a-1535-428d-b536-e9c549246789 Job created successfully: job_id='158' job_type='simulated' job_message='Hello'
+441e4296-6204-45b7-8b0f-66730b61fac3 Received request: GET /jobs/002
+c2fcc562-72b9-4671-906e-65d88cbcf6e7 Received request: DELETE /jobs/002
+28531405-b0cd-4beb-9314-acfd6917be9c Received request: GET /jobs/1000
+441e4296-6204-45b7-8b0f-66730b61fac3 Job not found: 002
+c2fcc562-72b9-4671-906e-65d88cbcf6e7 Job not found: 002
+28531405-b0cd-4beb-9314-acfd6917be9c Job not found: 1000
+8d23c072-e085-4ed6-aaec-81e4c59e91cc Received request: PUT /jobs/002
+6a25612e-144a-46d4-acad-9cea5fbdb2e4 Received request: POST /jobs
+fac7005b-1edb-400e-b010-7ec9d54d3498 Received request: GET /jobs/1000
+49f8dc61-3050-4740-974b-5839c7567c2b Received request: GET /jobs/002
+2d8975b6-faf7-4816-aee9-44eb03fc67b5 Received request: GET /jobs/1000
+5d900485-7031-45c3-a664-6f1eacf62250 Received request: GET /jobs/001
+8d23c072-e085-4ed6-aaec-81e4c59e91cc Job not found: 002
+T /jobs/002
+
+eb09d0e1-6033-4e4d-948c-46aad3fc5eca Received request: GET /jobs/001
+20c80636-1db1-48c5-8074-416971e26393 Received request: GET /jobs
+6a25612e-144a-46d4-acad-9cea5fbdb2e4 Job created successfully: job_id='249' job_type='simulated' job_message='Hello'
+ca1d7fef-9b2d-4655-8649-b5f4d5f1e33b Received request: GET /jobs/1000
+49f8dc61-3050-4740-974b-5839c7567c2b Job not found: 002
+fac7005b-1edb-400e-b010-7ec9d54d3498 Job not found: 1000
+d5a89c9e-2235-42a8-888e-793b75dba3d1 Job not found: 1000
+2d8975b6-faf7-4816-aee9-44eb03fc67b5 Job not found: 1000
+c8c94d67-98ab-43c5-a907-0a239464edbb Job not found: 002
+eb09d0e1-6033-4e4d-948c-46aad3fc5eca Found job: 001
+5d900485-7031-45c3-a664-6f1eacf62250 Found job: 001
+ca1d7fef-9b2d-4655-8649-b5f4d5f1e33b Job not found: 1000
+920f5b08-f070-424f-975e-729df72d35c0 Job not found: 1000
+f0dd14f7-539a-439a-9e3b-35c9d7f9b178 Received request: PUT /jobs/002
+0f69631b-e9e9-4566-9bd1-a60f97d1647d Received request: DELETE /jobs/002
+329acc2f-7e83-43e8-8d28-126780828ee5 Received request: GET /jobs/002
+f0dd14f7-539a-439a-9e3b-35c9d7f9b178 Job not found: 002
+0f69631b-e9e9-4566-9bd1-a60f97d1647d Job not found: 002
+329acc2f-7e83-43e8-8d28-126780828ee5 Job not found: 002
+fda4f9c0-8699-4669-b106-78168d6fee23 Received request: PUT /jobs/001
+50e97819-a73e-47a1-a6df-4845aaf786ee Received request: GET /jobs
+8d9e349b-066c-41e1-900a-42d94e3e298f Received request: POST /jobs
+9e4f94f8-8ca9-474b-b89f-bb157e6a4136 Received request: POST /jobs
+eee2af33-781c-4cbf-bb6a-7245df2409df Received request: DELETE /jobs/1000
+fda4f9c0-8699-4669-b106-78168d6fee23 Updated job: 001 with message: Updated by simulated user
+892cddd5-b9c2-4915-b2a6-af68c3b4b8f4 Received request: GET /jobs
+8d9e349b-066c-41e1-900a-42d94e3e298f Job created successfully: job_id='217' job_type='simulated' job_message='Hello'
+eee2af33-781c-4cbf-bb6a-7245df2409df Job not found: 1000
+343a2662-103d-4a37-b068-feefcbbcf621 Received request: DELETE /jobs/002
+9e4f94f8-8ca9-474b-b89f-bb157e6a4136 Job created successfully: job_id='657' job_type='simulated' job_message='Hello'
+a986f676-6772-40f1-9b2f-2a3e440d4c2a Received request: POST /jobs
+343a2662-103d-4a37-b068-feefcbbcf621 Job not found: 002
+f373c5fa-a102-4cdb-8ac6-7314cc8da03f Received request: POST /jobs
+5d649756-c504-4a13-8a0b-4ec9aff2fd58 Received request: POST /jobs
+b1eb482d-7052-4eda-9414-dba7e8184412 Received request: POST /jobs
+124236d3-336d-42b6-83f6-b8ff95c2106a Received request: PUT /jobs/002
+59b57c56-e7f4-4c3d-9ada-65f2c739b9e3 Received request: GET /jobs/001
+64245e4b-8831-44d4-bab9-466f7c07ad8f Received request: GET /jobs
+f373c5fa-a102-4cdb-8ac6-7314cc8da03f Job created successfully: job_id='231' job_type='simulated' job_message='Hello'
+079c4003-cb59-4ea3-b4ae-dc8d85fd19bc Received request: POST /jobs
+a986f676-6772-40f1-9b2f-2a3e440d4c2a Job created successfully: job_id='224' job_type='simulated' job_message='Hello'
+5d649756-c504-4a13-8a0b-4ec9aff2fd58 Job created successfully: job_id='977' job_type='simulated' job_message='Hello'
+079c4003-cb59-4ea3-b4ae-dc8d85fd19bc Job created successfully: job_id='160' job_type='simulated' job_message='Hello'
+b1eb482d-7052-4eda-9414-dba7e8184412 Job created successfully: job_id='555' job_type='simulated' job_message='Hello'
+124236d3-336d-42b6-83f6-b8ff95c2106a Job not found: 002
+59b57c56-e7f4-4c3d-9ada-65f2c739b9e3 Found job: 001
+e700f475-c6f9-4964-97c1-f4909cb46ed8 Received request: GET /jobs
+90eb9bab-4418-4eac-bf76-4c2139ad864d Received request: GET /jobs
+e23b8743-698c-42a2-81be-fbe86f45bf1c Received request: DELETE /jobs/1000
+caa37612-4155-48fd-a924-321a39a53629 Received request: GET /jobs
+b6743882-e1b3-4395-bd58-faba57a73400 Received request: GET /jobs
+0508e1f4-050a-45ee-aa55-455918496afe Received request: GET /jobs
+83f262ca-7746-4371-911a-98eba1103c0c Received request: GET /jobs
+e23b8743-698c-42a2-81be-fbe86f45bf1c Job not found: 1000
+072f6ffd-8f41-4637-bdfc-31da06581f4c Received request: POST /jobs
+c278796b-1139-4f64-986a-388909127a20 Received request: POST /jobs
+25a250af-1442-451b-96ba-019b29249dda Received request: POST /jobs
+73a1f93e-a985-4321-95ab-4b9fc34c6bbd Received request: POST /jobs
+2e5cccc8-b7e3-4c50-87ec-6c1986736463 Received request: PUT /jobs/002
+bbca998c-9170-459c-a617-d4b45e19ee39 Received request: PUT /jobs/002
+
+82b9b317-2879-492d-846b-69883123c934 Received request: POST /jobs
+73a1f93e-a985-4321-95ab-4b9fc34c6bbd Job created successfully: job_id='996' job_type='simulated' job_message='Hello'
+c278796b-1139-4f64-986a-388909127a20 Job created successfully: job_id='476' job_type='simulated' job_message='Hello'
+2e5cccc8-b7e3-4c50-87ec-6c1986736463 Job not found: 002
+072f6ffd-8f41-4637-bdfc-31da06581f4c Job created successfully: job_id='442' job_type='simulated' job_message='Hello'
+25a250af-1442-451b-96ba-019b29249dda Job created successfully: job_id='971' job_type='simulated' job_message='Hello'
+82b9b317-2879-492d-846b-69883123c934 Job created successfully: job_id='505' job_type='simulated' job_message='Hello'
+bbca998c-9170-459c-a617-d4b45e19ee39 Job not found: 002
+d67c389d-1362-4d99-ae51-209933ec2096 Job created successfully: job_id='850' job_type='simulated' job_message='Hello'
+c75dbe31-2b93-416f-abee-85cded9b9835 Received request: POST /jobs
+48cc48d7-f280-4f1e-912b-b4aabe2db8d7 Received request: GET /jobs
+77b02156-324f-4b58-b21b-e770c2072e3f Received request: GET /jobs/002
+de2eb369-8aaa-4c53-a652-2f7d1f3e0dd4 Received request: DELETE /jobs/1000
+c75dbe31-2b93-416f-abee-85cded9b9835 Job created successfully: job_id='877' job_type='simulated' job_message='Hello'
+de2eb369-8aaa-4c53-a652-2f7d1f3e0dd4 Job not found: 1000
+77b02156-324f-4b58-b21b-e770c2072e3f Job not found: 002
+53a11a83-db1c-4c46-aa99-fa284a6c0aa3 Received request: POST /jobs
+53a11a83-db1c-4c46-aa99-fa284a6c0aa3 Job created successfully: job_id='705' job_type='simulated' job_message='Hello'
+3def59d2-e3cc-4ded-a7a8-b938a1323382 Received request: GET /jobs/002
+86cd0594-f572-4c1d-b6ef-c28e3ae14b7d Received request: DELETE /jobs/1000
+4e094148-8c29-4427-96f9-a940374df177 Received request: GET /jobs/001
+bf1ff49c-d131-4639-906f-4a1152a019a3 Received request: GET /jobs
+c18f4bf2-a0b6-4dcb-9a0d-f58a1b48b809 Received request: GET /jobs/002
+1a460e94-d5ac-45c8-9dab-6b059466f2f8 Received request: GET /jobs
+3def59d2-e3cc-4ded-a7a8-b938a1323382 Job not found: 002
+
+4e094148-8c29-4427-96f9-a940374df177 Found job: 001
+c18f4bf2-a0b6-4dcb-9a0d-f58a1b48b809 Job not found: 002
+d5cdeb73-7e7e-4c88-ad54-d3064360b811 Received request: DELETE /jobs/1000
+8cf910e8-da18-4833-a798-9d3eea944d55 Received request: GET /jobs/001
+08821310-7abf-46a4-918f-d60d604ee75e Received request: DELETE /jobs/1000
+e06a1eb4-4f83-4e08-83bb-e133ff3be680 Received request: GET /jobs/001
+a407c39c-2ee2-4d1f-a66a-d0ffa39b1db4 Received request: GET /jobs/1000
+5a8f2d3a-b713-495c-8ebf-b91d7d6745a4 Received request: DELETE /jobs/002
+3410fb0b-b553-4164-8357-1d8ff06ba7a3 Received request: GET /jobs/002
+2dc41a9b-557b-4421-86e5-7187271faa72 Received request: GET /jobs
+025cf689-8920-4bdc-8c4e-ba11e2b164fd Received request: PUT /jobs/1000
+68b6e175-f7b9-4600-9ffc-a2cecabe2aed Received request: GET /jobs
+2bc854b1-6bb8-4503-821e-7226b9886309 Received request: GET /jobs/1000
+d8615434-5d6a-45d3-bd36-0c4722efd638 Received request: PUT /jobs/001
+b3adc8af-4d1a-4f28-afe7-a9a636325f3d Received request: GET /jobs/001
+d24dc09b-e536-4e73-be67-f993e2e79f73 Received request: DELETE /jobs/1000
+0257093b-ae1c-4270-875b-9a21a08b9642 Received request: GET /jobs/1000
+ff01aa81-3641-4994-ace6-2c39e02e22d8 Received request: GET /jobs/001
+
+bbfb18ee-82cc-4564-9b0b-823a6b885ed4 Received request: PUT /jobs/002
+3448968d-c048-45f6-8ef6-8bca85ea6075 Received request: POST /jobs
+6ec285bb-0e00-4a61-af2c-0b61439c4510 Received request: DELETE /jobs/002
+a407c39c-2ee2-4d1f-a66a-d0ffa39b1db4 Job not found: 1000
+7312e221-adfb-4503-99e5-533d0a5d8165 Received request: POST /jobs
+3410fb0b-b553-4164-8357-1d8ff06ba7a3 Job not found: 002
+08821310-7abf-46a4-918f-d60d604ee75e Job not found: 1000
+d8615434-5d6a-45d3-bd36-0c4722efd638 Updated job: 001 with message: Updated by simulated user
+7312e221-adfb-4503-99e5-533d0a5d8165 Job created successfully: job_id='868' job_type='simulated' job_message='Hello'
+22ee1432-e7c7-43a9-aacb-8d03d7e0ba50 Received request: GET /jobs
+2bc854b1-6bb8-4503-821e-7226b9886309 Job not found: 1000
+ee9d799a-dceb-422f-b854-99dc6b6cf56e Job not found: 1851db844-1e87-4a8c-babd-2738885a1201 Received request: GET /jobs
+5a8f2d3a-b713-495c-8ebf-b91d7d6745a4 Job not found: 002
+d5cdeb73-7e7e-4c88-ad54-d3064360b811 Job not found: 1000
+bbfb18ee-82cc-4564-9b0b-823a6b885ed4 Job not found: 002
+4d17da3b-68f2-4730-9e86-a36aa4b8a20a Received request: GET /jobs
+39d238ee-c6c8-4e08-8406-c500d04726da Received request: DELETE /jobs/1000
+025cf689-8920-4bdc-8c4e-ba11e2b164fd Job not found: 1000
+73885b29-2b70-4ca1-9286-ea3f28db21f3 Received request: GET /jobs
+ff01aa81-3641-4994-ace6-2c39e02e22d8 Found job: 001
+31fed517-b7f1-489a-a8f8-c385f76bee4f Received request: GET /jobs
+b103127d-dabd-40a1-83b9-3b108730cbb0 Received request: GET /jobs
+d24dc09b-e536-4e73-be67-f993e2e79f73 Job not found: 1000
+3a335ea8-0fe1-414f-901e-0c3017272a87 Job not found: 1000
+6f0f71f7-bf38-4433-bf51-50da511c6388 Received request: GET /jobs
+0257093b-ae1c-4270-875b-9a21a08b9642 Job not found: 1000
+3448968d-c048-45f6-8ef6-8bca85ea6075 Job created successfully: job_id='297' job_type='simulated' job_message='Hello'
+6ec285bb-0e00-4a61-af2c-0b61439c4510 Job not found: 002
+b3adc8af-4d1a-4f28-afe7-a9a636325f3d Found job: 001
+0939db79-3c18-4db5-99df-0e062dcf8c0a Received request: GET /jobs/002
+b8ba945a-ca02-40a3-a29c-68b456fcc142 Job not found: 002
+e9f5b4b9-6ca6-4984-a02f-0d94b197f128 Received request: GET /jobs/002
+39d238ee-c6c8-4e08-8406-c500d04726da Job not found: 1000
+d7643524-3d24-45bf-9112-85be49a1f3a4 Received request: PUT /jobs/001
+2f18d5f9-6bbc-4e08-bd78-3b0e6c362d08 Received request: PUT /jobs/1000
+b75a01ae-35b4-4d1d-a075-83eade8eaf49 Received request: PUT /jobs/002
+75b627d9-6652-499a-9c91-11c49d112ee0 Received request: POST /jobs
+e9f5b4b9-6ca6-4984-a02f-0d94b197f128 Job not found: 002
+0939db79-3c18-4db5-99df-0e062dcf8c0a Job not found: 002
+c3abb4e3-2a5a-466e-abe6-65326de70a61 Received request: POST /jobs
+2f18d5f9-6bbc-4e08-bd78-3b0e6c362d08 Job not found: 1000
+75b627d9-6652-499a-9c91-11c49d112ee0 Job created successfully: job_id='827' job_type='simulated' job_message='Hello'
+c3abb4e3-2a5a-466e-abe6-65326de70a61 Job created successfully: job_id='170' job_type='simulated' job_message='Hello'
+b75a01ae-35b4-4d1d-a075-83eade8eaf49 Job not found: 002
+d7643524-3d24-45bf-9112-85be49a1f3a4 Updated job: 001 with message: Updated by simulated user
+d722e233-e484-470b-bb9e-6baaba9ea3a5 Received request: POST /jobs
+51701b78-6cbd-4f58-8a80-e041228c5ca2 Received request: POST /jobs
+d722e233-e484-470b-bb9e-6baaba9ea3a5 Job created successfully: job_id='100' job_type='simulated' job_message='Hello'
+51701b78-6cbd-4f58-8a80-e041228c5ca2 Job created successfully: job_id='378' job_type='simulated' job_message='Hello'
+29f678c1-d80e-4a12-be78-00bea91e32ee Received request: POST /jobs
+56861eec-0bf2-4f44-8658-c64d4d8579ab Received request: POST /jobs
+8acc34a5-0785-4763-b755-5c092eeed409 Received request: PUT /jobs/1000
+5a90eca9-c115-4edc-965f-790d0071d436 Received request: POST /jobs
+056aec06-102b-4a15-8430-9f7e702965e5 Received request: PUT /jobs/002
+5c0b967b-1793-4111-b1b7-bc8702c6ba53 Received request: PUT /jobs/1000
+f3205460-7337-4011-9f23-628758d058bc Received request: PUT /jobs/1000
+8bbfbf7b-f731-4e8f-b759-a0248c373002 Received request: PUT /jobs/001
+8152ec31-e245-4266-8dfb-d75586f2634f Received request: POST /jobs
+9153517c-65af-41aa-a586-c2ef58878481 Received request: PUT /jobs/001
+cec2469f-4af2-424b-97f4-c720dbfc2846 Received request: PUT /jobs/002
+56861eec-0bf2-4f44-8658-c64d4d8579ab Job created successfully: job_id='528' job_type='simulated' job_message='Hello'
+29f678c1-d80e-4a12-be78-00bea91e32ee Job created successfully: job_id='722' job_type='simulated' job_message='Hello'
+8acc34a5-0785-4763-b755-5c092eeed409 Job not found: 1000
+lly: job_id='904' job_type='simulated' job_message='Hello'
+f3205460-7337-4011-9f23-628758d058bc Job not found: 1000
+09de9870-c73c-49a3-8205-42b28c6ed851 Received request: POST /jobs
+8152ec31-e245-4266-8dfb-d75586f2634f Job created successfully: job_id='980' job_type='simulated' job_message='Hello'
+cec2469f-4af2-424b-97f4-c720dbfc2846 Job not found: 002
+h message: Updated by simulated user
+5c0b967b-1793-4111-b1b7-bc8702c6ba53 Job not found: 1000
+8bbfbf7b-f731-4e8f-b759-a0248c373002 Updated job: 001 with message: Updated by simulated user
+09de9870-c73c-49a3-8205-42b28c6ed851 Job created successfully: job_id='283' job_type='simulated' job_message='Hello'
+```

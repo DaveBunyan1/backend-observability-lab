@@ -53,7 +53,7 @@ async def simulate_user(user_id: int, client: httpx2.AsyncClient) -> None:
 
 async def main():
     async with httpx2.AsyncClient(base_url=BASE_URL) as client:
-        users = [simulate_user(user_id, client) for user_id in range(1, 31)]
+        users = [simulate_user(user_id, client) for user_id in range(1, 10001)]
 
         await asyncio.gather(*users)
 

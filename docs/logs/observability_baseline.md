@@ -86,7 +86,7 @@ User 11: GET /jobs/001 → 200
 
 This demonstrates that with concurrent requests, **request completion order is not necessarily the same as request initiation order**.
 
-The complete script output is available in [Basic script output](./log_output/basic_script_output.md).
+The complete script output is available in [Basic script output](./log_output/print_logging/basic_script_output.md).
 
 ### API Output
 
@@ -110,7 +110,7 @@ Job not found: 1000
 
 The individual application messages can no longer be reliably associated with a particular request from the application output alone.
 
-The complete API output is available in [Basic API output](./log_output/basic_api_output.md).
+The complete API output is available in [Basic API output](./log_output/print_logging/basic_api_output.md).
 
 ### Observations
 
@@ -151,7 +151,7 @@ For example:
 - The request ID is generated at the HTTP boundary, allowing it to be associated with the request independently of the endpoint being called.
 - The Uvicorn access logs do not currently contain the application request ID, so the application logs and access logs remain separate sources of information.
 
-The complete API output is available in [Request ID API output](./log_output/request_id_api_output.md).
+The complete API output is available in [Request ID API output](./log_output/print_logging/request_id_api_output.md).
 
 ## Request Timing
 
@@ -166,4 +166,4 @@ User 3: POST /jobs → 201 (8.08 ms)
 User 6: GET /jobs/002 → 200 (7.63 ms)
 ```
 
-The complete timing output is available in [timing script output](./log_output/timing_script_output.md)
+The complete timing output is available in [timing script output](./log_output/print_logging/timing_script_output.md)
