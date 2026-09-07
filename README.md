@@ -25,7 +25,7 @@ The project is designed to develop a practical understanding of:
 - Using measurements, metrics, and profiling to identify areas for code improvement
 - Iteratively improving the system based on evidence rather than assumptions
 
-The emphasis is on understanding **why** each technique is useful rather than simply learning how to configure individual tools.
+The emphasis is on understanding why each technique is useful rather than simply learning how to configure individual tools.
 
 ---
 
@@ -79,7 +79,7 @@ The current test suite verifies:
 
 The tests use FastAPI's `TestClient` and pytest.
 
-The tests are intended to verify the **API contract and observable behaviour**, rather than testing FastAPI or Pydantic internals.
+The tests are intended to verify the API contract and observable behaviour, rather than testing FastAPI or Pydantic internals.
 
 ---
 
@@ -194,7 +194,7 @@ The goal is to move from:
 
 to:
 
-> "The measurements show that this endpoint's latency has increased."
+> "The measurements show that this endpoint's latency has increased by x(% or ms)."
 
 ### 8. Load Testing
 
