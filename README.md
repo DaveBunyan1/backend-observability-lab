@@ -1,265 +1,370 @@
 # Backend Observability Lab
 
-A progressively evolving backend engineering project designed to explore how a simple FastAPI application develops into a production-oriented, observable, scalable service.
+A small FastAPI backend built to explore backend observability, performance, and software engineering practices through incremental development.
 
-The project is intentionally built in stages. Each stage introduces new infrastructure or engineering practices in response to a concrete problem, rather than adding technologies simply for the sake of complexity.
+Rather than adding logging, metrics, profiling, and tracing all at once, this project intentionally evolves from a simple API into a system with increasingly realistic traffic, latency, failure, and performance scenarios.
+
+Each stage is used to identify what information is missing, what problems emerge, and what engineering techniques can address them.
 
 ## Goals
 
-This project is intended as a practical reference and learning environment for:
+The project is designed to develop a practical understanding of:
 
-- FastAPI and REST API design
-- Python application structure and dependency management
-- SQLAlchemy and PostgreSQL
-- Redis for caching, rate limiting, and asynchronous work
-- Background workers and job processing
-- Docker and containerized development
-- Application and structured logging
-- Metrics and monitoring
-- Prometheus and Grafana
-- Distributed tracing with OpenTelemetry
-- Centralized log aggregation
-- Load and performance testing
-- Failure testing and resilience
-- Capacity planning and bottleneck analysis
-- Testing, type checking, linting, and CI/CD
-- Production-oriented architecture and operational practices
+- API design and validation
+- Automated API testing
+- Application logging
+- Structured logging
+- Request correlation
+- Simulated traffic and failures
+- Performance and latency measurement
+- Metrics
+- Load testing
+- Profiling and performance analysis
+- Distributed tracing
+- The relationship between logs, metrics, and traces
+- Using measurements, metrics, and profiling to identify areas for code improvement
+- Iteratively improving the system based on evidence rather than assumptions
 
-## Philosophy
+The emphasis is on understanding **why** each technique is useful rather than simply learning how to configure individual tools.
 
-The project follows an **evolutionary approach to architecture**.
+---
 
-The initial application should be intentionally simple. As requirements and operational problems are introduced, the architecture evolves to address them.
+## Current Project
+
+The application is currently a small CRUD API for managing jobs.
+
+### API
+
+| Method   | Endpoint         | Purpose                 |
+| -------- | ---------------- | ----------------------- |
+| `GET`    | `/jobs`          | Retrieve all jobs       |
+| `GET`    | `/jobs/{job_id}` | Retrieve a specific job |
+| `POST`   | `/jobs`          | Create a job            |
+| `PUT`    | `/jobs/{job_id}` | Update a job            |
+| `DELETE` | `/jobs/{job_id}` | Delete a job            |
+
+The API currently uses an in-memory list of `Job` objects rather than a database. This keeps the application deliberately small so that the focus can remain on application behaviour, testing, observability, and performance.
+
+### Validation
+
+Request validation is handled at the API boundary using Pydantic.
+
+`Job` currently validates that:
+
+- `job_id` is not empty
+- `job_type` is not empty
+- `job_message` is not empty
+- string values cannot consist entirely of whitespace
+
+Invalid request bodies are rejected by FastAPI with a `422 Unprocessable Entity` response.
+
+---
+
+## Testing
+
+The API has contract tests covering the main behaviour of each endpoint.
+
+The current test suite verifies:
+
+- successful retrieval of all jobs
+- empty job collections
+- successful retrieval of an individual job
+- nonexistent jobs returning `404`
+- successful job creation
+- invalid job requests returning `422`
+- successful deletion
+- nonexistent jobs returning `404`
+- successful updates
+- nonexistent update targets returning `404`
+
+The tests use FastAPI's `TestClient` and pytest.
+
+The tests are intended to verify the **API contract and observable behaviour**, rather than testing FastAPI or Pydantic internals.
+
+---
+
+## Observability and Performance Evolution
+
+The project is being developed incrementally. Each stage introduces a new problem or source of complexity and uses that experience to motivate the next improvement.
+
+### 1. Basic API
+
+The project began with a deliberately simple FastAPI CRUD application.
+
+The initial implementation provides a small system that can be exercised without introducing unnecessary infrastructure.
+
+### 2. Observability Baseline
+
+Basic `print()` statements were added to the endpoints to establish an initial view of application behaviour.
+
+A simple client script was then used to exercise the API and observe the resulting output.
+
+This established a baseline before introducing a dedicated logging system.
+
+Detailed observations from this stage are documented in:
+
+[`docs/logs/observability_baseline.md`](docs/logs/observability_baseline.md)
+
+### 3. Simulated Traffic
+
+The client is being extended to generate more realistic API traffic.
+
+Instead of manually making individual requests, the simulator will generate combinations of:
+
+- successful requests
+- unsuccessful requests
+- different endpoints
+- different job IDs
+- valid and invalid input
+- variable delays between requests
+- multiple simulated users
+
+The purpose is to create enough activity that limitations in the initial `print()`-based logging become apparent.
+
+### 4. Application Logging
+
+The `print()` statements will be replaced with a proper logging system.
+
+This will provide a foundation for:
+
+- log levels
+- timestamps
+- consistent log messages
+- contextual information
+- configurable log destinations
+
+The goal is to introduce these features in response to limitations observed during the previous stages.
+
+### 5. Structured Logging and Request Correlation
+
+Once basic logging is established, the project will explore structured log events and request correlation.
 
 For example:
 
-```text
-Simple API
-    ↓
-Application logging
-    ↓
-Database persistence
-    ↓
-Caching
-    ↓
-Asynchronous job processing
-    ↓
-Multiple workers
-    ↓
-Containerization
-    ↓
-Load testing
-    ↓
-Metrics
-    ↓
-Dashboards
-    ↓
-Distributed tracing
-    ↓
-Resilience and failure handling
+```json
+{
+  "level": "INFO",
+  "event": "job_completed",
+  "job_id": "001",
+  "duration_ms": 823
+}
 ```
 
-The goal is not simply to learn how to configure these technologies, but to understand:
+Request identifiers will then be used to associate multiple log events with an individual request.
 
-- **What problem does this solve?**
-- **When is it useful?**
-- **What are its trade-offs?**
-- **How does it interact with the rest of the system?**
-- **How can its behaviour be measured?**
-- **What happens when it fails?**
+This becomes increasingly important when multiple requests are being processed concurrently.
 
-## Learning Path
+### 6. Simulated Processing, Latency, and Failures
 
-### Phase 1 — Application Fundamentals
+The application will introduce simulated job processing.
 
-- [ ] Create a basic FastAPI application
-- [ ] Build REST endpoints
-- [ ] Introduce request/response models
-- [ ] Explore FastAPI dependency injection
-- [ ] Start with simple `print()` debugging
-- [ ] Replace `print()` with Python logging
-- [ ] Configure log levels and handlers
-- [ ] Introduce structured logging
-- [ ] Add request IDs/correlation IDs
+Jobs will be able to:
 
-### Phase 2 — Persistence
+- complete quickly
+- take an unusually long time
+- fail
 
-- [ ] Introduce SQLAlchemy
-- [ ] Model application data
-- [ ] Introduce PostgreSQL
-- [ ] Understand sessions and transactions
-- [ ] Explore connection pooling
-- [ ] Add database migrations
-- [ ] Measure database query performance
-- [ ] Investigate slow queries
-- [ ] Demonstrate and fix N+1 queries
+This will create realistic scenarios where observability is necessary to determine what happened.
 
-### Phase 3 — Redis
+The simulator and application will then provide a controlled environment for investigating questions such as:
 
-- [ ] Introduce Redis
-- [ ] Implement caching
-- [ ] Explore TTLs and cache invalidation
-- [ ] Implement rate limiting
-- [ ] Explore atomic Redis operations
-- [ ] Use Redis for asynchronous job processing
-- [ ] Explore queue depth and backpressure
+- Which requests are slow?
+- How slow are they?
+- How frequently do failures occur?
+- Which operations are responsible?
+- Can a failed request be traced through the application?
 
-### Phase 4 — Background Processing
+### 7. Performance Measurement and Metrics
 
-- [ ] Separate API and worker processes
-- [ ] Submit asynchronous jobs
-- [ ] Track job state
-- [ ] Implement multiple workers
-- [ ] Handle failed jobs
-- [ ] Implement retries
-- [ ] Explore idempotency
-- [ ] Introduce dead-letter handling
-- [ ] Explore graceful worker shutdown
+Metrics will be introduced to quantify application behaviour.
 
-### Phase 5 — Docker
+Examples include:
 
-- [ ] Containerize the API
-- [ ] Containerize workers
-- [ ] Run PostgreSQL in Docker
-- [ ] Run Redis in Docker
-- [ ] Introduce Docker Compose
-- [ ] Add health checks
-- [ ] Explore service networking
-- [ ] Add resource limits
-- [ ] Investigate container failure and recovery
+- request count
+- error rate
+- request duration
+- latency distributions
+- job processing duration
+- throughput
+- slow-request frequency
 
-### Phase 6 — Load & Performance Testing
+The goal is to move from:
 
-- [ ] Establish baseline performance
-- [ ] Introduce a load-testing tool
-- [ ] Measure requests per second
-- [ ] Measure latency distributions
-- [ ] Understand P50/P95/P99 latency
-- [ ] Test increasing concurrency
-- [ ] Find system bottlenecks
-- [ ] Test database connection pool limits
-- [ ] Test Redis under load
-- [ ] Test worker scaling
-- [ ] Establish approximate capacity limits
+> "This request looks slow."
 
-### Phase 7 — Metrics & Monitoring
+to:
 
-- [ ] Introduce application metrics
-- [ ] Track request count
-- [ ] Track request latency
-- [ ] Track error rates
-- [ ] Track job processing
-- [ ] Track queue depth
-- [ ] Track database connection usage
-- [ ] Introduce Prometheus
-- [ ] Build Grafana dashboards
-- [ ] Define useful operational metrics
+> "The measurements show that this endpoint's latency has increased."
 
-### Phase 8 — Distributed Observability
+### 8. Load Testing
 
-- [ ] Introduce OpenTelemetry
-- [ ] Add distributed traces
-- [ ] Trace API requests
-- [ ] Trace database operations
-- [ ] Trace Redis operations
-- [ ] Trace background jobs
-- [ ] Correlate logs, metrics, and traces
-- [ ] Introduce centralized log aggregation
-- [ ] Investigate failures using telemetry rather than application logs alone
+The traffic simulator will eventually be extended or supplemented with load testing.
 
-### Phase 9 — Resilience & Production Concepts
+The goal is to investigate how application behaviour changes as traffic increases.
 
-- [ ] Add request timeouts
-- [ ] Add database/Redis failure handling
-- [ ] Explore retry strategies
-- [ ] Explore exponential backoff
-- [ ] Introduce circuit breakers where appropriate
-- [ ] Test partial system failures
-- [ ] Test worker failures
-- [ ] Test dependency outages
-- [ ] Explore graceful degradation
-- [ ] Perform capacity and failure experiments
+This will provide an opportunity to examine:
 
-## Experiments
+- throughput
+- latency under load
+- error rates
+- resource usage
+- application bottlenecks
+- behaviour under sustained traffic
 
-The `experiments/` directory will contain small, focused experiments that demonstrate individual concepts.
+### 9. Profiling and Code Improvement
 
-Each experiment should document:
+Once performance problems can be measured, profiling will be used to investigate their causes.
 
-1. **Problem** — What are we trying to understand?
-2. **Setup** — What was changed?
-3. **Hypothesis** — What do we expect to happen?
-4. **Experiment** — What did we measure?
-5. **Results** — What actually happened?
-6. **Explanation** — Why did it happen?
-7. **Production implications** — What would matter in a real system?
-
-Example experiments:
+The intended feedback loop is:
 
 ```text
-experiments/
-├── 01-print-vs-logging/
-├── 02-structured-logging/
-├── 03-request-correlation/
-├── 04-sqlalchemy-query-performance/
-├── 05-n-plus-one/
-├── 06-connection-pool-exhaustion/
-├── 07-redis-caching/
-├── 08-rate-limiting/
-├── 09-queue-backpressure/
-├── 10-worker-scaling/
-├── 11-load-testing/
-├── 12-metrics/
-├── 13-distributed-tracing/
-└── 14-failure-testing/
+Measure
+   ↓
+Identify a problem
+   ↓
+Profile
+   ↓
+Identify the bottleneck
+   ↓
+Improve the code
+   ↓
+Measure again
+   ↓
+Compare results
 ```
 
-The exact structure will evolve as the project develops.
+This is intended to reinforce the principle that performance improvements should be based on evidence rather than assumptions.
+
+### 10. Distributed Tracing
+
+Distributed tracing will eventually be introduced to investigate how individual requests move through different components of the application.
+
+The project will explore how traces complement logs and metrics and when each form of observability provides the most useful information.
+
+---
+
+## Architecture
+
+The current architecture is intentionally simple:
+
+```text
+                 ┌─────────────────────┐
+                 │  Simulated Client   │
+                 └──────────┬──────────┘
+                            │ HTTP
+                            ▼
+                 ┌─────────────────────┐
+                 │      FastAPI        │
+                 │                     │
+                 │     Endpoints       │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │     Job Model       │
+                 │     (Pydantic)      │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │   In-memory Jobs    │
+                 │     FAKE_JOBS       │
+                 └─────────────────────┘
+```
+
+The architecture will become more sophisticated only when the next stage of the investigation requires it.
+
+---
+
+## Development Philosophy
+
+This project intentionally avoids introducing infrastructure or optimizations prematurely.
+
+Each stage follows an evidence-driven feedback loop:
+
+```text
+Build
+  ↓
+Exercise
+  ↓
+Measure / Observe
+  ↓
+Identify limitations
+  ↓
+Investigate
+  ↓
+Improve
+  ↓
+Measure again
+```
+
+This makes the project an experiment in observability and performance rather than simply a collection of technologies.
+
+The aim is to understand the practical questions that logs, metrics, traces, load testing, and profiling are designed to answer — and how those tools can be used to make informed engineering decisions.
+
+---
+
+## Running the Project
+
+### Start the API
+
+```bash
+uvicorn main:app --reload
+```
+
+The API will be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
+FastAPI's interactive documentation is available at:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+### Run the tests
+
+```bash
+pytest
+```
+
+### Run the traffic simulator
+
+With the API running in another terminal:
+
+```bash
+python scripts/simulate_users.py
+```
+
+The simulator acts as an external client and sends HTTP requests to the running API.
+
+---
 
 ## Project Structure
 
-The initial structure is intentionally small:
+The structure will evolve as the project develops. The current organization is approximately:
 
 ```text
 backend-observability-lab/
-├── src/
-│   └── backend_observability/
-├── tests/
+│
 ├── docs/
-├── experiments/
-├── .gitignore
-├── Makefile
-├── pyproject.toml
+│   └── logs/
+│       └── observability_baseline.md
+│
+├── routers/
+│   └── endpoints.py
+│
+├── models/
+│   └── job.py
+│
+├── scripts/
+│   └── simulate_users.py
+│
+├── tests/
+│   └── ...
+│
+├── main.py
 └── README.md
 ```
-
-Additional infrastructure and application components will be introduced as they become necessary.
-
-## Development
-
-The project uses Python, FastAPI, SQLAlchemy, PostgreSQL, Redis, Docker, pytest, Ruff, mypy, and GitHub Actions as the system evolves.
-
-Common development commands will be exposed through the `Makefile`, for example:
-
-```bash
-make test
-make lint
-make format
-make typecheck
-```
-
-Additional commands will be added as new parts of the system are introduced.
-
-## Key Principle
-
-> **Don't add infrastructure until there is a problem worth solving.**
-
-A technology should be introduced because an experiment, requirement, performance problem, reliability problem, or operational concern provides a reason to use it.
-
-This keeps the project focused on understanding **why production systems are designed the way they are**, rather than simply reproducing a technology stack.
-
-## Status
-
-🚧 **Early development**
-
-The project is intentionally being built from the ground up. The architecture, tooling, and infrastructure will evolve throughout the learning path.
