@@ -117,3 +117,53 @@ The complete API output is available in [Basic API output](./log_output/basic_ap
 - Concurrent requests caused application log messages to become interleaved, making it difficult to associate related messages with an individual request.
 - Request completion order differed from request initiation order.
 - The existing application logs do not provide a mechanism for explicitly correlating messages belonging to the same request.
+
+## Request ID Experiment
+
+To address the correlation problem identified during concurrent traffic, a unique request ID was generated at the HTTP boundary using FastAPI middleware. The ID was then included in application-level log messages.
+
+The same concurrent traffic simulation was run again.
+
+### Example
+
+Multiple requests were processed concurrently:
+
+```text
+81806ffe-c739-4508-877b-c94b7bc4b52a Received request: POST /jobs
+07ad800c-8aa9-4da2-a19d-b8063e6351c2 Received request: POST /jobs
+81806ffe-c739-4508-877b-c94b7bc4b52a Job created successfully: job_id='498' job_type='simulated' job_message='Hello'
+07ad800c-8aa9-4da2-a19d-b8063e6351c2 Job created successfully: job_id='416' job_type='simulated' job_message='Hello'
+```
+
+Although messages from different requests are interleaved, the request ID makes it possible to associate related messages with the same request.
+
+For example:
+
+```text
+81806ffe... → POST /jobs → job 498
+07ad800c... → POST /jobs → job 416
+```
+
+### Observations
+
+- Request IDs allow application log messages to be associated with an individual request.
+- Interleaved messages from concurrent requests can now be distinguished from one another.
+- The request ID is generated at the HTTP boundary, allowing it to be associated with the request independently of the endpoint being called.
+- The Uvicorn access logs do not currently contain the application request ID, so the application logs and access logs remain separate sources of information.
+
+The complete API output is available in [Request ID API output](./log_output/request_id_api_output.md).
+
+## Request Timing
+
+Request processing time was added at the HTTP boundary using `time.perf_counter()`.
+The measured duration was returned in the `X-Process-Time` response header.
+
+Example client output:
+
+```text
+User 5: GET /jobs → 200 (6.10 ms)
+User 3: POST /jobs → 201 (8.08 ms)
+User 6: GET /jobs/002 → 200 (7.63 ms)
+```
+
+The complete timing output is available in [timing script output](./log_output/timing_script_output.md)

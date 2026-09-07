@@ -42,10 +42,12 @@ async def simulate_user(user_id: int, client: httpx2.AsyncClient) -> None:
         job_id = random.choice(["002", "1000"])
         response = await client.delete(f"/jobs/{job_id}")
 
+    process_time = float(response.headers["X-Process-Time"])  # type: ignore
     print(
         f"User {user_id}: "
         f"{response.request.method} {response.request.url.path} "  # type: ignore
-        f"→ {response.status_code}"  # type: ignore
+        f"→ {response.status_code} "  # type: ignore
+        f"({process_time * 1000:.2f} ms)"
     )
 
 
