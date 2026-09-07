@@ -2,14 +2,10 @@ from typing import Annotated
 
 from fastapi import APIRouter, Body, HTTPException, Request
 
+from database.fake_db import FAKE_JOBS, reset_fake_jobs
 from models.job import Job
 
 router = APIRouter(prefix="")
-
-FAKE_JOBS: list[Job] = [
-    Job(job_id="001", job_type="first_type", job_message="This is the first job!"),
-    Job(job_id="002", job_type="second_type", job_message="This is the second job!"),
-]
 
 
 @router.get("/jobs")
@@ -78,3 +74,8 @@ def update_job(job_id: str, job_message: Annotated[str, Body()], request: Reques
     with open("logs/logs.log", "a") as file:
         file.write(f"{request_id} Job not found: {job_id}\n")
     raise HTTPException(status_code=404, detail="Job not found")
+
+
+@router.post("/benchmark/reset")
+def benchmark_reset():
+    reset_fake_jobs()

@@ -167,3 +167,75 @@ User 6: GET /jobs/002 → 200 (7.63 ms)
 ```
 
 The complete timing output is available in [timing script output](./log_output/print_logging/timing_script_output.md)
+
+### Observations
+
+- Request processing time can now be measured at the HTTP boundary.
+- The timing is returned to the client through the X-Process-Time response header.
+- Timing information makes it possible to compare request behaviour under different traffic levels.
+- A single average is unlikely to describe request behaviour completely, particularly when requests are processed concurrently.
+
+## Concurrency Benchmark
+
+To investigate how request processing time changed as concurrent traffic increased, the simulation was extended into a repeatable benchmark.
+
+Three concurrency levels were tested:
+
+| Concurrent users | Runs | Requests per run | Total requests |
+| ---------------- | ---- | ---------------- | -------------- | --- |
+| 30               |      | 10               | 30             | 300 |
+| 100              | 10   | 100              | 1,000          |
+| 1,000            | 10   | 1,000            | 10,000         |
+
+The application state was reset before each benchmark run so that each run started from the same initial state.
+
+Request-level processing times were recorded in [results.csv](../../benchmark_output/results.csv), while run-level completion information was recorded separately in [runs.csv](../../benchmark_output/runs.csv).
+
+The benchmark was intentionally limited to the concurrency levels above. Higher concurrency was also attempted, but the client encountered an HTTP connection-pool timeout at 10,000 simulated users. This was recorded as an observed limitation rather than changing the client configuration to accommodate it.
+
+## Results
+
+The measured request processing times were:
+
+| Concurrent users | Requests | Mean      | Median    | P95       | P99       |
+| ---------------- | -------- | --------- | --------- | --------- | --------- |
+| 30               | 300      | 22.66 ms  | 22.75 ms  | 31.84 ms  | 36.52 ms  |
+| 100              | 1,000    | 77.16 ms  | 74.21 ms  | 133.58 ms | 143.12 ms |
+| 1,000            | 10,000   | 118.26 ms | 112.45 ms | 178.74 ms | 208.14 ms |
+
+## Latency Distribution
+
+The box plots show the distribution of request processing times at each concurrency level. They provide more information than the mean alone by showing the median, spread, and potential outliers.
+
+![Request latency distribution by concurrency](../../analysis_output/latency_distribution.png)
+
+## Latency Percentiles
+
+The percentile plot shows how median and tail latency changed as concurrency increased. P95 and P99 are included to show the behaviour of slower requests that would be hidden by the mean alone.
+
+![Request latency percentiles by concurrency](../../analysis_output/latency_percentiles.png)
+
+From 30 to 100 concurrent users:
+
+- Mean processing time increased from 22.66 ms to 77.16 ms.
+- Median processing time increased from 22.75 ms to 74.21 ms.
+- P99 increased from 36.52 ms to 143.12 ms.
+
+From 100 to 1,000 concurrent users:
+
+- Mean processing time increased from 77.16 ms to 118.26 ms.
+- Median processing time increased from 74.21 ms to 112.45 ms.
+- P99 increased from 143.12 ms to 208.14 ms.
+
+The relationship between concurrency and processing time is therefore not linear over the tested range.
+
+### Observations
+
+- Increasing concurrency increased request processing time.
+- The largest relative increase occurred between 30 and 100 concurrent users.
+- Higher concurrency also increased the spread of request processing times.
+- Tail latency increased substantially, with P99 rising from 36.52 ms at 30 users to 208.14 ms at 1,000 users.
+- The results demonstrate that average latency alone would not fully describe the behaviour of the API under concurrent traffic.
+- The benchmark establishes a quantitative baseline that can be compared against future changes to the application.
+
+At this stage, the benchmark establishes what happened, but not why it happened. The next investigation will identify the source of the observed latency increase and determine which parts of the request path become limiting as concurrency increases.
