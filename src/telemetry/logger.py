@@ -5,7 +5,7 @@ logger = logging.getLogger("Test Logging")
 logging_config = {
     "version": 1,
     "disable_existing_loggers": False,
-    "formatters": {"simple": {"format": "%(message)s"}},
+    "formatters": {"simple": {"format": "%(request_id)s %(message)s"}},
     "handlers": {
         "file": {
             "class": "logging.handlers.RotatingFileHandler",
