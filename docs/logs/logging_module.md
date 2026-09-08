@@ -222,3 +222,11 @@ Improve
   ↓
 Measure again
 ```
+
+### Issue:
+
+Logger set up but not printing because missing `request_id`
+
+First proposed soultion:
+
+- passing request_id down
