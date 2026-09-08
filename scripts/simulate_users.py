@@ -5,7 +5,7 @@ from typing import TypedDict
 import httpx2
 
 BASE_URL = "http://127.0.0.1:8000"
-DEFAULT_NUM_USERS = 10
+DEFAULT_NUM_USERS = 100
 
 
 class SimulateUserResponse(TypedDict):
@@ -76,4 +76,4 @@ async def run_simulation(
 
 
 if __name__ == "__main__":
-    asyncio.run(run_simulation(num_users=DEFAULT_NUM_USERS, seed=42))
+    asyncio.run(run_simulation(num_users=DEFAULT_NUM_USERS))

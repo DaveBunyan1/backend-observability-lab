@@ -115,6 +115,7 @@ The complete API output is available in [Basic API output](./log_output/print_lo
 ### Observations
 
 - Concurrent requests caused application log messages to become interleaved, making it difficult to associate related messages with an individual request.
+- Some application log entries became malformed when multiple requests attempted to write to the log file concurrently.
 - Request completion order differed from request initiation order.
 - The existing application logs do not provide a mechanism for explicitly correlating messages belonging to the same request.
 
@@ -189,7 +190,7 @@ Three concurrency levels were tested:
 
 The application state was reset before each benchmark run so that each run started from the same initial state.
 
-Request-level processing times were recorded in [results.csv](../../benchmark_output/results.csv), while run-level completion information was recorded separately in [runs.csv](../../benchmark_output/runs.csv).
+Request-level processing times were recorded in [results.csv](../../benchmark_output/baseline_results.csv), while run-level completion information was recorded separately in [runs.csv](../../benchmark_output/baseline_runs.csv).
 
 The benchmark was intentionally limited to the concurrency levels above. Higher concurrency was also attempted, but the client encountered an HTTP connection-pool timeout at 10,000 simulated users. This was recorded as an observed limitation rather than changing the client configuration to accommodate it.
 
@@ -207,13 +208,13 @@ The measured request processing times were:
 
 The box plots show the distribution of request processing times at each concurrency level. They provide more information than the mean alone by showing the median, spread, and potential outliers.
 
-![Request latency distribution by concurrency](../../analysis_output/latency_distribution.png)
+![Request latency distribution by concurrency](../../analysis_output/baseline_latency_distribution.png)
 
 ## Latency Percentiles
 
 The percentile plot shows how median and tail latency changed as concurrency increased. P95 and P99 are included to show the behaviour of slower requests that would be hidden by the mean alone.
 
-![Request latency percentiles by concurrency](../../analysis_output/latency_percentiles.png)
+![Request latency percentiles by concurrency](../../analysis_output/baseline_latency_percentiles.png)
 
 From 30 to 100 concurrent users:
 
