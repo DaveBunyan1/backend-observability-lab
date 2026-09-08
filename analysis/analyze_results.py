@@ -4,7 +4,7 @@ from statistics import mean, median, stdev
 
 import matplotlib.pyplot as plt
 
-RESULTS_FILE = Path("benchmark_output/results.csv")
+RESULTS_FILE = Path("benchmark_output/logging_results.csv")
 OUTPUT_DIR = Path("analysis_output")
 SUMMARY_FILE = OUTPUT_DIR / "summary.csv"
 
@@ -112,7 +112,7 @@ def plot_latency_distribution(results: list[dict]) -> None:
     plt.title("Request latency distribution by concurrency")
 
     plt.savefig(
-        OUTPUT_DIR / "latency_distribution.png",
+        OUTPUT_DIR / "logging_latency_distribution.png",
         dpi=150,
         bbox_inches="tight",
     )
@@ -138,7 +138,7 @@ def plot_latency_percentiles(summary: list[dict]) -> None:
     plt.legend()
 
     plt.savefig(
-        OUTPUT_DIR / "latency_percentiles.png",
+        OUTPUT_DIR / "logging_latency_percentiles.png",
         dpi=150,
         bbox_inches="tight",
     )

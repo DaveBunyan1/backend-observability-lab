@@ -11,8 +11,8 @@ RUNS_PER_LEVEL = 10
 SEED = 42
 
 OUTPUT_DIR = Path("benchmark_output")
-RESULTS_FILE = OUTPUT_DIR / "results.csv"
-RUNS_FILE = OUTPUT_DIR / "runs.csv"
+RESULTS_FILE = OUTPUT_DIR / "logging_results.csv"
+RUNS_FILE = OUTPUT_DIR / "logging_runs.csv"
 
 
 async def run_benchmark() -> None:
