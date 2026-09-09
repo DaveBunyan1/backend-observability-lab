@@ -1,9 +1,10 @@
 from typing import Annotated
 
-from fastapi import APIRouter, Body, HTTPException, Request
+from fastapi import APIRouter, BackgroundTasks, Body, HTTPException, Request
 
 from database.fake_db import FAKE_JOBS, reset_fake_jobs
 from models.job import Job
+from services.job_service import process_job
 
 router = APIRouter(prefix="")
 
@@ -33,6 +34,21 @@ def create_job(job: Annotated[Job, Body()], request: Request):
 
     request.state.logger.info(f"Job created successfully: {job}")
     return job
+
+
+@router.post("/jobs/{job_id}/run", status_code=202)
+def run_job(job_id: str, request: Request, background_tasks: BackgroundTasks):
+    request.state.logger.info(f"Received request: POST /jobs/{job_id}/run")
+    request_id = request.state.request_id
+
+    for job in FAKE_JOBS:
+        if job.job_id == job_id:
+            request.state.logger.info(f"Scheduling job: {job_id}")
+            background_tasks.add_task(process_job, job, request_id)
+            return job
+
+    request.state.logger.info(f"Job not found: {job_id}")
+    raise HTTPException(status_code=404, detail="Job not found")
 
 
 @router.delete("/jobs/{job_id}")

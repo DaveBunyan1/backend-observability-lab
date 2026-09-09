@@ -1,6 +1,6 @@
 import pytest
 
-from models.job import Job
+from models.job import Job, JobType
 from routers.endpoints import FAKE_JOBS
 
 
@@ -8,8 +8,10 @@ from routers.endpoints import FAKE_JOBS
 def reset_fake_jobs():
     FAKE_JOBS.clear()
     FAKE_JOBS.append(
-        Job(job_id="001", job_type="first_type", job_message="This is the first job!"),
+        Job(
+            job_id="001", job_type=JobType.NORMAL, job_message="This is the first job!"
+        ),
     )
     FAKE_JOBS.append(
-        Job(job_id="002", job_type="second_type", job_message="This is the second!"),
+        Job(job_id="002", job_type=JobType.SLOW, job_message="This is the second!"),
     )

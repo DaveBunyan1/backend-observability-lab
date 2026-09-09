@@ -222,3 +222,37 @@ Improve
   ↓
 Measure again
 ```
+
+## Current Issues
+
+With background jobs now producing logs alongside HTTP request logs, the log file has become considerably harder to read.
+
+Two problems have become apparent:
+
+- **Log volume and interleaving:** More events are being logged, and multiple requests and background jobs execute concurrently. Their log entries are therefore interleaved throughout the file.
+- **Insufficient identifying information:** Many log messages contain little information about where they originated. When investigating a particular entry, it can be necessary to search backwards through potentially dozens or hundreds of lines to find the associated request ID and understand its context.
+
+The request ID provides a way to correlate events, but manually searching through the raw log file is becoming inefficient.
+
+## Next Step: Log Analysis
+
+Rather than adding more information to the logs immediately, the next step will be to make the existing information easier to analyse.
+
+A simple Python script will be created to analyse and filter the log file. The initial goal will be to filter log entries by `request_id` and display the associated events together.
+
+For example:
+
+```text
+Request: eca15fe2-a461-49f7-b06e-8e3716862ca0
+
+Received request: POST /jobs/003/run
+Scheduling job: 003
+Processing Job: 003
+Error for job: 003
+```
+
+This should make it easier to investigate individual requests without manually searching through the entire log file.
+
+Once the analysis script is working, it will be used against a more sophisticated simulation to determine whether the existing log information is sufficient for understanding the system.
+
+The results of that analysis will determine the next step. If the logs are still difficult to interpret, the next improvement will be based on the specific limitation discovered rather than adding logging features in advance.

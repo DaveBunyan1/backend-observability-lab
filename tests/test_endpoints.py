@@ -3,6 +3,7 @@ from collections.abc import Callable
 from fastapi.testclient import TestClient
 
 from main import app
+from models.job import JobType
 from routers.endpoints import FAKE_JOBS
 
 client = TestClient(app)
@@ -54,12 +55,12 @@ class TestCreateJob:
         job_id = "003"
         response = client.post(
             "/jobs",
-            json={"job_id": job_id, "job_type": "new_type", "job_message": "..."},
+            json={"job_id": job_id, "job_type": JobType.NORMAL, "job_message": "..."},
         )
 
         assert response.status_code == 201
         assert response.json()["job_id"] == job_id
-        assert response.json()["job_type"] == "new_type"
+        assert response.json()["job_type"] == JobType.NORMAL
         assert response.json()["job_message"] == "..."
 
     def test_invalid_job_returns_422(self):
