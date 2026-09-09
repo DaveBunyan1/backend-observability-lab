@@ -39,11 +39,12 @@ def create_job(job: Annotated[Job, Body()], request: Request):
 @router.post("/jobs/{job_id}/run", status_code=202)
 def run_job(job_id: str, request: Request, background_tasks: BackgroundTasks):
     request.state.logger.info(f"Received request: POST /jobs/{job_id}/run")
+    request_id = request.state.request_id
 
     for job in FAKE_JOBS:
         if job.job_id == job_id:
             request.state.logger.info(f"Scheduling job: {job_id}")
-            background_tasks.add_task(process_job, job)
+            background_tasks.add_task(process_job, job, request_id)
             return job
 
     request.state.logger.info(f"Job not found: {job_id}")

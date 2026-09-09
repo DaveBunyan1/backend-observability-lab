@@ -7,7 +7,7 @@ import httpx2
 from models.job import JobType
 
 BASE_URL = "http://127.0.0.1:8000"
-DEFAULT_NUM_USERS = 20
+DEFAULT_NUM_USERS = 100
 SEED = 42
 
 
