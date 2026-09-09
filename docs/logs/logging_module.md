@@ -256,7 +256,3 @@ This should make it easier to investigate individual requests without manually s
 Once the analysis script is working, it will be used against a more sophisticated simulation to determine whether the existing log information is sufficient for understanding the system.
 
 The results of that analysis will determine the next step. If the logs are still difficult to interpret, the next improvement will be based on the specific limitation discovered rather than adding logging features in advance.
-
-## Log Analyze Script
-
-First goal is to read logs in, filter by id, and then print them out to console in order
