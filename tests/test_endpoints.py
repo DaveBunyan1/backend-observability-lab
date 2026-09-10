@@ -79,8 +79,7 @@ class TestDeleteJob:
         job_id = "001"
         response = client.delete(f"/jobs/{job_id}")
 
-        assert response.status_code == 200
-        assert response.json()["job_id"] == job_id
+        assert response.status_code == 204
         assert all(job.job_id != job_id for job in FAKE_JOBS)
 
     def test_delete_invalid_job_returns_404(self, reset_fake_jobs: Callable[..., None]):

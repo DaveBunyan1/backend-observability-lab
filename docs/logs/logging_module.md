@@ -256,3 +256,37 @@ This should make it easier to investigate individual requests without manually s
 Once the analysis script is working, it will be used against a more sophisticated simulation to determine whether the existing log information is sufficient for understanding the system.
 
 The results of that analysis will determine the next step. If the logs are still difficult to interpret, the next improvement will be based on the specific limitation discovered rather than adding logging features in advance.
+
+## Observations
+
+The request ID has made it much easier to identify and reconstruct the events associated with a particular request, even when log entries are interleaved with those from other requests and background jobs.
+
+However, the increased realism of the simulation has exposed limitations in the current logging approach.
+
+While it is now relatively straightforward to investigate a specific request, finding problems in the system still requires manually searching through the entire log file. This would not be a practical approach as the volume of logs increases.
+
+The logs also currently provide limited information about the timing and significance of individual events. For example, it would be useful to know when each event occurred, how long a request took to complete, and whether a particular event represents an informational message, warning, or error.
+
+The simulation has also highlighted questions that are difficult to answer from logs alone, such as:
+
+- How many requests are being handled per second?
+- How long are requests taking?
+- How many times has a particular endpoint been called?
+- How many requests are succeeding or failing?
+- How frequently are particular types of jobs being run or failing?
+
+These are questions that are better suited to metrics than individual log entries.
+
+## Next Steps: Improve Logging and Introduce Metrics
+
+The first step will be to improve the existing logging system.
+
+Timestamps will be added to log entries so that events can be placed in time and the ordering and duration of activity can be investigated more effectively.
+
+Log levels will also be introduced to distinguish between different types of events. Informational messages can remain in the logs, while warnings and errors can be identified more easily. Errors should be retained in the log file for later investigation while also being directed to an appropriate alerting or operational output, such as the console or standard error.
+
+Once the logging system provides sufficient information to understand what is happening and when, the next step will be to introduce basic metrics.
+
+Metrics will provide an aggregated view of system behaviour rather than requiring individual log entries to be inspected. Initial metrics will focus on request throughput, request latency, endpoint usage, and success and failure counts. Job-specific metrics can then be added where they provide useful insight into background processing.
+
+The goal is not to introduce every possible observability feature at once, but to continue expanding the system based on limitations discovered through increasingly realistic workloads.
