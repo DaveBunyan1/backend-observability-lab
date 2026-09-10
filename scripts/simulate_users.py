@@ -19,18 +19,17 @@ class SimulateUserResponse(TypedDict):
     process_time_ms: float
 
 
-JOB_IDS = ["001", "002", "003"]
+JOB_IDS = ["001", "002", "003", "1000"]
 
 
 async def simulate_user(
     user_id: int,
     client: httpx2.AsyncClient,
 ) -> SimulateUserResponse:
-    # action = random.choice(
-    #     ["get_all", "get_job", "create_job", "run_job", "update_job", "delete_job"]
-    # )
+    action = random.choice(
+        ["get_all", "get_job", "create_job", "run_job", "update_job", "delete_job"]
+    )
 
-    action = "run_job"
     if action == "get_all":
         response = await client.get("/jobs")
     elif action == "get_job":
