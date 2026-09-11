@@ -11,7 +11,7 @@ def get_job_or_404(job_id: str, request: Request) -> Job:
         if job.job_id == job_id:
             return job
 
-    request.state.logger.info(f"Job not found: {job_id}")
+    request.state.logger.warning(f"Job not found: {job_id}")
     raise HTTPException(
         status_code=status.HTTP_404_NOT_FOUND, detail=f"Job not found with id: {job_id}"
     )
