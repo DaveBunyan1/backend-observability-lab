@@ -18,4 +18,4 @@ def process_job(job: Job, request_id: str):
         elif job.job_type == JobType.ERROR:
             raise ValueError("Job Failed")
     except ValueError:
-        adapter.info(f"Error for job: {job.job_id}")
+        adapter.error(f"Error for job: {job.job_id}")
